@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<WorkGivers>
+   <!--
+  <WorkGiverDef>
+    <defName>DoBillsCannery</defName>
+    <giverClass>WorkGiver_DoBill</giverClass>
+    <workType>Cooking</workType>
+    <priorityInType>10</priorityInType>
+    <workTableDef>TableCannery</workTableDef>
+    <verb>canner</verb>
+    <gerund>canning</gerund>
+  </WorkGiverDef>
+-->
+   <WorkGiverDef>
+      <defName>DoBillsPacking</defName>
+      <giverClass>WorkGiver_DoBill</giverClass>
+      <workType>Crafting</workType>
+      <priorityInType>90</priorityInType>
+      <fixedBillGiverDefs>
+         <li>PackingBenchTierOne</li>
+      </fixedBillGiverDefs>
+      <verb>packer</verb>
+      <gerund>packing</gerund>
+      <requiredCapacities>
+         <li>Manipulation</li>
+      </requiredCapacities>
+   </WorkGiverDef>
+
+   <WorkGiverDef>
+      <defName>DoBillsUnPacking</defName>
+      <giverClass>WorkGiver_DoBill</giverClass>
+      <workType>Crafting</workType>
+      <priorityInType>90</priorityInType>
+      <fixedBillGiverDefs>
+         <li>UnpackingBenchTierOne</li>
+      </fixedBillGiverDefs>
+      <verb>packer</verb>
+      <gerund>packing</gerund>
+      <requiredCapacities>
+         <li>Manipulation</li>
+      </requiredCapacities>
+   </WorkGiverDef>
+
+   <WorkGiverDef>
+      <defName>DoBillsFoodPacking</defName>
+      <giverClass>WorkGiver_DoBill</giverClass>
+      <workType>Crafting</workType>
+      <priorityInType>90</priorityInType>
+      <fixedBillGiverDefs>
+         <li>FoodPackingBench</li>
+      </fixedBillGiverDefs>
+      <verb>packer</verb>
+      <gerund>packing</gerund>
+      <requiredCapacities>
+         <li>Manipulation</li>
+      </requiredCapacities>
+   </WorkGiverDef>
+
+   <WorkGiverDef>
+      <defName>DoBillsUnFoodPacking</defName>
+      <giverClass>WorkGiver_DoBill</giverClass>
+      <workType>Crafting</workType>
+      <priorityInType>90</priorityInType>
+      <fixedBillGiverDefs>
+         <li>FoodUnPackingBench</li>
+      </fixedBillGiverDefs>
+      <verb>packer</verb>
+      <gerund>packing</gerund>
+      <requiredCapacities>
+         <li>Manipulation</li>
+      </requiredCapacities>
+   </WorkGiverDef>
+
+</WorkGivers>

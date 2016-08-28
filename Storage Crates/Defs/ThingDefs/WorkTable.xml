@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+   <ThingDef Name="BuildingBase" Abstract="True">
+      <category>Building</category>
+      <thingClass>Building</thingClass>
+      <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+      <selectable>true</selectable>
+      <drawerType>MapMeshAndRealTime</drawerType>
+      <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+      <repairEffect>Repair</repairEffect>
+      <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+      <filthLeaving>BuildingRubble</filthLeaving>
+   </ThingDef>
+
+
+   <ThingDef ParentName="BuildingBase">
+      <DefName>PackingBenchTierOne</DefName>
+      <label>Basic packing bench</label>
+      <ThingClass>KompressionMod.PackingBenchTierOne</ThingClass>
+      <Description>A workbench where you can cut your meal with plasma torch or pack a crate.</Description>
+      <graphicData>
+         <texPath>Things/Building/Frames/PackingBenchTier1_Open</texPath>
+         <shaderType>CutoutComplex</shaderType>
+         <graphicClass>Graphic_Single</graphicClass>
+         <drawSize>(3,1)</drawSize>
+      </graphicData>
+      <CostList>
+         <KMSteelPlate>6</KMSteelPlate>
+      </CostList>
+      <stuffCategories>
+         <li>Metallic</li>
+         <li>Woody</li>
+      </stuffCategories>
+      <costStuffCount>30</costStuffCount>
+      <AltitudeLayer>Building</AltitudeLayer>
+      <statBases>
+         <WorkToMake>1500</WorkToMake>
+         <MaxHitPoints>250</MaxHitPoints>
+         <Flammability>0.5</Flammability>
+      </statBases>
+      <Size>(3,1)</Size>
+      <tickerType>Normal</tickerType>
+      <DesignationCategory>Production</DesignationCategory>
+      <Passability>Impassable</Passability>
+      <hasInteractionCell>True</hasInteractionCell>
+      <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+      <surfaceType>Item</surfaceType>
+      <inspectorTabs>
+         <li>ITab_Bills</li>
+      </inspectorTabs>
+      <recipes>
+         <li>MakeSteelCrate</li>
+         <li>MakeSilverCrate</li>
+         <li>MakeGoldCrate</li>
+         <li>MakeWoodCrate</li>
+         <li>MakePlasteelCrate</li>
+         <li>MakeUraniumCrate</li>
+         <li>MakeSandstoneCrate</li>
+         <li>MakeGraniteCrate</li>
+         <li>MakeLimestoneCrate</li>
+         <li>MakeSlateCrate</li>
+         <li>MakeMarbleCrate</li>
+         <li>MakeClothCrate</li>
+         <li>MakeSynthreadCrate</li>
+         <li>MakeHyperwaveCrate</li>
+         <li>MakeDevilstrandCrate</li>
+         <li>MakeMeatCanCrate</li>
+         <li>MakeVeggiesCanCrate</li>
+      </recipes>
+      <comps>
+         <li Class="CompProperties_Power">
+            <compClass>CompPowerTrader</compClass>
+            <startElectricalFires>true</startElectricalFires>
+            <basePowerConsumption>350</basePowerConsumption>
+            <soundPowerOn>PowerOnSmall</soundPowerOn>
+            <soundPowerOff>PowerOffSmall</soundPowerOff>
+         </li>
+         <li Class="CompProperties_AffectedByFacilities">
+            <linkableFacilities>
+               <li>ToolCabinet</li>
+            </linkableFacilities>
+         </li>
+         <li Class="CompProperties_Flickable" />
+         <li Class="CompProperties_Breakdownable" />
+      </comps>
+   </ThingDef>
+
+   <ThingDef ParentName="BuildingBase">
+      <DefName>UnpackingBenchTierOne</DefName>
+      <label>Basic packing bench</label>
+      <ThingClass>KompressionMod.PackingBenchTierOne</ThingClass>
+      <Description>A workbench where you can cut your meal with plasma torch or pack a crate.</Description>
+      <graphicData>
+         <texPath>Things/Building/Frames/PackingBenchTier1_Closed</texPath>
+         <shaderType>CutoutComplex</shaderType>
+         <graphicClass>Graphic_Single</graphicClass>
+         <drawSize>(3,1)</drawSize>
+      </graphicData>
+      <CostList>
+         <KMSteelPlate>6</KMSteelPlate>
+      </CostList>
+      <stuffCategories>
+         <li>Metallic</li>
+         <li>Woody</li>
+      </stuffCategories>
+      <costStuffCount>30</costStuffCount>
+      <AltitudeLayer>Building</AltitudeLayer>
+      <statBases>
+         <WorkToMake>1500</WorkToMake>
+         <MaxHitPoints>250</MaxHitPoints>
+         <Flammability>0.5</Flammability>
+      </statBases>
+      <Size>(3,1)</Size>
+      <tickerType>Normal</tickerType>
+      <DesignationCategory>None</DesignationCategory>
+      <Passability>Impassable</Passability>
+      <hasInteractionCell>True</hasInteractionCell>
+      <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+      <surfaceType>Item</surfaceType>
+      <inspectorTabs>
+         <li>ITab_Bills</li>
+      </inspectorTabs>
+      <recipes>
+         <li>UnpackSteelCrate</li>
+         <li>UnpackSilverCrate</li>
+         <li>UnpackGoldCrate</li>
+         <li>UnpackWoodCrate</li>
+         <li>UnpackPlasteelCrate</li>
+         <li>UnpackUraniumCrate</li>
+         <li>UnpackSandstoneCrate</li>
+         <li>UnpackGraniteCrate</li>
+         <li>UnpackLimestoneCrate</li>
+         <li>UnpackSlateCrate</li>
+         <li>UnpackMarbleCrate</li>
+         <li>UnpackClothCrate</li>
+         <li>UnpackSynthreadCrate</li>
+         <li>UnpackHyperwaveCrate</li>
+         <li>UnpackDevilstrandCrate</li>
+         <li>UnpackMeatCanCrate</li>
+         <li>UnpackVeggiesCanCrate</li>
+      </recipes>
+      <comps>
+         <li Class="CompProperties_Power">
+            <compClass>CompPowerTrader</compClass>
+            <startElectricalFires>true</startElectricalFires>
+            <basePowerConsumption>350</basePowerConsumption>
+            <soundPowerOn>PowerOnSmall</soundPowerOn>
+            <soundPowerOff>PowerOffSmall</soundPowerOff>
+         </li>
+         <li Class="CompProperties_AffectedByFacilities">
+            <linkableFacilities>
+               <li>ToolCabinet</li>
+            </linkableFacilities>
+         </li>
+         <li Class="CompProperties_Flickable" />
+         <li Class="CompProperties_Breakdownable" />
+      </comps>
+   </ThingDef>
+
+   <ThingDef ParentName="BuildingBase">
+      <DefName>FoodPackingBench</DefName>
+      <label>Basic food packing bench</label>
+      <ThingClass>KompressionMod.FoodBench</ThingClass>
+      <Description>Pack the food in the environment friendly crate, unless it leak radioactive fluid.</Description>
+      <graphicData>
+         <texPath>Things/Building/Frames/FoodBench_Packing</texPath>
+         <shaderType>CutoutComplex</shaderType>
+         <graphicClass>Graphic_Single</graphicClass>
+         <drawSize>(3,1)</drawSize>
+      </graphicData>
+      <CostList>
+         <KMSteelPlate>6</KMSteelPlate>
+      </CostList>
+      <stuffCategories>
+         <li>Metallic</li>
+         <li>Woody</li>
+      </stuffCategories>
+      <costStuffCount>30</costStuffCount>
+      <AltitudeLayer>Building</AltitudeLayer>
+      <statBases>
+         <WorkToMake>1500</WorkToMake>
+         <MaxHitPoints>250</MaxHitPoints>
+         <Flammability>0.5</Flammability>
+      </statBases>
+      <Size>(3,1)</Size>
+      <tickerType>Normal</tickerType>
+      <DesignationCategory>Production</DesignationCategory>
+      <Passability>Impassable</Passability>
+      <hasInteractionCell>True</hasInteractionCell>
+      <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+      <surfaceType>Item</surfaceType>
+      <inspectorTabs>
+         <li>ITab_Bills</li>
+      </inspectorTabs>
+      <recipes>
+         <li>MakePotatoCrate</li>
+         <li>MakeBerryCrate</li>
+         <li>MakeAgaveCrate</li>
+         <li>MakeHopsCrate</li>
+         <li>MakeRiceCrate</li>
+         <li>MakeCornCrate</li>
+         <li>MakeSquieerlCrate</li>
+         <li>MakeMuffaloCrate</li>
+         <li>MakeBoomCrate</li>
+         <li>MakeHumanCrate</li>
+         <li>MakeDeerCrate</li>
+         <li>MakeIguanaCrate</li>
+        <!-- <li>MakeMegascarabCrate</li> -->
+         <li>MakeCobraCrate</li>
+         <li>MakeHareCrate</li>
+         <li>MakeRhinocerosCrate</li>
+         <li>MakeMonkeyCrate</li>
+         <li>MakeElkCrate</li>
+         <li>MakeDromedaryCrate</li>
+         <li>MakeAlphaBeverCrate</li>
+         <li>MakeTurtleCrate</li>
+      </recipes>
+      <comps>
+         <li Class="CompProperties_Power">
+            <compClass>CompPowerTrader</compClass>
+            <startElectricalFires>true</startElectricalFires>
+            <basePowerConsumption>350</basePowerConsumption>
+            <soundPowerOn>PowerOnSmall</soundPowerOn>
+            <soundPowerOff>PowerOffSmall</soundPowerOff>
+         </li>
+         <li Class="CompProperties_AffectedByFacilities">
+            <linkableFacilities>
+               <li>ToolCabinet</li>
+            </linkableFacilities>
+         </li>
+         <li Class="CompProperties_Flickable" />
+         <li Class="CompProperties_Breakdownable" />
+      </comps>
+   </ThingDef>
+
+   <ThingDef ParentName="BuildingBase">
+      <DefName>FoodUnPackingBench</DefName>
+      <label>Basic food unpacking bench</label>
+      <ThingClass>KompressionMod.FoodBench</ThingClass>
+      <Description>Pack the food in the environment friendly crate, unless it leak radioactive fluid</Description>
+      <graphicData>
+         <texPath>Things/Building/Frames/FoodBench_UnPacking</texPath>
+         <shaderType>CutoutComplex</shaderType>
+         <graphicClass>Graphic_Single</graphicClass>
+         <drawSize>(3,1)</drawSize>
+      </graphicData>
+      <CostList>
+         <KMSteelPlate>6</KMSteelPlate>
+      </CostList>
+      <stuffCategories>
+         <li>Metallic</li>
+         <li>Woody</li>
+      </stuffCategories>
+      <costStuffCount>30</costStuffCount>
+      <AltitudeLayer>Building</AltitudeLayer>
+      <statBases>
+         <WorkToMake>1500</WorkToMake>
+         <MaxHitPoints>250</MaxHitPoints>
+         <Flammability>0.5</Flammability>
+      </statBases>
+      <Size>(3,1)</Size>
+      <tickerType>Normal</tickerType>
+      <DesignationCategory>None</DesignationCategory>
+      <Passability>Impassable</Passability>
+      <hasInteractionCell>True</hasInteractionCell>
+      <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+      <surfaceType>Item</surfaceType>
+      <inspectorTabs>
+         <li>ITab_Bills</li>
+      </inspectorTabs>
+      <recipes>
+         <li>UnpackPotatoCrate</li>
+         <li>UnpackBerryCrate</li>
+         <li>UnpackAgaveCrate</li>
+         <li>UnpackHopsCrate</li>
+         <li>UnpackRiceCrate</li>
+         <li>UnpackCornCrate</li>
+         <li>UnpackSquieerlCrate</li>
+         <li>UnpackMuffaloCrate</li>
+         <li>UnpackBoomratCrate</li>
+         <li>UnpackHumanCrate</li>
+         <li>UnpackDeerCrate</li>
+         <li>UnpackIguanaCrate</li>
+         <!--<li>UnpackMegascarabCrate</li>-->
+         <li>UnpackCobraCrate</li>
+         <li>UnpackHareCrate</li>
+         <li>UnpackRhinocerosCrate</li>
+         <li>UnpackMonkeyCrate</li>
+         <li>UnpackElkCrate</li>
+         <li>UnpackDromedaryCrate</li>
+         <li>UnpackAlphaBeverCrate</li>
+         <li>UnpackTortoiseCrate</li>
+      </recipes>
+      <comps>
+         <li Class="CompProperties_Power">
+            <compClass>CompPowerTrader</compClass>
+            <startElectricalFires>true</startElectricalFires>
+            <basePowerConsumption>350</basePowerConsumption>
+            <soundPowerOn>PowerOnSmall</soundPowerOn>
+            <soundPowerOff>PowerOffSmall</soundPowerOff>
+         </li>
+         <li Class="CompProperties_AffectedByFacilities">
+            <linkableFacilities>
+               <li>ToolCabinet</li>
+            </linkableFacilities>
+         </li>
+         <li Class="CompProperties_Flickable" />
+         <li Class="CompProperties_Breakdownable" />
+      </comps>
+   </ThingDef>
+
+</ThingDefs>

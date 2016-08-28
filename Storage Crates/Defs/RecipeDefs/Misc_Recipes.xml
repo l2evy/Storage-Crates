@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+
+   <RecipeDef>
+      <defName>MakeSteelPlate</defName>
+      <label>Make Steel Plates</label>
+      <description>Hammer some steel until you get a plate.</description>
+      <jobString>Hammering.</jobString>
+      <workAmount>300</workAmount>
+      <workSpeedStat>HammeringSpeed</workSpeedStat>
+      <efficiencyStat>HammeringEfficiency</efficiencyStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Steel</li>
+               </thingDefs>
+            </filter>
+            <count>4</count>
+         </li>
+      </ingredients>
+      <products>
+         <KMSteelPlate>5</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>Steel</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <recipeUsers>
+         <li>TableMachining</li>
+      </recipeUsers>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>MakeSteelCan</defName>
+      <label>Make Steel Can</label>
+      <description>Turn steel plates into cans.</description>
+      <jobString>Crafting.</jobString>
+      <workAmount>1000</workAmount>
+      <workSpeedStat>HammeringSpeed</workSpeedStat>
+      <efficiencyStat>HammeringEfficiency</efficiencyStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>KMSteelPlate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <EmptyCan>25</EmptyCan>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>KMSteelPlate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <recipeUsers>
+         <li>TableMachining</li>
+      </recipeUsers>
+   </RecipeDef>
+
+</RecipeDefs>

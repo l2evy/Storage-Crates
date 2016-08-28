@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+
+   <ThingDef>
+      <defName>KMSteelPlate</defName>
+      <thingClass>ThingWithComps</thingClass>
+      <label>Steel Plate</label>
+      <description>Made with space technology of heating and hammering, almost rustless</description>
+      <graphicData>
+         <texPath>Things/Item/SteelPlates/SteelPlate</texPath>
+         <graphicClass>Graphic_Random</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <category>Item</category>
+      <stackLimit>75</stackLimit>
+      <resourceReadoutPriority>Middle</resourceReadoutPriority>
+      <useHitPoints>false</useHitPoints>
+      <selectable>true</selectable>
+      <soundDrop>Metal_Drop</soundDrop>
+      <statBases>
+         <MaxHitPoints>200</MaxHitPoints>
+         <Flammability>0.0</Flammability>
+         <Beauty>0</Beauty>
+         <MarketValue>10</MarketValue>
+      </statBases>
+      <thingCategories>
+         <li>ResourcesRaw</li>
+      </thingCategories>
+      <altitudeLayer>Item</altitudeLayer>
+
+      <comps>
+         <li>
+            <compClass>CompForbiddable</compClass>
+         </li>
+      </comps>
+      <alwaysHaulable>true</alwaysHaulable>
+      <drawGUIOverlay>true</drawGUIOverlay>
+      <rotatable>true</rotatable>
+      <pathCost>5</pathCost>
+   </ThingDef>
+
+</Resources>

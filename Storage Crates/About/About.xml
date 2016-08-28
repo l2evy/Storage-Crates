@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Storage Crates</name>
+  <author>1.0+: Ryoichi</author>
+  <url></url>
+  <targetVersion>0.14.1249</targetVersion>
+  <description>
+    Storage Crates is a mod focused on compact and neat stockpiling of bulk resources.
+    The basic structure is you build some plates, then assemble the goods plus your stack of 75 
+    of any resource (500 for gold/silver) and produce the crate.
+
+    You then can stack the crates in a stockpile like any other item and they stack to 75. 
+    For a total of 5625 of a non-currency resource on a single tile.
+
+    You can also pack meat/veggies into a canned meal that does not spoil.
+    You can then even pack the meat/veggie cans into a crate for storage too.
+
+    Crates Process:
+     Raw Resources + Machining Table = Steel Plates,
+      Steel Plates + Full single stack of resources + Packing Bench = 1 single crate of that resource.
+
+    Food Can Process:
+     Raw Resources + Machining Table = Steel Plates, 
+      Steel Plates + Machining Table = Can, Can + Butcher Table + 5 meat or veggies = Meal Can
+
+    Known issues : 
+    !*!*!- DO NOT Force Unpack more than 1 crate, DO NOT force unpack a stack of 2+ crates. !*!*!
+
+    Special thanks to Nasikabatrachus for the original idea
+    Developement : 1.0: Nirahiel, 1.0+: Ryoichi
+    Textures : 1.0:mrofa , 1.0+: Ryoichi
+    *Updated for Rimworld 11b>13 and now maintained by : Ryoichi
+  </description>
+</ModMetaData>

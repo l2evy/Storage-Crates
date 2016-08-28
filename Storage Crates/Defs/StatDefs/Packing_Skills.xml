@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<StatDefs>
+
+   <StatDef>
+      <defName>PackingTime</defName>
+      <label>Packing Time</label>
+      <description>Speed of colonist finger dropping with proporcional force/speed on auto packing button</description>
+      <category>PawnWork</category>
+      <defaultBaseValue>1</defaultBaseValue>
+      <toStringStyle>PercentZero</toStringStyle>
+      <statFactors>
+         <li>WorkSpeedGlobal</li>
+      </statFactors>
+      <skillNeedFactors>
+         <li Class="SkillNeed_BaseBonus">
+            <skill>Crafting</skill>
+            <baseFactor>0.4</baseFactor>
+            <bonusFactor>0.06</bonusFactor>
+         </li>
+      </skillNeedFactors>
+      <capacityFactors>
+         <li>
+            <capacity>Consciousness</capacity>
+            <weight>1</weight>
+         </li>
+      </capacityFactors>
+   </StatDef>
+
+   <StatDef>
+      <defName>PackingEfficiency</defName>
+      <label>Packing Efficiency</label>
+      <description>Efficiency of finger movement colonist makes when pressing auto pack button</description>
+      <category>PawnWork</category>
+      <defaultBaseValue>1</defaultBaseValue>
+      <toStringStyle>PercentZero</toStringStyle>
+      <statFactors>
+         <li>WorkSpeedGlobal</li>
+      </statFactors>
+      <skillNeedFactors>
+         <li Class="SkillNeed_BaseBonus">
+            <skill>Crafting</skill>
+            <baseFactor>1</baseFactor>
+            <bonusFactor>0</bonusFactor>
+         </li>
+      </skillNeedFactors>
+      <capacityFactors>
+         <li>
+            <capacity>Consciousness</capacity>
+            <weight>1</weight>
+         </li>
+      </capacityFactors>
+   </StatDef>
+
+   <StatDef>
+      <defName>HammeringSpeed</defName>
+      <label>Hammering Speed</label>
+      <description>How fast can someone be with a hammer before hammering their own fingers ?</description>
+      <category>PawnWork</category>
+      <defaultBaseValue>1</defaultBaseValue>
+      <toStringStyle>PercentZero</toStringStyle>
+      <statFactors>
+         <li>WorkSpeedGlobal</li>
+      </statFactors>
+      <skillNeedFactors>
+         <li Class="SkillNeed_BaseBonus">
+            <skill>Crafting</skill>
+            <baseFactor>0.4</baseFactor>
+            <bonusFactor>0.06</bonusFactor>
+         </li>
+      </skillNeedFactors>
+      <capacityFactors>
+         <li>
+            <capacity>Consciousness</capacity>
+            <weight>1</weight>
+         </li>
+      </capacityFactors>
+   </StatDef>
+
+   <StatDef>
+      <defName>HammeringEfficiency</defName>
+      <label>Hammering Efficiency</label>
+      <description>Hitting harder, smashing better, crafting faster, plating stronger.</description>
+      <category>PawnWork</category>
+      <defaultBaseValue>1</defaultBaseValue>
+      <toStringStyle>PercentZero</toStringStyle>
+      <statFactors>
+         <li>WorkSpeedGlobal</li>
+      </statFactors>
+      <skillNeedFactors>
+         <li Class="SkillNeed_BaseBonus">
+            <skill>Crafting</skill>
+            <baseFactor>1</baseFactor>
+            <bonusFactor>0</bonusFactor>
+         </li>
+      </skillNeedFactors>
+      <capacityFactors>
+         <li>
+            <capacity>Consciousness</capacity>
+            <weight>1</weight>
+         </li>
+      </capacityFactors>
+   </StatDef>
+
+</StatDefs>

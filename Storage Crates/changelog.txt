@@ -1,0 +1,37 @@
+4/24/16 1.02a > 1.03
+-Fixed crazy hording colonist bug with the food cans....for good this time..hopefully
+-Fixed canning food to use 2 cans and give 2 cans instead of taking 1 can and magically making 2
+-Changed Steel requirements for making Steel Plates, Now uses 4 steel and makes 5 plates
+-Changed Steel Plate requirements for making Empty Cans, Now uses 1 plate and makes 25 empty cans
+-Changed Basic/Food Packing benches to benefit from Tool cabinet's and also enabled breakdowns (Will balance work time soon).
+-Added changelog.txt for anyone who wishes to just download and read a txt file after.
+
+*~Next Update 1.04 Plans: This was a sooner update than planned due to some bugs needing fixed. Next update is unknown
+at this point but maybe more balance changes. Will go back to brainstorming about graphics changes, wooden crates, and 
+other things. Will try and do a bigger update provided no bugs, and maybe release everything all at once.
+
+4/23/16: 1.01 > 1.02
+-Fixed the facepalm xml version edit...*facepalm again*
+-Fixed a crate packing error with veg/meat cans (wrong packing number).
+-Fixed meat/veg food can nutrition values, value was incorrectly set above the limit which made it 0. (May need balanced)
+-Fixed error with meat/veg food can crates. After crafting got stuck in a loop of not able to place anywhere.
+-The workbenches are now flickable.
+4/23/16: 1.02>1.02a Hotfix
+-Fixed bug with colonist picking up hundreds of canned food into their inventory.
+
+*~Next Update 1.03 Plans: Still unknown status on the sub menu ability for workbenches. I will post in the mod 
+help section sometime to clarify but I think it may not be possible. More graphics and maybe support for a few 
+things from the new updates 12 and 13, meat and materials from the animals. Might go over a few balance changes 
+like the steel crates getting added to the value of the crates of goods.
+
+4/15/16: 1.0 > 1.01
+-Crates now give back 100% of the Steel Plates when unpacking.
+-Mod name changed from Resource Kompression to Storage Crates for better clarity.
+-Added Google Drive and Dropbox file links, eventually will add Nexus to the list.
+-Edited Description to be more helpful and informative.
+-Starting to redo and organize mod thread to be cleaner and eventually will have tons of images and look fancy, in time.
+
+*~Next Update v1.02 Plans: Figure out possibility of adding sub menu's to packing/unpacking cause it will go 
+off the screen when I finish adding in support for Alpha 12 and 13's items.
+
+4/10/16: Updated mod from 11b > 13

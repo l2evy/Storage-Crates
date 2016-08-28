@@ -1,0 +1,772 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+
+   <ThingDef Name="CrateBase" Abstract="True">
+      <thingClass>KompressionMod.Crate</thingClass>
+      <label>unspecified resource</label>
+      <category>Item</category>
+      <resourceReadoutPriority>Middle</resourceReadoutPriority>
+      <useHitPoints>true</useHitPoints>
+      <selectable>true</selectable>
+      <altitudeLayer>Item</altitudeLayer>
+      <stackLimit>75</stackLimit>
+      <comps>
+         <li>
+            <compClass>CompForbiddable</compClass>
+         </li>
+      </comps>
+      <alwaysHaulable>true</alwaysHaulable>
+      <drawGUIOverlay>true</drawGUIOverlay>
+      <rotatable>false</rotatable>
+      <pathCost>15</pathCost>
+   </ThingDef>
+
+
+   <ThingDef ParentName="CrateBase" Abstract="True" Name="CanCrateBase">
+      <defName>CanCrate</defName>
+      <label>Food Can crate</label>
+      <statBases>
+         <MarketValue>200</MarketValue>
+      </statBases>
+
+      <graphicData>
+         <texPath>Things/Item/Can_Box</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <stackLimit>75</stackLimit>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Manufactured</li>
+      </thingCategories>
+   </ThingDef>
+
+
+   <!-- =======Materials======= -->
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>SteelCrate</defName>
+      <label>Steel Crate(75)</label>
+      <statBases>
+         <MarketValue>150</MarketValue>
+      </statBases>
+      <description>Crate containing 75 steel units</description>
+      <graphicData>
+         <texPath>Things/Item/Materials/MetalCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <StoredStuff>Steel</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+
+   </ThingDef>
+
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>GoldCrate</defName>
+      <label>Gold Crate(500)</label>
+      <statBases>
+         <MarketValue>1200</MarketValue>
+      </statBases>
+      <description>Crate containing 500 gold units</description>
+      <graphicData>
+         <texPath>Things/Item/Materials/GoldCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <StoredStuff>Gold</StoredStuff>
+      <StoredStuffAmmount>500</StoredStuffAmmount>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>SilverCrate</defName>
+      <label>Silver Crate(500)</label>
+      <statBases>
+         <MarketValue>500</MarketValue>
+      </statBases>
+      <description>Crate containing 500 silver units</description>
+      <graphicData>
+         <texPath>Things/Item/Materials/SilverCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <StoredStuff>Silver</StoredStuff>
+      <StoredStuffAmmount>500</StoredStuffAmmount>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>WoodCrate</defName>
+      <label>Wood Crate(75)</label>
+      <statBases>
+         <MarketValue>105</MarketValue>
+      </statBases>
+      <description>Crate containing 75 wood units</description>
+      <graphicData>
+         <texPath>Things/Item/Materials/WoodCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <StoredStuff>WoodLog</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>PlasteelCrate</defName>
+      <label>Plasteel Crate(75)</label>
+      <statBases>
+         <MarketValue>2025</MarketValue>
+      </statBases>
+      <description>Crate containing 75 wood units</description>
+      <graphicData>
+         <texPath>Things/Item/Materials/PlasteelCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <StoredStuff>Plasteel</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>UraniumCrate</defName>
+      <label>Uranium Crate(80)</label>
+      <!-- Due the method used to multiply count of some resources had to change uranium cout to 80, since the int32 method dont allow formulas -->
+      <statBases>
+         <MarketValue>400</MarketValue>
+      </statBases>
+      <description>Crate containing 80 uranium units</description>
+      <graphicData>
+         <texPath>Things/Item/Materials/UraniumCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <StoredStuff>Uranium</StoredStuff>
+      <StoredStuffAmmount>80</StoredStuffAmmount>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+   </ThingDef>
+
+   <!-- =======Stones======= -->
+
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>SandStoneCrate</defName>
+
+      <label>Sandstone Crate(75)</label>
+      <statBases>
+         <MarketValue>142,5</MarketValue>
+      </statBases>
+      <description>Crate containing 75 sandstone units</description>
+      <graphicData>
+         <texPath>Things/Item/Stones/SandstoneCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <StoredStuff>BlocksSandstone</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>GraniteCrate</defName>
+      <label>Granite Crate(75)</label>
+      <statBases>
+         <MarketValue>157,5</MarketValue>
+      </statBases>
+      <description>Crate containing 75 granite units</description>
+      <graphicData>
+         <texPath>Things/Item/Stones/GraniteCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <StoredStuff>BlocksGranite</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>LimestoneCrate</defName>
+      <label>Limestone Crate(75)</label>
+      <statBases>
+         <MarketValue>142,5</MarketValue>
+      </statBases>
+      <description>Crate containing 75 limestone units</description>
+      <graphicData>
+         <texPath>Things/Item/Stones/LimestoneCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <StoredStuff>BlocksLimestone</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>SlateCrate</defName>
+      <label>Slate Crate(75)</label>
+      <statBases>
+         <MarketValue>142,5</MarketValue>
+      </statBases>
+      <description>Crate containing 75 Slate units</description>
+      <graphicData>
+         <texPath>Things/Item/Stones/SlateCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <StoredStuff>BlocksSlate</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>MarbleCrate</defName>
+      <label>Marble Crate(75)</label>
+      <statBases>
+         <MarketValue>142,5</MarketValue>
+      </statBases>
+      <description>Crate containing 75 Marble units</description>
+      <graphicData>
+         <texPath>Things/Item/Stones/MarbleCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <StoredStuff>BlocksMarble</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+   </ThingDef>
+
+   <!-- =======Food_Herbi======= -->
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>BerryCrate</defName>
+      <label>Berry Crate (75)</label>
+      <statBases>
+         <MarketValue>157,5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Herbi/BerryCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>RawBerries</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>PotatoCrate</defName>
+      <label>Potato Crate (75)</label>
+      <statBases>
+         <MarketValue>142.5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Herbi/PotatoCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>RawPotatoes</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>AgaveCrate</defName>
+      <label>Agave Crate (75)</label>
+      <statBases>
+         <MarketValue>157.5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Herbi/AgaveFruitCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>RawAgave</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>HopsCrate</defName>
+      <label>Hops Crate (75)</label>
+      <statBases>
+         <MarketValue>157.5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Herbi/HopsCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>RawHops</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>CornCrate</defName>
+      <label>Corn Crate (75)</label>
+      <statBases>
+         <MarketValue>142.5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Herbi/CornCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>RawCorn</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>RiceCrate</defName>
+
+      <label>Rice Crate (75)</label>
+      <statBases>
+         <MarketValue>142.5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Herbi/RiceCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>RawRice</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <!-- =======Food_Meat======= -->
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>EvilMeatCrate</defName>
+      <label>Squirrel Meat Crate (75)</label>
+      <statBases>
+         <MarketValue>262.5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Meat/MeatCrateEvil</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Squirrel_Meat</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>MuffMeatCrate</defName>
+      <label>Muffalo Meat Crate (75)</label>
+      <statBases>
+         <MarketValue>262.5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Meat/MeatCrateMuff</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Muffalo_Meat</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>BoomMeatCrate</defName>
+      <label>Boomrat Meat Crate (75)</label>
+      <statBases>
+         <MarketValue>262.5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Meat/MeatCrateBoom</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Boomrat_Meat</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>NadeMeatCrate</defName>
+      <label>Human Meat Crate (75)</label>
+      <statBases>
+         <MarketValue>262.5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Meat/MeatCrateNade</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Human_Meat</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>DeerMeatCrate</defName>
+      <label>Deer Meat Crate (75)</label>
+      <statBases>
+         <MarketValue>262.5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Meat/MeatCrateDeer</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Deer_Meat</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>IguanaMeatCrate</defName>
+      <label>Iguana Meat Crate (75)</label>
+      <statBases>
+         <MarketValue>262.5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Meat/MeatCrateIguana</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Iguana_Meat</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+<!--   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>InsectMeatCrate</defName>
+      <label>Insect Meat Crate (75)</label>
+      <statBases>
+         <MarketValue>262.5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Meat/MeatCrateScarab</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>insect meat</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef> 
+-->
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>CobraMeatCrate</defName>
+      <label>Cobra Meat Crate (75)</label>
+      <statBases>
+         <MarketValue>262.5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Meat/SnakeCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Cobra_Meat</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>RabitMeatCrate</defName>
+      <label>Hare Meat Crate (75)</label>
+      <statBases>
+         <MarketValue>262.5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Meat/RabitCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Hare_Meat</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>RhinoMeatCrate</defName>
+      <label>Rhinoceros Meat Crate (75)</label>
+      <statBases>
+         <MarketValue>262,5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Meat/RhinoCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Rhinoceros_Meat</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>MonkeyMeatCrate</defName>
+      <label>Monkey Meat Crate (75)</label>
+      <statBases>
+         <MarketValue>262,5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Meat/MonkeyCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Monkey_Meat</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>ElkMeatCrate</defName>
+      <label>Elk Meat Crate (75)</label>
+      <statBases>
+         <MarketValue>262.5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Meat/CowCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Elk_Meat</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>DromedaryMeatCrate</defName>
+      <label>Dromedary Meat Crate (75)</label>
+      <statBases>
+         <MarketValue>262.5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Meat/CamelCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Dromedary_Meat</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>BeverMeatCrate</defName>
+      <label>Alpha Beaver Meat Crate (75)</label>
+      <statBases>
+         <MarketValue>262.5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Meat/BeverCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Alphabeaver_Meat</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>TurtleMeatCrate</defName>
+      <label>Turtle Beaver Meat Crate (75)</label>
+      <statBases>
+         <MarketValue>262,5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Meat/TurtleCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Tortoise_Meat</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <!-- =======Cloth_Material======= -->
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>ClothCrate</defName>
+      <label>Cloth Crate (75)</label>
+      <statBases>
+         <MarketValue>112,5</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Cloth/ClothCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Cloth</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>SynthreadCrate</defName>
+      <label>Synthread Crate (75)</label>
+      <statBases>
+         <MarketValue>825</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Cloth/SynththreadCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Synthread</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>HyperwaveCrate</defName>
+      <label>Hyperwave Crate (75)</label>
+      <statBases>
+         <MarketValue>3375</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Cloth/HyperwaveCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Hyperwave</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>DevilstrandCrate</defName>
+      <label>Devilstrand Crate (75)</label>
+      <statBases>
+         <MarketValue>1200</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Cloth/DevilstrandCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>DevilstrandCloth</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+
+
+   <ThingDef ParentName="CanCrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>MeatCanCrate</defName>
+      <label>Meat Can crate (75)</label>
+      <description>Crate containing 75 meat cans.</description>
+      <stackLimit>75</stackLimit>
+   </ThingDef>
+
+   <ThingDef ParentName="CanCrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>VeggiesCanCrate</defName>
+      <label>Veggies Can crate (75)</label>
+      <description>Crate containing 75 vegetables cans.</description>
+      <stackLimit>75</stackLimit>
+   </ThingDef>
+
+</Resources>

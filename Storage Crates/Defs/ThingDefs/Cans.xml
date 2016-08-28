@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Resources>
+   <!-- ========== BASES =========== -->
+   <ThingDef Name="EmptyCanBase" Abstract="True">
+      <thingClass>ThingWithComps</thingClass>
+      <label>unspecified resource</label>
+      <category>Item</category>
+      <resourceReadoutPriority>Middle</resourceReadoutPriority>
+      <useHitPoints>true</useHitPoints>
+      <selectable>true</selectable>
+      <altitudeLayer>Item</altitudeLayer>
+      <stackLimit>75</stackLimit>
+      <comps>
+         <li>
+            <compClass>CompForbiddable</compClass>
+         </li>
+      </comps>
+      <alwaysHaulable>true</alwaysHaulable>
+      <drawGUIOverlay>true</drawGUIOverlay>
+      <rotatable>false</rotatable>
+      <pathCost>15</pathCost>
+   </ThingDef>
+
+   <ThingDef Name="FilledCanBase" Abstract="True">
+      <label>unspecified resource</label>
+      <thingClass>Meal</thingClass>
+      <category>Item</category>
+      <useHitPoints>true</useHitPoints>
+      <selectable>true</selectable>
+      <statBases>
+         <MaxHitPoints>50</MaxHitPoints>
+         <Flammability>1.0</Flammability>
+      </statBases>
+      <altitudeLayer>Item</altitudeLayer>
+      <stackLimit>75</stackLimit>
+      <tickerType>Rare</tickerType>
+      <description>"Description"</description>
+      <socialPropernessMatters>true</socialPropernessMatters>
+      <alwaysHaulable>true</alwaysHaulable>
+      <comps>
+         <li>
+            <compClass>CompForbiddable</compClass>
+         </li>
+      </comps>
+      <pathCost>15</pathCost>
+      <resourceReadoutPriority>Last</resourceReadoutPriority>
+      <drawGUIOverlay>true</drawGUIOverlay>
+      <ingestible>
+         <foodType>Meal, Processed</foodType>
+         <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      </ingestible>
+   </ThingDef>
+
+   <!-- ========= ITEMS ============-->
+
+   <ThingDef ParentName="EmptyCanBase">
+      <defName>EmptyCan</defName>
+      <label>Empty can</label>
+      <statBases>
+         <MarketValue>10</MarketValue>
+         <Flammability>0.2</Flammability>
+      </statBases>
+      <description>An empty can where food can be stored</description>
+      <graphicData>
+         <texPath>Things/Item/Can_Empty</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Manufactured</li>
+      </thingCategories>
+   </ThingDef>
+
+   <ThingDef ParentName="FilledCanBase">
+      <defName>MeatCan</defName>
+      <label>Meat filled can</label>
+      <description>A can filled with meat for preservation.</description>
+      <tickerType>Rare</tickerType>
+      <graphicData>
+         <texPath>Things/Item/Can_Meat</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>FoodMeals</li>
+      </thingCategories>
+      <socialPropernessMatters>true</socialPropernessMatters>
+      <statBases>
+         <MarketValue>15</MarketValue>
+      </statBases>
+      <ingestible>
+         <foodType>Meal, Processed</foodType>
+         <preferability>MealAwful</preferability>
+         <nutrition>0.90</nutrition>
+         <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+         <joy>0.005</joy>
+         <eatEffect>EatVegetarian</eatEffect>
+         <soundEat>Meal_Eat</soundEat>
+      </ingestible>
+
+   </ThingDef>
+
+   <ThingDef ParentName="FilledCanBase">
+      <defName>VeggiesCan</defName>
+      <label>Vegetable filled can</label>
+      <description>A can filled with vegetables for preservation.</description>
+      <tickerType>Rare</tickerType>
+      <graphicData>
+         <texPath>Things/Item/Can_Plants</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>FoodMeals</li>
+      </thingCategories>
+      <socialPropernessMatters>true</socialPropernessMatters>
+      <statBases>
+         <MarketValue>15</MarketValue>
+      </statBases>
+      <ingestible>
+         <foodType>Meal, Processed</foodType>
+         <preferability>MealAwful</preferability>
+         <nutrition>0.85</nutrition>
+         <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+         <joy>0.002</joy>
+         <eatEffect>EatVegetarian</eatEffect>
+         <soundEat>Meal_Eat</soundEat>
+      </ingestible>
+
+   </ThingDef>
+
+</Resources>

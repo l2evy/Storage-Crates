@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingCategoryDefs>
+
+
+   <ThingCategoryDef>
+      <defName>Crates</defName>
+      <label>Crates</label>
+      <parent>Manufactured</parent>
+      <resourceReadoutRoot>true</resourceReadoutRoot>
+      <iconPath>Ui/Icons/ThingCategories/Manufactured</iconPath>
+   </ThingCategoryDef>
+
+
+
+</ThingCategoryDefs>
