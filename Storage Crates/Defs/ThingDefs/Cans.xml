@@ -74,6 +74,7 @@
 
    <ThingDef ParentName="FilledCanBase">
       <defName>MeatCan</defName>
+      <thingClass>ThingWithComps</thingClass>
       <label>Meat filled can</label>
       <description>A can filled with meat for preservation.</description>
       <tickerType>Rare</tickerType>
@@ -104,6 +105,7 @@
 
    <ThingDef ParentName="FilledCanBase">
       <defName>VeggiesCan</defName>
+      <thingClass>ThingWithComps</thingClass>
       <label>Vegetable filled can</label>
       <description>A can filled with vegetables for preservation.</description>
       <tickerType>Rare</tickerType>
