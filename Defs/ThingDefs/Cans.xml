@@ -74,6 +74,7 @@
 
    <ThingDef ParentName="FilledCanBase">
       <defName>MeatCan</defName>
+      <thingClass>ThingWithComps</thingClass>
       <label>Meat filled can</label>
       <description>A can filled with meat for preservation.</description>
       <tickerType>Rare</tickerType>
@@ -95,15 +96,15 @@
          <preferability>MealAwful</preferability>
          <nutrition>0.90</nutrition>
          <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
-         <joy>0.005</joy>
-         <eatEffect>EatVegetarian</eatEffect>
-         <soundEat>Meal_Eat</soundEat>
+         <ingestEffect>EatVegetarian</ingestEffect>
+         <ingestSound>Meal_Eat</ingestSound>
       </ingestible>
 
    </ThingDef>
 
    <ThingDef ParentName="FilledCanBase">
       <defName>VeggiesCan</defName>
+      <thingClass>ThingWithComps</thingClass>
       <label>Vegetable filled can</label>
       <description>A can filled with vegetables for preservation.</description>
       <tickerType>Rare</tickerType>
@@ -125,9 +126,8 @@
          <preferability>MealAwful</preferability>
          <nutrition>0.85</nutrition>
          <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
-         <joy>0.002</joy>
-         <eatEffect>EatVegetarian</eatEffect>
-         <soundEat>Meal_Eat</soundEat>
+         <ingestEffect>EatVegetarian</ingestEffect>
+         <ingestSound>Meal_Eat</ingestSound>
       </ingestible>
 
    </ThingDef>

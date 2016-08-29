@@ -16,7 +16,7 @@
 
    <ThingDef ParentName="BuildingBase">
       <DefName>PackingBenchTierOne</DefName>
-      <label>Basic packing bench</label>
+      <label>Basic Packing Bench</label>
       <ThingClass>KompressionMod.PackingBenchTierOne</ThingClass>
       <Description>A workbench where you can cut your meal with plasma torch or pack a crate.</Description>
       <graphicData>
@@ -88,9 +88,9 @@
 
    <ThingDef ParentName="BuildingBase">
       <DefName>UnpackingBenchTierOne</DefName>
-      <label>Basic packing bench</label>
+      <label>Basic Unpacking Bench</label>
       <ThingClass>KompressionMod.PackingBenchTierOne</ThingClass>
-      <Description>A workbench where you can cut your meal with plasma torch or pack a crate.</Description>
+      <Description>A workbench where you can package items into a environment friendly crate.</Description>
       <graphicData>
          <texPath>Things/Building/Frames/PackingBenchTier1_Closed</texPath>
          <shaderType>CutoutComplex</shaderType>
@@ -160,9 +160,9 @@
 
    <ThingDef ParentName="BuildingBase">
       <DefName>FoodPackingBench</DefName>
-      <label>Basic food packing bench</label>
+      <label>Basic Food Packing Bench</label>
       <ThingClass>KompressionMod.FoodBench</ThingClass>
-      <Description>Pack the food in the environment friendly crate, unless it leak radioactive fluid.</Description>
+      <Description>Pack the food in the environment friendly crate.</Description>
       <graphicData>
          <texPath>Things/Building/Frames/FoodBench_Packing</texPath>
          <shaderType>CutoutComplex</shaderType>
@@ -236,9 +236,9 @@
 
    <ThingDef ParentName="BuildingBase">
       <DefName>FoodUnPackingBench</DefName>
-      <label>Basic food unpacking bench</label>
+      <label>Basic Food Unpacking Bench</label>
       <ThingClass>KompressionMod.FoodBench</ThingClass>
-      <Description>Pack the food in the environment friendly crate, unless it leak radioactive fluid</Description>
+      <Description>Unpack the food from the environment friendly crate.</Description>
       <graphicData>
          <texPath>Things/Building/Frames/FoodBench_UnPacking</texPath>
          <shaderType>CutoutComplex</shaderType>

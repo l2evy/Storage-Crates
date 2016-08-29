@@ -1,3 +1,11 @@
+8/29/16 1.14.0 > 1.15.0
+-Updated Mod for Alpha 15
+
+8/29/16 1.03 > 1.14.0
+-Updated Mod for Alpha 14
+-Version number change, 1.XX.Y, XX= Game Version, Y=Mod Version Number
+-Removed option to pack/unpack mega scarab meat due to Alpha 14 meat system slight change, may be fixed in later update
+
 4/24/16 1.02a > 1.03
 -Fixed crazy hording colonist bug with the food cans....for good this time..hopefully
 -Fixed canning food to use 2 cans and give 2 cans instead of taking 1 can and magically making 2
