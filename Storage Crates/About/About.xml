@@ -3,7 +3,7 @@
   <name>Storage Crates</name>
   <author>1.0+: Ryoichi</author>
   <url></url>
-  <targetVersion>0.14.1249</targetVersion>
+  <targetVersion>0.15.1279</targetVersion>
   <description>
     Storage Crates is a mod focused on compact and neat stockpiling of bulk resources.
     The basic structure is you build some plates, then assemble the goods plus your stack of 75 
@@ -29,6 +29,6 @@
     Special thanks to Nasikabatrachus for the original idea
     Developement : 1.0: Nirahiel, 1.0+: Ryoichi
     Textures : 1.0:mrofa , 1.0+: Ryoichi
-    *Updated for Rimworld 11b>13 and now maintained by : Ryoichi
+    *Updated for Rimworld 11b>13+ and now maintained by : Ryoichi
   </description>
 </ModMetaData>
