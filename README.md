@@ -1,4 +1,5 @@
 # Storage-Crates
 Storate Crates, A Rimworld mod
 
-Initial Readme File here for later fixing up
+The Decompiled DLL has it's own repo located here: 
+https://github.com/l2evy/storage-crates-dll
