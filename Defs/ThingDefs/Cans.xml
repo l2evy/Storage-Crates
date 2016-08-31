@@ -96,8 +96,8 @@
          <preferability>MealAwful</preferability>
          <nutrition>0.90</nutrition>
          <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
-         <ingestEffect>EatVegetarian</ingestEffect>
-         <ingestSound>Meal_Eat</ingestSound>
+         <eatEffect>EatVegetarian</eatEffect>
+         <soundEat>Meal_Eat</soundEat>
       </ingestible>
 
    </ThingDef>
@@ -126,8 +126,8 @@
          <preferability>MealAwful</preferability>
          <nutrition>0.85</nutrition>
          <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
-         <ingestEffect>EatVegetarian</ingestEffect>
-         <ingestSound>Meal_Eat</ingestSound>
+         <eatEffect>EatVegetarian</eatEffect>
+         <soundEat>Meal_Eat</soundEat>
       </ingestible>
 
    </ThingDef>
