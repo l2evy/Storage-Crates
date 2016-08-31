@@ -388,6 +388,141 @@
       <StoredStuffAmmount>75</StoredStuffAmmount>
    </ThingDef>
 
+   <!--=========Drugs==========-->
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>SmokeleafJointCrate</defName>
+      <label>Smokeleaf Joint (75)</label>
+      <statBases>
+         <MarketValue>1035.0</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Drugs/SmokeleafCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>SmokeleafJoint</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>YayoCrate</defName>
+      <label>Yayo Crate (75)</label>
+      <statBases>
+         <MarketValue>1410.0</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Drugs/YayoCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Yayo</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>GoJuiceCrate</defName>
+      <label>Go-Juice Crate (75)</label>
+      <statBases>
+         <MarketValue>6060.0</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Drugs/GoJuiceCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>GoJuice</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>LuciferiumCrate</defName>
+      <label>Luciferium Crate (75)</label>
+      <statBases>
+         <MarketValue>7560.0</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Drugs/LuciferiumCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Luciferium</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>MalariBlockCrate</defName>
+      <label>Malari-Block Crate (75)</label>
+      <statBases>
+         <MarketValue>3060.0</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Drugs/MalariBlockCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>MalariBlock</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>FlakeCrate</defName>
+      <label>Flake Crate (75)</label>
+      <statBases>
+         <MarketValue>885.0</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Drugs/FlakeCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>Flake</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>WakeUpCrate</defName>
+      <label>Wake-Up Crate (75)</label>
+      <statBases>
+         <MarketValue>2010.0</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Drugs/WakeUpCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>WakeUp</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
    <!-- =======Food_Meat======= -->
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
       <defName>EvilMeatCrate</defName>

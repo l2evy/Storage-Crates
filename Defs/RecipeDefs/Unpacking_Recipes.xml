@@ -677,7 +677,210 @@
       </fixedIngredientFilter>
    </RecipeDef>
 
+   <!-- =======Drugs=========== -->
 
+   <RecipeDef>
+      <defName>UnpackSmokeleafJointCrate</defName>
+      <label>Un-pack Smokeleaf Joint Crate (75)</label>
+      <description>Un-Packs 75 Smokeleaf Joints from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>SmokeleafJointCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <SmokeleafJoint>75</SmokeleafJoint>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>SmokeleafJointCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>UnpackYayoCrate</defName>
+      <label>Un-pack Yayo Crate (75)</label>
+      <description>Un-Packs 75 Yayo from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>YayoCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Yayo>75</Yayo>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>YayoCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>   
+
+   <RecipeDef>
+      <defName>UnpackGoJuiceCrate</defName>
+      <label>Un-pack Go-Juice Crate (75)</label>
+      <description>Un-Packs 75 Go-Juice from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GoJuiceCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <GoJuice>75</GoJuice>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>GoJuiceCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>UnpackLuciferiumCrate</defName>
+      <label>Un-pack Luciferium Crate (75)</label>
+      <description>Un-Packs 75 Luciferium pills from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>LuciferiumCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Luciferium>75</Luciferium>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>LuciferiumCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>UnpackMalariBlockCrate</defName>
+      <label>Un-pack Malari-Block Crate (75)</label>
+      <description>Un-Packs 75 Malari-Block pills from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>MalariBlockCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <MalariBlock>75</MalariBlock>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>MalariBlockCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>UnpackFlakeCrate</defName>
+      <label>Un-pack Flake Crate (75)</label>
+      <description>Un-Packs 75 Flake from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>FlakeCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Flake>75</Flake>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>FlakeCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>UnpackWakeUpCrate</defName>
+      <label>Un-pack Wake-Up Crate (75)</label>
+      <description>Un-Packs 75 Wake-Up from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>WakeUpCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <WakeUp>75</WakeUp>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>WakeUpCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
 
    <!-- =======Food_Meat======= -->
 
@@ -807,8 +1010,8 @@
 
    <RecipeDef>
       <defName>UnpackDeerCrate</defName>
-      <label>Un-pack Deer meat Crate (75)</label>
-      <description>Un-pack 75 deer meat from a crate.</description>
+      <label>Un-pack Venison meat Crate (75)</label>
+      <description>Un-pack 75 Venison meat from a crate.</description>
       <jobString>Packing heat.</jobString>
       <workAmount>100</workAmount>
       <workSpeedStat>PackingTime</workSpeedStat>

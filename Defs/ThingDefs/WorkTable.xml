@@ -215,6 +215,13 @@
          <li>MakeDromedaryCrate</li>
          <li>MakeAlphaBeverCrate</li>
          <li>MakeTurtleCrate</li>
+         <li>MakeSmokeleafJointCrate</li>
+         <li>MakeYayoCrate</li>
+         <li>MakeGoJuiceCrate</li>
+         <li>MakeLuciferiumCrate</li>
+         <li>MakeMalariBlockCrate</li>
+         <li>MakeFlakeCrate</li>
+         <li>MakeWakeUpCrate</li>
       </recipes>
       <comps>
          <li Class="CompProperties_Power">
@@ -291,6 +298,13 @@
          <li>UnpackDromedaryCrate</li>
          <li>UnpackAlphaBeverCrate</li>
          <li>UnpackTortoiseCrate</li>
+         <li>UnpackSmokeleafJointCrate</li>
+         <li>UnpackYayoCrate</li>
+         <li>UnpackGoJuiceCrate</li>
+         <li>UnpackLuciferiumCrate</li>
+         <li>UnpackMalariBlockCrate</li>
+         <li>UnpackFlakeCrate</li>
+         <li>UnpackWakeUpCrate</li>         
       </recipes>
       <comps>
          <li Class="CompProperties_Power">

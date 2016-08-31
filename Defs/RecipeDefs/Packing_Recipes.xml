@@ -862,6 +862,266 @@
       </fixedIngredientFilter>
    </RecipeDef>
 
+   <!-- =======_Drugs_======= -->
+
+   <RecipeDef>
+      <defName>MakeSmokeleafJointCrate</defName>
+      <label>Smokeleaf Joint Crate (75)</label>
+      <description>Packs 75 Smokeleaf Joints into a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>SmeltingSpeed</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>SmokeleafJoint</li>
+               </thingDefs>
+            </filter>
+            <count>75</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>KMSteelPlate</li>
+               </thingDefs>
+            </filter>
+            <count>6</count>
+         </li>
+      </ingredients>
+      <products>
+         <SmokeleafJointCrate>1</SmokeleafJointCrate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>KMSteelPlate</li>
+            <li>SmokeleafJoint</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>MakeYayoCrate</defName>
+      <label>Yayo Crate (75)</label>
+      <description>Packs 75 Yayo into a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>SmeltingSpeed</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Yayo</li>
+               </thingDefs>
+            </filter>
+            <count>75</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>KMSteelPlate</li>
+               </thingDefs>
+            </filter>
+            <count>6</count>
+         </li>
+      </ingredients>
+      <products>
+         <YayoCrate>1</YayoCrate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>KMSteelPlate</li>
+            <li>Yayo</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>   
+
+   <RecipeDef>
+      <defName>MakeGoJuiceCrate</defName>
+      <label>Go-Juice Crate (75)</label>
+      <description>Packs 75 Go-Juice into a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>SmeltingSpeed</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>GoJuice</li>
+               </thingDefs>
+            </filter>
+            <count>75</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>KMSteelPlate</li>
+               </thingDefs>
+            </filter>
+            <count>6</count>
+         </li>
+      </ingredients>
+      <products>
+         <GoJuiceCrate>1</GoJuiceCrate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>KMSteelPlate</li>
+            <li>GoJuice</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>MakeLuciferiumCrate</defName>
+      <label>Luciferium Crate (75)</label>
+      <description>Packs 75 veggies cans into a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>SmeltingSpeed</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Luciferium</li>
+               </thingDefs>
+            </filter>
+            <count>75</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>KMSteelPlate</li>
+               </thingDefs>
+            </filter>
+            <count>6</count>
+         </li>
+      </ingredients>
+      <products>
+         <LuciferiumCrate>1</LuciferiumCrate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>KMSteelPlate</li>
+            <li>Luciferium</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>MakeMalariBlockCrate</defName>
+      <label>Malari-Block Crate (75)</label>
+      <description>Packs 75 Malari-Block into a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>SmeltingSpeed</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>MalariBlock</li>
+               </thingDefs>
+            </filter>
+            <count>75</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>KMSteelPlate</li>
+               </thingDefs>
+            </filter>
+            <count>6</count>
+         </li>
+      </ingredients>
+      <products>
+         <MalariBlockCrate>1</MalariBlockCrate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>KMSteelPlate</li>
+            <li>MalariBlock</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>MakeFlakeCrate</defName>
+      <label>Flake Crate (75)</label>
+      <description>Packs 75 Flake into a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>SmeltingSpeed</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Flake</li>
+               </thingDefs>
+            </filter>
+            <count>75</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>KMSteelPlate</li>
+               </thingDefs>
+            </filter>
+            <count>6</count>
+         </li>
+      </ingredients>
+      <products>
+         <FlakeCrate>1</FlakeCrate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>KMSteelPlate</li>
+            <li>Flake</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>MakeWakeUpCrate</defName>
+      <label>Wake-Up Crate (75)</label>
+      <description>Packs 75 Wake-Up into a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>SmeltingSpeed</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>WakeUp</li>
+               </thingDefs>
+            </filter>
+            <count>75</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>KMSteelPlate</li>
+               </thingDefs>
+            </filter>
+            <count>6</count>
+         </li>
+      </ingredients>
+      <products>
+         <WakeUpCrate>1</WakeUpCrate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>KMSteelPlate</li>
+            <li>WakeUp</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
 
    <!-- =======Food_Meat======= -->
 
@@ -1019,8 +1279,8 @@
 
    <RecipeDef>
       <defName>MakeDeerCrate</defName>
-      <label>Deer meat Crate (75)</label>
-      <description>Packs 75 deer meat into a crate.</description>
+      <label>Venison meat Crate (75)</label>
+      <description>Packs 75 Venison meat into a crate.</description>
       <jobString>Packing heat.</jobString>
       <workAmount>100</workAmount>
       <workSpeedStat>SmeltingSpeed</workSpeedStat>
