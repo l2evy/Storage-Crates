@@ -1,5 +1,11 @@
+8/31/16 1.15.0 > 1.15.1
+-WARNING: This release will work ONLY for Alpha 15C and Forward! It will not work with Alpha 15 or 15b.
+-Fixed issue in the DLL which caused textures to bug when reloading from a save (BIG THANKS to mrofa and others on the mod help topic)
+-Added Support for Drugs
+
 8/29/16 1.14.0 > 1.15.0
 -Updated Mod for Alpha 15
+-NOTE: This version is now depreciated and no longer useable due to bug in main Alpha that needs 15C and forward to function
 
 8/29/16 1.03 > 1.14.0
 -Updated Mod for Alpha 14
