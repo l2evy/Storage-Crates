@@ -1281,7 +1281,7 @@
 
 
    <RecipeDef>
-      <defName>UnpackAlphaBeverCrate</defName>
+      <defName>UnpackAlphaBeaverCrate</defName>
       <label>Un-pack Alpha Beaver meat Crate (75)</label>
       <description>Un-pack 75 alpha beaver meat from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -1293,7 +1293,7 @@
          <li>
             <filter>
                <thingDefs>
-                  <li>BeverMeatCrate</li>
+                  <li>BeaverMeatCrate</li>
                </thingDefs>
             </filter>
             <count>1</count>
@@ -1305,7 +1305,7 @@
       </products>
       <fixedIngredientFilter>
          <thingDefs>
-            <li>BeverMeatCrate</li>
+            <li>BeaverMeatCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
    </RecipeDef>

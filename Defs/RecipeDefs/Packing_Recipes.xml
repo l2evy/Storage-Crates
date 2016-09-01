@@ -1628,7 +1628,7 @@
 
 
    <RecipeDef>
-      <defName>MakeAlphaBeverCrate</defName>
+      <defName>MakeAlphaBeaverCrate</defName>
       <label>Alpha Beaver meat Crate (75)</label>
       <description>Packs 75 alpha beaver meat into a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -1655,7 +1655,7 @@
          </li>
       </ingredients>
       <products>
-         <BeverMeatCrate>1</BeverMeatCrate>
+         <BeaverMeatCrate>1</BeaverMeatCrate>
       </products>
       <fixedIngredientFilter>
          <thingDefs>

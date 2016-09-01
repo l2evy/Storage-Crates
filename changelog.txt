@@ -1,3 +1,9 @@
+9/1/16 1.15.1 > 1.15.1a
+-Hotfix for Force-Unpack graphic not being loaded correctly
+-Fixed a typo with a backend crate name
+-Added in a Preview.png file for the mod selection window.
+-Changed the rest of the refrences to Ryoichi > l2evy
+
 8/31/16 1.15.0 > 1.15.1
 -WARNING: This release will work ONLY for Alpha 15C and Forward! It will not work with Alpha 15 or 15b.
 -Fixed issue in the DLL which caused textures to bug when reloading from a save (BIG THANKS to mrofa and others on the mod help topic)

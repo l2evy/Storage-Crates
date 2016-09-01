@@ -213,7 +213,7 @@
          <li>MakeMonkeyCrate</li>
          <li>MakeElkCrate</li>
          <li>MakeDromedaryCrate</li>
-         <li>MakeAlphaBeverCrate</li>
+         <li>MakeAlphaBeaverCrate</li>
          <li>MakeTurtleCrate</li>
          <li>MakeSmokeleafJointCrate</li>
          <li>MakeYayoCrate</li>
@@ -296,7 +296,7 @@
          <li>UnpackMonkeyCrate</li>
          <li>UnpackElkCrate</li>
          <li>UnpackDromedaryCrate</li>
-         <li>UnpackAlphaBeverCrate</li>
+         <li>UnpackAlphaBeaverCrate</li>
          <li>UnpackTortoiseCrate</li>
          <li>UnpackSmokeleafJointCrate</li>
          <li>UnpackYayoCrate</li>

@@ -773,7 +773,7 @@
    </ThingDef>
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
-      <defName>BeverMeatCrate</defName>
+      <defName>BeaverMeatCrate</defName>
       <label>Alpha Beaver Meat Crate (75)</label>
       <statBases>
          <MarketValue>262.5</MarketValue>
