@@ -110,4 +110,47 @@
       </recipeUsers>
    </RecipeDef>
 
+   <RecipeDef>
+      <defName>ProcessMeat</defName>
+      <label>Process meat</label>
+      <description>Cut off excess fat and trim the meat.</description>
+      <jobString>Processing meat.</jobString>
+      <workAmount>200</workAmount>
+      <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
+      <effectWorking>ButcherFlesh</effectWorking>
+      <soundWorking>Recipe_ButcherCorpseFlesh</soundWorking>
+      <allowMixingIngredients>true</allowMixingIngredients>
+      <ingredients>
+         <li>
+            <filter>
+               <categories>
+                  <li>MeatRaw</li>
+               </categories>
+            </filter>
+            <count>25</count>
+         </li>
+      </ingredients>
+      <products>
+         <SCMeat>25</SCMeat>
+      </products>
+      <fixedIngredientFilter>
+         <categories>
+            <li>MeatRaw</li>
+         </categories>
+         <exceptedThingDefs>
+            <li>SCMeat</li>
+         </exceptedThingDefs>
+      </fixedIngredientFilter>
+      <defaultIngredientFilter>
+         <categories>
+            <li>Foods</li>
+            <li>Manufactured</li>
+         </categories>
+      </defaultIngredientFilter>
+      <workSkill>Cooking</workSkill>
+      <recipeUsers>
+         <li>TableButcher</li>
+      </recipeUsers>
+   </RecipeDef>
+
 </RecipeDefs>

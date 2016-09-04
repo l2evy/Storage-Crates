@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+xml version="1.0" encoding="utf-8" ?>
 <RecipeDefs>
 
 
@@ -1123,7 +1123,125 @@
       </fixedIngredientFilter>
    </RecipeDef>
 
+   <!-- =======Drug Material Packing====== -->
+<!--
+   <RecipeDef>
+      <defName>MakePsychoidLeavesCrate</defName>
+      <label>Psychoid Leaves Crate (75)</label>
+      <description>Packs 75 Psychoid Leaves into a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>SmeltingSpeed</workSpeedStat>
+
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>PsychoidLeaves</li>
+               </thingDefs>
+            </filter>
+            <count>75</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>KMSteelPlate</li>
+               </thingDefs>
+            </filter>
+            <count>6</count>
+         </li>
+      </ingredients>
+      <products>
+         <MeatCrate>1</MeatCrate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>KMSteelPlate</li>
+            <li>PsychoidLeaves</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>MakeSmokeleafLeavesCrate</defName>
+      <label>Smokeleaf Leaves Crate (75)</label>
+      <description>Packs 75 Smokeleaf Leaves into a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>SmeltingSpeed</workSpeedStat>
+
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>SmokeleafLeaves</li>
+               </thingDefs>
+            </filter>
+            <count>75</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>KMSteelPlate</li>
+               </thingDefs>
+            </filter>
+            <count>6</count>
+         </li>
+      </ingredients>
+      <products>
+         <MeatCrate>1</MeatCrate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>KMSteelPlate</li>
+            <li>SmokeleafLeaves</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>      
+-->
    <!-- =======Food_Meat======= -->
+
+   <RecipeDef>
+      <defName>MakeMeatCrate</defName>
+      <label>Processed Meat Crate (75)</label>
+      <description>Packs 75 processed meat into a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>SmeltingSpeed</workSpeedStat>
+
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>SCMeat</li>
+               </thingDefs>
+            </filter>
+            <count>75</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>KMSteelPlate</li>
+               </thingDefs>
+            </filter>
+            <count>6</count>
+         </li>
+      </ingredients>
+      <products>
+         <MeatCrate>1</MeatCrate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>KMSteelPlate</li>
+            <li>SCMeat</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+<!--
 
    <RecipeDef>
       <defName>MakeSquieerlCrate</defName>
@@ -1355,7 +1473,7 @@
    </RecipeDef>
 
 
-<!--   <RecipeDef>
+   <RecipeDef>
       <defName>MakeInsectMeatCrate</defName>
       <label>Insect Meat Crate (75)</label>
       <description>Packs 75 insect meat into a crate.</description>
@@ -1392,7 +1510,7 @@
          </thingDefs>
       </fixedIngredientFilter>
    </RecipeDef>
--->
+
 
    <RecipeDef>
       <defName>MakeCobraCrate</defName>
@@ -1703,9 +1821,6 @@
          </thingDefs>
       </fixedIngredientFilter>
    </RecipeDef>
-
-
-
-
+-->
 
 </RecipeDefs>

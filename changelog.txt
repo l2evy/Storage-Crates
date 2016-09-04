@@ -1,3 +1,12 @@
+9/4/16 1.15.1a> 1.15.2
+-Added recipe to butcher table to make Processed Meat (25 of Any Raw Meat > 25 Processed Meat)
+-Added additional crates: Processed Meat
+-Disable specific meat packing.
+*NOTICE: The current plan is to remove specific meat type crates. 
+         Please prepair any savegames by unpacking any specific meat crates
+         and merge to the new system by making and crateing the Processed Meat.
+         Any feedback on this change please post on the forum. Thanks
+
 9/1/16 1.15.1 > 1.15.1a
 -Hotfix for Force-Unpack graphic not being loaded correctly
 -Fixed a typo with a backend crate name

@@ -882,7 +882,99 @@
       </fixedIngredientFilter>
    </RecipeDef>
 
+   <!-- =======Drug Materials== -->
+<!--
+   <RecipeDef>
+      <defName>UnpackPsychoidLeavesCrate</defName>
+      <label>Un-pack Psychoid Leaves Crate (75)</label>
+      <description>Un-pack 75 Psychoid Leaves from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>PsychoidLeavesCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <PsychoidLeaves>75</PsychoidLeaves>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>PsychoidLeavesCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef> 
+
+   <RecipeDef>
+      <defName>UnpackSmokeleafLeavesCrate</defName>
+      <label>Un-pack Smokeleaf Leaves Crate (75)</label>
+      <description>Un-pack 75 Smokeleaf Leaves from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>SmokeleafLeavesCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <SmokeleafLeaves>75</Smokeleafleaves>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>SmokeleafLeavesCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>   
+-->
    <!-- =======Food_Meat======= -->
+
+   <RecipeDef>
+      <defName>UnpackMeatCrate</defName>
+      <label>Un-pack Processed Meat Crate (75)</label>
+      <description>Un-pack 75 Processed Meat from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>MeatCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <SCMeat>75</SCMeat>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>MeatCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>    
 
    <RecipeDef>
       <defName>UnpackSquieerlCrate</defName>

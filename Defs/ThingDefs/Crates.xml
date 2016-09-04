@@ -523,7 +523,68 @@
       <StoredStuffAmmount>75</StoredStuffAmmount>
    </ThingDef>
 
+        <!--   ======Drug Materials=======     -->
+
+<!--
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>PsychoidLeavesCrate</defName>
+      <label>Psychoid Leaves Crate (75)</label>
+      <statBases>
+         <MarketValue>135.0</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Drugs/WakeUpCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>PsychoidLeaves</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>SmokeleafLeavesCrate</defName>
+      <label>Smokeleaf Leaves Crate (75)</label>
+      <statBases>
+         <MarketValue>135.0</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Drugs/WakeUpCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>SmokeleafLeaves</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>      
+-->
    <!-- =======Food_Meat======= -->
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>MeatCrate</defName>
+      <label>Processed Meat Crate (75)</label>
+      <statBases>
+         <MarketValue>262.50</MarketValue>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Meat/MeatCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>Crates</li>
+      </thingCategories>
+      <StoredStuff>SCMeat</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
       <defName>EvilMeatCrate</defName>
       <label>Squirrel Meat Crate (75)</label>
