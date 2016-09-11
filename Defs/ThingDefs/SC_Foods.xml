@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef Name="SC_MealBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>50</stackLimit>
+    <tickerType>Rare</tickerType>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <alwaysHaulable>true</alwaysHaulable>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <optimalityOffset>16</optimalityOffset>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="SC_MealBase" Name="SC_MealRottable" Abstract="True">
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>4</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>    
+    </comps>
+  </ThingDef>
+
+    <ThingDef ParentName="SC_MealRottable">
+    <defName>VegMeatStew</defName>
+    <thingClass>ThingWithComps</thingClass>
+    <label>Vegetable Meat Stew</label>
+    <description>Delicious meat and veggie stew.</description>
+    <graphicData>
+      <texPath>Things/Item/Food/VegMeatStew</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <DeteriorationRate>20</DeteriorationRate>
+      <MarketValue>2.70</MarketValue>
+      <WorkToMake>50</WorkToMake>
+    </statBases>   
+    <ingestible>
+      <preferability>MealFine</preferability>
+      <nutrition>0.99</nutrition>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+</ThingDefs>  	

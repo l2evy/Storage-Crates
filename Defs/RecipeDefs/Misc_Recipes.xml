@@ -3,8 +3,8 @@
 
    <RecipeDef>
       <defName>MakeSteelPlate</defName>
-      <label>Make Steel Plates</label>
-      <description>Hammer some steel until you get a plate.</description>
+      <label>Make Steel Crate Plates</label>
+      <description>Hammer some steel until you get a plate for use with making crates.</description>
       <jobString>Hammering.</jobString>
       <workAmount>300</workAmount>
       <workSpeedStat>HammeringSpeed</workSpeedStat>

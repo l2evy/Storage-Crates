@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+
+   <RecipeDef>
+      <defName>SC_VegMeatStew</defName>
+      <label>Stew Vegetables and Meat</label>
+      <description>Combine meat and veggie cans and cook some stew.</description>
+      <jobString>Cooking vegetable meat stew.</jobString>
+      <workAmount>180</workAmount>
+      <workSpeedStat>CookSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_CookMeal</soundWorking>
+      <allowMixingIngredients>true</allowMixingIngredients>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>MeatCan</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>VeggiesCan</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>         
+      </ingredients>
+      <products>
+         <VegMeatStew>1</VegMeatStew>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>MeatCan</li>
+            <li>VeggiesCan</li>            
+         </thingDefs>
+         <exceptedThingDefs>
+            <li>VegMeatStew</li>
+         </exceptedThingDefs>
+      </fixedIngredientFilter>
+      <defaultIngredientFilter>
+         <categories>
+            <li>Foods</li>
+            <li>Manufactured</li>
+         </categories>
+      </defaultIngredientFilter>
+
+      <workSkill>Cooking</workSkill>
+      <recipeUsers>
+         <li>ElectricStove</li>
+         <li>FueledStove</li>
+      </recipeUsers>
+   </RecipeDef>
+
+      <RecipeDef>
+      <defName>SC_VegMeatStew5</defName>
+      <label>Stew Vegetables and Meat (5)</label>
+      <description>Combine 5 meat and veggie cans and cook some stew.</description>
+      <jobString>Cooking big pot of vegetable meat stew.</jobString>
+      <workAmount>650</workAmount>
+      <workSpeedStat>CookSpeed</workSpeedStat>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_CookMeal</soundWorking>
+      <allowMixingIngredients>true</allowMixingIngredients>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>MeatCan</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>VeggiesCan</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>         
+      </ingredients>
+      <products>
+         <VegMeatStew>5</VegMeatStew>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>MeatCan</li>
+            <li>VeggiesCan</li>            
+         </thingDefs>
+         <exceptedThingDefs>
+            <li>VegMeatStew</li>
+         </exceptedThingDefs>
+      </fixedIngredientFilter>
+      <defaultIngredientFilter>
+         <categories>
+            <li>Foods</li>
+            <li>Manufactured</li>
+         </categories>
+      </defaultIngredientFilter>
+
+      <workSkill>Cooking</workSkill>
+      <recipeUsers>
+         <li>ElectricStove</li>
+         <li>FueledStove</li>
+      </recipeUsers>
+   </RecipeDef>
+
+</RecipeDefs>   

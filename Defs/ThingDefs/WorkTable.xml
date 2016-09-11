@@ -65,8 +65,19 @@
          <li>MakeSynthreadCrate</li>
          <li>MakeHyperwaveCrate</li>
          <li>MakeDevilstrandCrate</li>
-         <li>MakeMeatCanCrate</li>
-         <li>MakeVeggiesCanCrate</li>
+         <li>MakeDeerLeatherCrate</li>
+         <li>MakePigLeatherCrate</li>
+         <li>MakeCowLeatherCrate</li>
+         <li>MakeTurkeyLeatherCrate</li>
+         <li>MakeAlpacaLeatherCrate</li>
+         <li>MakeElkLeatherCrate</li>
+         <li>MakeElephantLeatherCrate</li>
+         <li>MakeMegatheriumLeatherCrate</li>
+         <li>MakeTimberwolfLeatherCrate</li>
+         <li>MakeArcticwolfLeatherCrate</li>
+         <li>MakeFennecfoxLeatherCrate</li>
+         <li>MakeRedfoxLeatherCrate</li>
+         <li>MakeArcticfoxLeatherCrate</li>
       </recipes>
       <comps>
          <li Class="CompProperties_Power">
@@ -137,8 +148,19 @@
          <li>UnpackSynthreadCrate</li>
          <li>UnpackHyperwaveCrate</li>
          <li>UnpackDevilstrandCrate</li>
-         <li>UnpackMeatCanCrate</li>
-         <li>UnpackVeggiesCanCrate</li>
+         <li>UnpackDeerLeatherCrate</li>
+         <li>UnpackPigLeatherCrate</li>
+         <li>UnpackCowLeatherCrate</li>
+         <li>UnpackTurkeyLeatherCrate</li>
+         <li>UnpackAlpacaLeatherCrate</li>
+         <li>UnpackElkLeatherCrate</li>
+         <li>UnpackElephantLeatherCrate</li>
+         <li>UnpackMegatheriumLeatherCrate</li>
+         <li>UnpackTimberwolfLeatherCrate</li>
+         <li>UnpackArcticwolfLeatherCrate</li>
+         <li>UnpackFennecfoxLeatherCrate</li>
+         <li>UnpackRedfoxLeatherCrate</li>
+         <li>UnpackArcticfoxLeatherCrate</li>
       </recipes>
       <comps>
          <li Class="CompProperties_Power">
@@ -201,6 +223,8 @@
          <li>MakeRiceCrate</li>
          <li>MakeCornCrate</li>
          <li>MakeMeatCrate</li>
+         <li>MakeMeatCanCrate</li>
+         <li>MakeVeggiesCanCrate</li>
          <li>MakeSmokeleafJointCrate</li>
          <li>MakeYayoCrate</li>
          <li>MakeGoJuiceCrate</li>
@@ -208,21 +232,6 @@
          <li>MakeMalariBlockCrate</li>
          <li>MakeFlakeCrate</li>
          <li>MakeWakeUpCrate</li>         
-  <!--       <li>MakeSquieerlCrate</li>
-         <li>MakeMuffaloCrate</li>
-         <li>MakeBoomCrate</li>
-         <li>MakeHumanCrate</li>
-         <li>MakeDeerCrate</li>
-         <li>MakeIguanaCrate</li>
-         <li>MakeMegascarabCrate</li>
-         <li>MakeCobraCrate</li>
-         <li>MakeHareCrate</li>
-         <li>MakeRhinocerosCrate</li>
-         <li>MakeMonkeyCrate</li>
-         <li>MakeElkCrate</li>
-         <li>MakeDromedaryCrate</li>
-         <li>MakeAlphaBeaverCrate</li>
-         <li>MakeTurtleCrate</li> -->
       </recipes>
       <comps>
          <li Class="CompProperties_Power">
@@ -285,21 +294,8 @@
          <li>UnpackRiceCrate</li>
          <li>UnpackCornCrate</li>
          <li>UnpackMeatCrate</li>
-         <li>UnpackSquieerlCrate</li>
-         <li>UnpackMuffaloCrate</li>
-         <li>UnpackBoomratCrate</li>
-         <li>UnpackHumanCrate</li>
-         <li>UnpackDeerCrate</li>
-         <li>UnpackIguanaCrate</li>
-         <!--<li>UnpackMegascarabCrate</li>-->
-         <li>UnpackCobraCrate</li>
-         <li>UnpackHareCrate</li>
-         <li>UnpackRhinocerosCrate</li>
-         <li>UnpackMonkeyCrate</li>
-         <li>UnpackElkCrate</li>
-         <li>UnpackDromedaryCrate</li>
-         <li>UnpackAlphaBeaverCrate</li>
-         <li>UnpackTortoiseCrate</li>
+         <li>UnpackMeatCanCrate</li>
+         <li>UnpackVeggiesCanCrate</li>
          <li>UnpackSmokeleafJointCrate</li>
          <li>UnpackYayoCrate</li>
          <li>UnpackGoJuiceCrate</li>

@@ -111,10 +111,10 @@
    </RecipeDef>
 
    <RecipeDef>
-      <defName>ProcessMeat</defName>
-      <label>Process meat</label>
+      <defName>PrepairMeat</defName>
+      <label>Prepair meat</label>
       <description>Cut off excess fat and trim the meat.</description>
-      <jobString>Processing meat.</jobString>
+      <jobString>Prepairing meat.</jobString>
       <workAmount>200</workAmount>
       <workSpeedStat>ButcheryFleshSpeed</workSpeedStat>
       <effectWorking>ButcherFlesh</effectWorking>

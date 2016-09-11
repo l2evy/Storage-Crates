@@ -443,6 +443,385 @@
       </fixedIngredientFilter>
    </RecipeDef>
 
+   <!-- =======Leather/Hide====-->
+
+   <RecipeDef>
+      <defName>UnpackTurkeyLeatherCrate</defName>
+      <label>Un-pack Turkey Leather Crate (75)</label>
+      <description>Un-pack 75 Turkey Leather from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>TurkeyLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Turkey_Leather>75</Turkey_Leather>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>TurkeyLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>UnpackAlpacaLeatherCrate</defName>
+      <label>Un-pack Alpaca Hide Crate (75)</label>
+      <description>Un-pack 75 Alpaca hide from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>AlpacaLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Alpaca_Leather>75</Alpaca_Leather>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>AlpacaLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>UnpackPigLeatherCrate</defName>
+      <label>Un-pack Pig Skin Crate (75)</label>
+      <description>Un-pack 75 Pig skin from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>PigLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Pig_Leather>75</Pig_Leather>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>PigLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>UnpackCowLeatherCrate</defName>
+      <label>Un-pack Cow Skin Crate (75)</label>
+      <description>Un-pack 75 Cow skin from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>CowLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Cow_Leather>75</Cow_Leather>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>CowLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>UnpackElephantLeatherCrate</defName>
+      <label>Un-pack Elephant Skin Crate (75)</label>
+      <description>Un-pack 75 Elephant skin from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>ElephantLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Elephant_Leather>75</Elephant_Leather>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>ElephantLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>UnpackDeerLeatherCrate</defName>
+      <label>Un-pack Deer Hide Crate (75)</label>
+      <description>Un-pack 75 Deer Hide from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>DeerLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Deer_Leather>75</Deer_Leather>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>DeerLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>UnpackMegatheriumLeatherCrate</defName>
+      <label>Un-pack Megatherium Leather Crate (75)</label>
+      <description>Un-pack 75 Megatherium Leather from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>MegatheriumLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Megatherium_Leather>75</Megatherium_Leather>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>MegatheriumLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>UnpackElkLeatherCrate</defName>
+      <label>Un-pack Elk Hide Crate (75)</label>
+      <description>Un-pack 75 Elk hide from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>ElkLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Elk_Leather>75</Elk_Leather>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>ElkLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>UnpackTimberwolfLeatherCrate</defName>
+      <label>Un-pack Timberwolf Skin Crate (75)</label>
+      <description>Un-pack 75 Timberwolf skin from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>TimberwolfLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <WolfTimber_Leather>75</WolfTimber_Leather>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>TimberwolfLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>UnpackArcticwolfLeatherCrate</defName>
+      <label>Un-pack Arctic Wolf Skin Crate (75)</label>
+      <description>Un-pack 75 Arctic Wolf skins from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>ArcticwolfLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <WolfArctic_Leather>75</WolfArctic_Leather>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>ArcticwolfLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>UnpackFennecfoxLeatherCrate</defName>
+      <label>Un-pack Fennec Fox Skin Crate (75)</label>
+      <description>Un-pack 75 Fennec Fox skins from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>FennecfoxLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <FoxFennec_Leather>75</FoxFennec_Leather>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>FennecfoxLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>UnpackRedfoxLeatherCrate</defName>
+      <label>Un-pack Red Fox Skin Crate (75)</label>
+      <description>Un-pack 75 Red Fox skins from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>RedfoxLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <FoxRed_Leather>75</FoxRed_Leather>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>RedfoxLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>UnpackArcticfoxLeatherCrate</defName>
+      <label>Un-pack Arctic Fox Skin Crate (75)</label>
+      <description>Un-pack 75 Arctic Fox skins from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>ArcticfoxLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <FoxArctic_Leather>75</FoxArctic_Leather>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>ArcticfoxLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>
+
    <!-- =======Herbi======= -->
 
    <RecipeDef>
@@ -1161,36 +1540,6 @@
       </fixedIngredientFilter>
    </RecipeDef>
 
-<!--   <RecipeDef>
-      <defName>UnpackInsectMeatCrate</defName>
-      <label>Un-pack Insect meat Crate (75)</label>
-      <description>Un-pack 75 insect meat from a crate.</description>
-      <jobString>Packing heat.</jobString>
-      <workAmount>100</workAmount>
-      <workSpeedStat>PackingTime</workSpeedStat>
-
-      <effectWorking>ConstructMetal</effectWorking>
-      <ingredients>
-         <li>
-            <filter>
-               <thingDefs>
-                  <li>InsectMeatCrate</li>
-               </thingDefs>
-            </filter>
-            <count>1</count>
-         </li>
-      </ingredients>
-      <products>
-         <InsectMeat>75</InsectMeat>
-         <KMSteelPlate>6</KMSteelPlate>
-      </products>
-      <fixedIngredientFilter>
-         <thingDefs>
-            <li>InsectMeatCrate</li>
-         </thingDefs>
-      </fixedIngredientFilter>
-   </RecipeDef>
--->
    <RecipeDef>
       <defName>UnpackCobraCrate</defName>
       <label>Un-pack Cobra meat Crate (75)</label>

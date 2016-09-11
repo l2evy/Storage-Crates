@@ -1,3 +1,12 @@
+9/11/16 1.15.2 > 1.15.3
+-Removed Unpacking of Specific Meat Crates to finish migration to new meat packing method.
+-Changed name Steel Plates > Steel Crate Plates (may change the name in future)
+-Fixed Meat Cans being allowed for Vegetarian consumption.
+-Added Vegtable Meat Stew cooking recipe using meat/veg cans, two versions cook 1 or cook 5 (5 is more work efficient)
+-Added leather crates for the following: 
+Deer,Pig,Cow,Turkey,Alpaca,Elk,Elephant,Megatherium,Timberwolf,ArticWolf,FennecFox,RedFox,ArticFox
+-Added temporary placeholder texture for leather crates.
+
 9/4/16 1.15.1a> 1.15.2
 -Added recipe to butcher table to make Processed Meat (25 of Any Raw Meat > 25 Processed Meat)
 -Added additional crates: Processed Meat
