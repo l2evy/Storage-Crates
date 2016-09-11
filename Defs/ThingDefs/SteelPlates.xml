@@ -4,7 +4,7 @@
    <ThingDef>
       <defName>KMSteelPlate</defName>
       <thingClass>ThingWithComps</thingClass>
-      <label>Steel Plate</label>
+      <label>Steel Crate Plate</label>
       <description>Made with space technology of heating and hammering, almost rustless</description>
       <graphicData>
          <texPath>Things/Item/SteelPlates/SteelPlate</texPath>
