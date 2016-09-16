@@ -56,7 +56,7 @@
       <WorkToMake>50</WorkToMake>
     </statBases>
     <ingestible>
-      <preferability>RawBad</preferability>
+      <preferability>DesperateOnly</preferability>
       <nutrition>0.05</nutrition>
       <ingestEffect>EatMeat</ingestEffect>
       <ingestSound>RawMeat_Eat</ingestSound>
