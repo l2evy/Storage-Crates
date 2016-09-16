@@ -26,7 +26,7 @@
       <defName>CanCrate</defName>
       <label>Food Can crate</label>
       <statBases>
-         <MarketValue>200</MarketValue>
+         <MarketValue>260</MarketValue>
       </statBases>
 
       <graphicData>
@@ -48,7 +48,7 @@
       <defName>SteelCrate</defName>
       <label>Steel Crate(75)</label>
       <statBases>
-         <MarketValue>150</MarketValue>
+         <MarketValue>210</MarketValue>
       </statBases>
       <description>Crate containing 75 steel units</description>
       <graphicData>
@@ -70,7 +70,7 @@
       <defName>GoldCrate</defName>
       <label>Gold Crate(500)</label>
       <statBases>
-         <MarketValue>1200</MarketValue>
+         <MarketValue>1260</MarketValue>
       </statBases>
       <description>Crate containing 500 gold units</description>
       <graphicData>
@@ -90,7 +90,7 @@
       <defName>SilverCrate</defName>
       <label>Silver Crate(500)</label>
       <statBases>
-         <MarketValue>500</MarketValue>
+         <MarketValue>560</MarketValue>
       </statBases>
       <description>Crate containing 500 silver units</description>
       <graphicData>
@@ -110,7 +110,7 @@
       <defName>WoodCrate</defName>
       <label>Wood Crate(75)</label>
       <statBases>
-         <MarketValue>105</MarketValue>
+         <MarketValue>165</MarketValue>
       </statBases>
       <description>Crate containing 75 wood units</description>
       <graphicData>
@@ -130,7 +130,7 @@
       <defName>PlasteelCrate</defName>
       <label>Plasteel Crate(75)</label>
       <statBases>
-         <MarketValue>2025</MarketValue>
+         <MarketValue>2085</MarketValue>
       </statBases>
       <description>Crate containing 75 wood units</description>
       <graphicData>
@@ -151,7 +151,7 @@
       <label>Uranium Crate(80)</label>
       <!-- Due the method used to multiply count of some resources had to change uranium cout to 80, since the int32 method dont allow formulas -->
       <statBases>
-         <MarketValue>400</MarketValue>
+         <MarketValue>460</MarketValue>
       </statBases>
       <description>Crate containing 80 uranium units</description>
       <graphicData>
@@ -175,7 +175,7 @@
 
       <label>Sandstone Crate(75)</label>
       <statBases>
-         <MarketValue>142,5</MarketValue>
+         <MarketValue>202,5</MarketValue>
       </statBases>
       <description>Crate containing 75 sandstone units</description>
       <graphicData>
@@ -195,7 +195,7 @@
       <defName>GraniteCrate</defName>
       <label>Granite Crate(75)</label>
       <statBases>
-         <MarketValue>157,5</MarketValue>
+         <MarketValue>217,5</MarketValue>
       </statBases>
       <description>Crate containing 75 granite units</description>
       <graphicData>
@@ -215,7 +215,7 @@
       <defName>LimestoneCrate</defName>
       <label>Limestone Crate(75)</label>
       <statBases>
-         <MarketValue>142,5</MarketValue>
+         <MarketValue>202,5</MarketValue>
       </statBases>
       <description>Crate containing 75 limestone units</description>
       <graphicData>
@@ -235,7 +235,7 @@
       <defName>SlateCrate</defName>
       <label>Slate Crate(75)</label>
       <statBases>
-         <MarketValue>142,5</MarketValue>
+         <MarketValue>202,5</MarketValue>
       </statBases>
       <description>Crate containing 75 Slate units</description>
       <graphicData>
@@ -255,7 +255,7 @@
       <defName>MarbleCrate</defName>
       <label>Marble Crate(75)</label>
       <statBases>
-         <MarketValue>142,5</MarketValue>
+         <MarketValue>202,5</MarketValue>
       </statBases>
       <description>Crate containing 75 Marble units</description>
       <graphicData>
@@ -277,7 +277,7 @@
       <defName>BerryCrate</defName>
       <label>Berry Crate (75)</label>
       <statBases>
-         <MarketValue>157,5</MarketValue>
+         <MarketValue>217,5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Food_Herbi/BerryCrate</texPath>
@@ -296,7 +296,7 @@
       <defName>PotatoCrate</defName>
       <label>Potato Crate (75)</label>
       <statBases>
-         <MarketValue>142.5</MarketValue>
+         <MarketValue>202.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Food_Herbi/PotatoCrate</texPath>
@@ -315,7 +315,7 @@
       <defName>AgaveCrate</defName>
       <label>Agave Crate (75)</label>
       <statBases>
-         <MarketValue>157.5</MarketValue>
+         <MarketValue>217.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Food_Herbi/AgaveFruitCrate</texPath>
@@ -334,7 +334,7 @@
       <defName>HopsCrate</defName>
       <label>Hops Crate (75)</label>
       <statBases>
-         <MarketValue>157.5</MarketValue>
+         <MarketValue>217.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Food_Herbi/HopsCrate</texPath>
@@ -353,7 +353,7 @@
       <defName>CornCrate</defName>
       <label>Corn Crate (75)</label>
       <statBases>
-         <MarketValue>142.5</MarketValue>
+         <MarketValue>202.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Food_Herbi/CornCrate</texPath>
@@ -373,7 +373,7 @@
 
       <label>Rice Crate (75)</label>
       <statBases>
-         <MarketValue>142.5</MarketValue>
+         <MarketValue>202.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Food_Herbi/RiceCrate</texPath>
@@ -591,7 +591,7 @@
       <defName>ClothCrate</defName>
       <label>Cloth Crate (75)</label>
       <statBases>
-         <MarketValue>112,5</MarketValue>
+         <MarketValue>172,5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Cloth/ClothCrate</texPath>
@@ -610,7 +610,7 @@
       <defName>SynthreadCrate</defName>
       <label>Synthread Crate (75)</label>
       <statBases>
-         <MarketValue>825</MarketValue>
+         <MarketValue>885</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Cloth/SynththreadCrate</texPath>
@@ -629,7 +629,7 @@
       <defName>HyperwaveCrate</defName>
       <label>Hyperwave Crate (75)</label>
       <statBases>
-         <MarketValue>3375</MarketValue>
+         <MarketValue>3435</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Cloth/HyperwaveCrate</texPath>
@@ -648,7 +648,7 @@
       <defName>DevilstrandCrate</defName>
       <label>Devilstrand Crate (75)</label>
       <statBases>
-         <MarketValue>1200</MarketValue>
+         <MarketValue>1260</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Cloth/DevilstrandCrate</texPath>
