@@ -1,3 +1,7 @@
+9/16/16 1.15.3 > 1.15.3a
+-Fixed Processed Meat being consumed before cooked Meals (evidently RawBad prefer is better than Meal??)
+-Adjusted the remaining crate values to include the Steel Crate Plates (+60 Value)
+
 9/11/16 1.15.2 > 1.15.3
 -Removed Unpacking of Specific Meat Crates to finish migration to new meat packing method.
 -Changed name Steel Plates > Steel Crate Plates (may change the name in future)
