@@ -107,7 +107,36 @@
 	<HyperwaveCrate.label>Упаковка гиперткани (75)</HyperwaveCrate.label>
 	
 	<DevilstrandCrate.label>Упаковка дьявлоткани (75)</DevilstrandCrate.label>
-	
+
+	<!-- ========Leather/Hide======== -->
+
+	<TurkeyLeatherCrate.label>Turkey Leather Crate (75)</TurkeyLeatherCrate.label>
+
+	<AlpacaLeatherCrate.label>Alpaca Hide Crate (75)</AlpacaLeatherCrate.label>
+
+	<PigLeatherCrate.label>Pig Skin Crate (75)</PigLeatherCrate.label>
+
+	<CowLeatherCrate.label>Cow Skin Crate (75)</CowLeatherCrate.label>
+
+	<ElephantLeatherCrate.label>Elephant Skin Crate (75)</ElephantLeatherCrate.label>
+
+	<DeerLeatherCrate.label>Deer Hide Crate (75)</DeerLeatherCrate.label>
+
+	<MegatheriumLeatherCrate.label>Megatherium Leather Crate (75)</MegatheriumLeatherCrate.label>
+
+	<ElkLeatherCrate.label>Elk Leather Crate (75)</ElkLeatherCrate.label>
+
+	<TimberwolfLeatherCrate.label>Timberwolf Skin Crate (75)</TimberwolfLeatherCrate.label>
+
+	<ArticwolfLeatherCrate.label>Artic Wolf Skin Crate (75)</ArticwolfLeatherCrate.label>
+
+	<FennecfoxLeatherCrate.label>Fennec Fox Skin Crate (75)</FennecfoxLeatherCrate.label>
+
+	<RedfoxLeatherCrate.label>Red Fox Skin Crate (75)</RedfoxLeatherCrate.label>
+
+	<ArticfoxLeatherCrate.label>Artic Fox Skin Crate (75)</ArticfoxLeatherCrate.label>
+
+	<!-- =============== Cans ============ -->
 	
 	<MeatCanCrate.label>мясные консервы (75)</MeatCanCrate.label>
 	<MeatCanCrate.description>Контейнер, содержащий 75 консервных банок с мясом.</MeatCanCrate.description>
