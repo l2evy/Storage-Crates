@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<DoBillsPacking.verb>упаковщик</DoBillsPacking.verb>
+	<DoBillsPacking.gerund>упаковывает</DoBillsPacking.gerund>
+
+	<DoBillsUnPacking.verb>упаковщик</DoBillsUnPacking.verb>
+	<DoBillsUnPacking.gerund>упаковывает</DoBillsUnPacking.gerund>
+
+	<DoBillsFoodPacking.verb>упаковщик</DoBillsFoodPacking.verb>
+	<DoBillsFoodPacking.gerund>упаковывает</DoBillsFoodPacking.gerund>
+
+	<DoBillsUnFoodPacking.verb>упаковщик</DoBillsUnFoodPacking.verb>
+	<DoBillsUnFoodPacking.gerund>упаковывает</DoBillsUnFoodPacking.gerund>
+
+</LanguageData>

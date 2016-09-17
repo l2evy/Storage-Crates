@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<PackingBenchTierOne.label>верстак для упаковки ресурсов</PackingBenchTierOne.label>
+	<PackingBenchTierOne.Description>Рабочий стол, на котором ресурсы и консервы упаковывается в специальные контейнеры.</PackingBenchTierOne.Description>
+	
+	<UnpackingBenchTierOne.label>верстак для распаковки ресурсов</UnpackingBenchTierOne.label>
+	<UnpackingBenchTierOne.Description>Рабочий стол, на котором осуществляется распаковка ресурсов и консеров из герметичных контейнеров.</UnpackingBenchTierOne.Description>
+	
+	<FoodPackingBench.label>верстак для упаковки продуктов</FoodPackingBench.label>
+	<FoodPackingBench.Description>Рабочий стол, на котором осуществляется экологически чистая упаковка продуктов питания и препаратов.</FoodPackingBench.Description>
+	
+	<FoodUnPackingBench.label>верстак для распаковки продуктов</FoodUnPackingBench.label>
+	<FoodUnPackingBench.Description>Рабочий стол, на котором осуществляется распаковка продуктов питания и препаратов из герметичных контейнеров.</FoodUnPackingBench.Description>
+
+</LanguageData>

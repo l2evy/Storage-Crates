@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<EmptyCan.label>пустая консерва</EmptyCan.label>
+	<EmptyCan.description>Пустая жестяная банка, пригодная для хранения пищи.</EmptyCan.description>
+	
+	<MeatCan.label>консерва с мясом</MeatCan.label>
+	<MeatCan.description>Жестяная банка, заполненная мясом для долгого хранения.</MeatCan.description>
+	
+	<VeggiesCan.label>консерва с овощами</VeggiesCan.label>
+	<VeggiesCan.description>Жестяная банка, заполненная овощами для долгого хранения.</VeggiesCan.description>
+
+</LanguageData>

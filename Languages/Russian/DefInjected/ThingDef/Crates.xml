@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<!-- =======Materials======= -->
+	
+	<SteelCrate.label>Упаковка стали (75)</SteelCrate.label>
+	<SteelCrate.description>Контейнер, содержащий 75 слитков стали.</SteelCrate.description>
+	
+	<GoldCrate.label>Упаковка золота (500)</GoldCrate.label>
+	<GoldCrate.description>Контейнер, содержащий 500 золотых слитков.</GoldCrate.description>
+	
+	<SilverCrate.label>Упаковка серебра (500)</SilverCrate.label>
+	<SilverCrate.description>Контейнер, содержащий 500 слитков серебра.</SilverCrate.description>
+	
+	<WoodCrate.label>Упаковка дерева (75)</WoodCrate.label>
+	<WoodCrate.description>Контейнер, содержащий 75 брёвен.</WoodCrate.description>
+	
+	<PlasteelCrate.label>Упаковка пластали (75)</PlasteelCrate.label>
+	<PlasteelCrate.description>Контейнер, содержащий 75 пластали.</PlasteelCrate.description>
+	
+	<UraniumCrate.label>Упаковка урана (80)</UraniumCrate.label>
+	<UraniumCrate.description>Контейнер, содержащий 80 единиц урана.</UraniumCrate.description>
+	
+	<!-- =======Stones======= -->
+	
+	<SandStoneCrate.label>Упаковка песчаника (75)</SandStoneCrate.label>
+	<SandStoneCrate.description>Контейнер, содержащий 75 блоков песчаника.</SandStoneCrate.description>
+	
+	<GraniteCrate.label>Упаковка гранита (75)</GraniteCrate.label>
+	<GraniteCrate.description>Контейнер, содержащий 75 блоков гранита.</GraniteCrate.description>
+	
+	<LimestoneCrate.label>Упаковка известняка (75)</LimestoneCrate.label>
+	<LimestoneCrate.description>Контейнер, содержащий 75 блоков известняка.</LimestoneCrate.description>
+	
+	<SlateCrate.label>Упаковка сланца (75)</SlateCrate.label>
+	<SlateCrate.description>Контейнер, содержащий 75 блоков сланца.</SlateCrate.description>
+	
+	<MarbleCrate.label>Упаковка мрамора (75)</MarbleCrate.label>
+	<MarbleCrate.description>Контейнер, содержащий 75 мраморных блоков.</MarbleCrate.description>
+	
+	<!-- =======Food_Herbi======= -->
+	
+	<BerryCrate.label>Упаковка ягод (75)</BerryCrate.label>
+	
+	<PotatoCrate.label>Упаковка картофеля (75)</PotatoCrate.label>
+	
+	<AgaveCrate.label>Упаковка агавы (75)</AgaveCrate.label>
+	
+	<HopsCrate.label>Упаковка хмеля (75)</HopsCrate.label>
+	
+	<CornCrate.label>Упаковка кукурузы (75)</CornCrate.label>
+	
+	<RiceCrate.label>Упаковка риса (75)</RiceCrate.label>
+	
+	<!--=========Drugs==========-->
+	
+	<SmokeleafJointCrate.label>Упаковка листьев дымолиста (75)</SmokeleafJointCrate.label>
+
+	<YayoCrate.label>Упаковка порошка психина (75)</YayoCrate.label>
+	
+	<GoJuiceCrate.label>Упаковка озверина (75)</GoJuiceCrate.label>
+	
+	<LuciferiumCrate.label>Упаковка люциферия (75)</LuciferiumCrate.label>
+	
+	<MalariBlockCrate.label>Упаковка антималярина (75)</MalariBlockCrate.label>
+	
+	<FlakeCrate.label>Упаковка хлопьев психина (75)</FlakeCrate.label>
+	
+	<WakeUpCrate.label>Упаковка бодрина (75)</WakeUpCrate.label>
+	
+	<!-- =======Food_Meat======= -->
+	
+	<EvilMeatCrate.label>Упаковка с беличьим мясом (75)</EvilMeatCrate.label>
+	
+	<MuffMeatCrate.label>Упаковка с мясом муффало (75)</MuffMeatCrate.label>
+	
+	<BoomMeatCrate.label>Упаковка с мясом бумкрысы (75)</BoomMeatCrate.label>
+	
+	<NadeMeatCrate.label>Упаковка человеческого мяса (75)</NadeMeatCrate.label>
+
+	<DeerMeatCrate.label>Упаковка с олениной (75)</DeerMeatCrate.label>
+
+	<IguanaMeatCrate.label>Упаковка с мясом игуаны (75)</IguanaMeatCrate.label>
+
+	<CobraMeatCrate.label>Упаковка с мясом кобры (75)</CobraMeatCrate.label>
+	
+	<RabitMeatCrate.label>Упаковка с заячьим мясом (75)</RabitMeatCrate.label>
+	
+	<RhinoMeatCrate.label>Упаковка с мясом носорога (75)</RhinoMeatCrate.label>
+	
+	<MonkeyMeatCrate.label>Упаковка с мясом обезьяны (75)</MonkeyMeatCrate.label>
+	
+	<ElkMeatCrate.label>Упаковка с лосятиной (75)</ElkMeatCrate.label>
+	
+	<DromedaryMeatCrate.label>Упаковка с верблюжьим мясом (75)</DromedaryMeatCrate.label>
+	
+	<BeaverMeatCrate.label>Упаковка с мясом альфабобра (75)</BeaverMeatCrate.label>
+
+	<TurtleMeatCrate.label>Упаковка с черепашьим мясом (75)</TurtleMeatCrate.label>
+	
+	<!-- =======Cloth_Material======= -->
+	
+	<ClothCrate.label>Упаковка ткани (75)</ClothCrate.label>
+
+	<SynthreadCrate.label>Упаковка синткани (75)</SynthreadCrate.label>
+	
+	<HyperwaveCrate.label>Упаковка гиперткани (75)</HyperwaveCrate.label>
+	
+	<DevilstrandCrate.label>Упаковка дьявлоткани (75)</DevilstrandCrate.label>
+	
+	
+	<MeatCanCrate.label>мясные консервы (75)</MeatCanCrate.label>
+	<MeatCanCrate.description>Контейнер, содержащий 75 консервных банок с мясом.</MeatCanCrate.description>
+	
+	<VeggiesCanCrate.label>овощные консервы (75)</VeggiesCanCrate.label>
+	<VeggiesCanCrate.description>Контейнер, содержащий 75 консервных банок с овощами.</VeggiesCanCrate.description>
+
+</LanguageData>

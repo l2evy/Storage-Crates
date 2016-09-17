@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<PackMeatCan.label>законсервировать мясо</PackMeatCan.label>
+	<PackMeatCan.description>Положить некоторое количество мяса в консервную банку.</PackMeatCan.description>
+	<PackMeatCan.jobString>Консервирует мясо.</PackMeatCan.jobString>
+	
+	<PackVeggiesCan.label>законсервировать овощи</PackVeggiesCan.label>
+	<PackVeggiesCan.description>Положить некоторое количество овощей в консервную банку.</PackVeggiesCan.description>
+	<PackVeggiesCan.jobString>Консервирует овощи.</PackVeggiesCan.jobString>
+
+</LanguageData>
