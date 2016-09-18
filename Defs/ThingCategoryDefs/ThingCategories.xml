@@ -1,15 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ThingCategoryDefs>
 
+   		<ThingCategoryDef>
+      		<defName>SCCrates</defName>
+      		<label>Crates</label>
+      		<parent>Manufactured</parent>
+      		<resourceReadoutRoot>false</resourceReadoutRoot>
+      		<iconPath>UI/Icons/ThingCategories/Main</iconPath>
+   		</ThingCategoryDef>
 
-   <ThingCategoryDef>
-      <defName>Crates</defName>
-      <label>Crates</label>
-      <parent>Manufactured</parent>
-      <resourceReadoutRoot>true</resourceReadoutRoot>
-      <iconPath>Ui/Icons/ThingCategories/Manufactured</iconPath>
-   </ThingCategoryDef>
+   			<ThingCategoryDef>
+      			<defName>CratesMat</defName>
+      			<label>Materials</label>
+      			<parent>SCCrates</parent>
+      			<resourceReadoutRoot>false</resourceReadoutRoot>
+      			<iconPath>UI/Icons/ThingCategories/Mats</iconPath>
+   			</ThingCategoryDef>
 
+   			<ThingCategoryDef>
+      			<defName>CratesBlock</defName>
+      			<label>Blocks</label>
+      			<parent>SCCrates</parent>
+      			<resourceReadoutRoot>false</resourceReadoutRoot>
+      			<iconPath>UI/Icons/ThingCategories/Blocks</iconPath>
+   			</ThingCategoryDef>
 
+   			<ThingCategoryDef>
+      			<defName>CratesRGrown</defName>
+      			<label>Farm/Green</label>
+      			<parent>SCCrates</parent>
+      			<resourceReadoutRoot>false</resourceReadoutRoot>
+      			<iconPath>UI/Icons/ThingCategories/RGreen</iconPath>
+   			</ThingCategoryDef>
+
+   			<ThingCategoryDef>
+      			<defName>CratesDrug</defName>
+      			<label>Drugs</label>
+      			<parent>SCCrates</parent>
+      			<resourceReadoutRoot>false</resourceReadoutRoot>
+      			<iconPath>UI/Icons/ThingCategories/Drug</iconPath>
+   			</ThingCategoryDef>
+
+   			<ThingCategoryDef>
+      			<defName>CratesMeat</defName>
+      			<label>Meat</label>
+      			<parent>SCCrates</parent>
+      			<resourceReadoutRoot>false</resourceReadoutRoot>
+      			<iconPath>UI/Icons/ThingCategories/Meat</iconPath>
+   			</ThingCategoryDef>
+
+   			<ThingCategoryDef>
+      			<defName>CratesCText</defName>
+      			<label>Cloth</label>
+      			<parent>SCCrates</parent>
+      			<resourceReadoutRoot>false</resourceReadoutRoot>
+      			<iconPath>UI/Icons/ThingCategories/CText</iconPath>
+   			</ThingCategoryDef>
+
+   			<ThingCategoryDef>
+      			<defName>CratesLText</defName>
+      			<label>Leather/Hide</label>
+      			<parent>SCCrates</parent>
+      			<resourceReadoutRoot>false</resourceReadoutRoot>
+      			<iconPath>UI/Icons/ThingCategories/LText</iconPath>
+   			</ThingCategoryDef>
 
 </ThingCategoryDefs>
