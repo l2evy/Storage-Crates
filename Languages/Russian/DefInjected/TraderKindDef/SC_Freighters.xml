@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Orbital_SCFreighterSupply.label>торговый корабль (оптовые поставки)</Orbital_SCFreighterSupply.label>
+	<Orbital_SCFreighter.label>торговый корабль (обычные товары)</Orbital_SCFreighter.label>
+	<Orbital_SCFreighterTextSupply.label>торговый корабль (текстиль опт)</Orbital_SCFreighterTextSupply.label>
+	<Orbital_SCFreighterText.label>торговый корабль (текстиль)</Orbital_SCFreighterText.label>
+	<Orbital_CombatSupplier_SCFreighter.label>торговый корабль (снабжение)</Orbital_CombatSupplier_SCFreighter.label>
+	<Orbital_Exotic_SCFreighter.label>торговый корабль (экзотика)</Orbital_Exotic_SCFreighter.label>
+	<Orbital_PirateMerchant_SCFreighter.label>пиратский торговый корабль</Orbital_PirateMerchant_SCFreighter.label>
+
+</LanguageData>

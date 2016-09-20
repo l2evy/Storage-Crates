@@ -1,180 +1,194 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-	<UnpackSteelCrate.label>Распаковать контейнер со сталью (75)</UnpackSteelCrate.label>
+	<!-- =======Minerals======= -->
+
+	<UnpackSteelCrate.label>Открыть контейнер со сталью (75)</UnpackSteelCrate.label>
 	<UnpackSteelCrate.description>Распаковать 75 стали из контейнера.</UnpackSteelCrate.description>
 	<UnpackSteelCrate.jobString>Распаковывает.</UnpackSteelCrate.jobString>
 	
-	<UnpackSilverCrate.label>Распаковать контейнер с серебром (500)</UnpackSilverCrate.label>
+	<UnpackSilverCrate.label>Открыть контейнер с серебром (500)</UnpackSilverCrate.label>
 	<UnpackSilverCrate.description>Распаковать 500 серебряных слитков из контейнера.</UnpackSilverCrate.description>
 	<UnpackSilverCrate.jobstring>Распаковывает.</UnpackSilverCrate.jobstring>
 
-	<UnpackGoldCrate.label>Распаковать контейнер с золотом (500)</UnpackGoldCrate.label>
+	<UnpackGoldCrate.label>Открыть контейнер с золотом (500)</UnpackGoldCrate.label>
 	<UnpackGoldCrate.description>Распаковатьs 500 золотых слитков из контейнера.</UnpackGoldCrate.description>
 	<UnpackGoldCrate.jobstring>Распаковывает.</UnpackGoldCrate.jobstring>
 
-	<UnpackWoodCrate.label>Распаковать контейнер с брёвнами (75)</UnpackWoodCrate.label>
+	<UnpackWoodCrate.label>Открыть контейнер с брёвнами (75)</UnpackWoodCrate.label>
 	<UnpackWoodCrate.description>Распаковать 75 брёвен из контейнера.</UnpackWoodCrate.description>
 	<UnpackWoodCrate.jobstring>Распаковывает.</UnpackWoodCrate.jobstring>
 
-	<UnpackPlasteelCrate.label>Распаковать контейнер с пласталью (75)</UnpackPlasteelCrate.label>
+	<UnpackPlasteelCrate.label>Открыть контейнер с пласталью (75)</UnpackPlasteelCrate.label>
 	<UnpackPlasteelCrate.description>Распаковать 75 пластали из контейнера.</UnpackPlasteelCrate.description>
 	<UnpackPlasteelCrate.jobstring>Распаковывает.</UnpackPlasteelCrate.jobstring>
 
-	<UnpackUraniumCrate.label>Распаковать контейнер с ураном (80)</UnpackUraniumCrate.label>
+	<UnpackUraniumCrate.label>Открыть контейнер с ураном (80)</UnpackUraniumCrate.label>
 	<UnpackUraniumCrate.description>Распаковать 80 кусочков урана из контейнера.</UnpackUraniumCrate.description>
 	<UnpackUraniumCrate.jobstring>Распаковывает.</UnpackUraniumCrate.jobstring>
+	
+	<!-- =======Stones======= -->
 
-	<UnpackSandstoneCrate.label>Распаковать контейнер с песчаником (75)</UnpackSandstoneCrate.label>
+	<UnpackSandstoneCrate.label>Открыть контейнер с песчаником (75)</UnpackSandstoneCrate.label>
 	<UnpackSandstoneCrate.description>Распаковать 75 блоков песчаника из контейнера.</UnpackSandstoneCrate.description>
 	<UnpackSandstoneCrate.jobstring>Распаковывает.</UnpackSandstoneCrate.jobstring>
 
-	<UnpackGraniteCrate.label>Распаковать контейнер с гранитом (75)</UnpackGraniteCrate.label>
+	<UnpackGraniteCrate.label>Открыть контейнер с гранитом (75)</UnpackGraniteCrate.label>
 	<UnpackGraniteCrate.description>Распаковать 75 блоков гранита из контейнера.</UnpackGraniteCrate.description>
 	<UnpackGraniteCrate.jobstring>Распаковывает.</UnpackGraniteCrate.jobstring>
 
-	<UnpackLimestoneCrate.label>Распаковать контейнер с известняком (75)</UnpackLimestoneCrate.label>
+	<UnpackLimestoneCrate.label>Открыть контейнер с известняком (75)</UnpackLimestoneCrate.label>
 	<UnpackLimestoneCrate.description>Распаковать 75 блоков известняка из контейнера.</UnpackLimestoneCrate.description>
 	<UnpackLimestoneCrate.jobstring>Распаковывает.</UnpackLimestoneCrate.jobstring>
 
-	<UnpackSlateCrate.label>Распаковать контейнер со сланцем (75)</UnpackSlateCrate.label>
+	<UnpackSlateCrate.label>Открыть контейнер со сланцем (75)</UnpackSlateCrate.label>
 	<UnpackSlateCrate.description>Распаковать 75 блоков сланца из контейнера.</UnpackSlateCrate.description>
 	<UnpackSlateCrate.jobstring>Распаковывает.</UnpackSlateCrate.jobstring>
 
-	<UnpackMarbleCrate.label>Распаковать контейнер с мрамором (75)</UnpackMarbleCrate.label>
+	<UnpackMarbleCrate.label>Открыть контейнер с мрамором (75)</UnpackMarbleCrate.label>
 	<UnpackMarbleCrate.description>Распаковать 75 блоков мрамора из контейнера.</UnpackMarbleCrate.description>
 	<UnpackMarbleCrate.jobstring>Распаковывает.</UnpackMarbleCrate.jobstring>
+	
+	<!-- =======Cloth_Materials======= -->
 
-	<UnpackClothCrate.label>Распаковать контейнер с тканью (75)</UnpackClothCrate.label>
+	<UnpackClothCrate.label>Открыть контейнер с тканью (75)</UnpackClothCrate.label>
 	<UnpackClothCrate.description>Распаковать 75 ткани из контейнера.</UnpackClothCrate.description>
 	<UnpackClothCrate.jobstring>Распаковывает.</UnpackClothCrate.jobstring>
 
-	<UnpackSynthreadCrate.label>Распаковать контейнер с синтканью (75)</UnpackSynthreadCrate.label>
+	<UnpackSynthreadCrate.label>Открыть контейнер с синтканью (75)</UnpackSynthreadCrate.label>
 	<UnpackSynthreadCrate.description>Распаковать 75 синткани из контейнера.</UnpackSynthreadCrate.description>
 	<UnpackSynthreadCrate.jobstring>Распаковывает.</UnpackSynthreadCrate.jobstring>
 
-	<UnpackHyperwaveCrate.label>Распаковать контейнер с гипертканью (75)</UnpackHyperwaveCrate.label>
+	<UnpackHyperwaveCrate.label>Открыть контейнер с гипертканью (75)</UnpackHyperwaveCrate.label>
 	<UnpackHyperwaveCrate.description>Распаковать 75 гиперткани из контейнера.</UnpackHyperwaveCrate.description>
 	<UnpackHyperwaveCrate.jobstring>Распаковывает.</UnpackHyperwaveCrate.jobstring>
 
-	<UnpackDevilstrandCrate.label>Распаковать контейнер с дьявлотканью (75)</UnpackDevilstrandCrate.label>
+	<UnpackDevilstrandCrate.label>Открыть контейнер с дьявлотканью (75)</UnpackDevilstrandCrate.label>
 	<UnpackDevilstrandCrate.description>Распаковать 75 дьявлоткани из контейнера.</UnpackDevilstrandCrate.description>
 	<UnpackDevilstrandCrate.jobstring>Распаковывает.</UnpackDevilstrandCrate.jobstring>
+	
+	<!-- =======Leather/Hide====-->
+	
+	<UnpackTurkeyLeatherCrate.label>Открыть контейнер со шкурами индеек (75)</UnpackTurkeyLeatherCrate.label>
+	<UnpackTurkeyLeatherCrate.description>Распаковать 75 шкур индеек из контейнера.</UnpackTurkeyLeatherCrate.description>
+	<UnpackTurkeyLeatherCrate.jobstring>Распаковывает.</UnpackTurkeyLeatherCrate.jobstring>
 
-	<UnpackPotatoCrate.label>Распаковать контейнер с картофелем (75)</UnpackPotatoCrate.label>
+	<UnpackAlpacaLeatherCrate.label>Открыть контейнер со шкурами альпак (75)</UnpackAlpacaLeatherCrate.label>
+	<UnpackAlpacaLeatherCrate.description>Распаковать 75 шкур альпак из контейнера.</UnpackAlpacaLeatherCrate.description>
+	<UnpackAlpacaLeatherCrate.jobstring>Распаковывает.</UnpackAlpacaLeatherCrate.jobstring>
+
+	<UnpackPigLeatherCrate.label>Открыть контейнер со свиными кожами (75)</UnpackPigLeatherCrate.label>
+	<UnpackPigLeatherCrate.description>Распаковать 75 свиных кож из контейнера.</UnpackPigLeatherCrate.description>
+	<UnpackPigLeatherCrate.jobstring>Распаковывает.</UnpackPigLeatherCrate.jobstring>
+
+	<UnpackCowLeatherCrate.label>Открыть контейнер с коровьими шкурами (75)</UnpackCowLeatherCrate.label>
+	<UnpackCowLeatherCrate.description>Распаковать 75 коровьих шкур из контейнера.</UnpackCowLeatherCrate.description>
+	<UnpackCowLeatherCrate.jobstring>Распаковывает.</UnpackCowLeatherCrate.jobstring>
+
+	<UnpackElephantLeatherCrate.label>Открыть контейнер со слоновьими шкурами (75)</UnpackElephantLeatherCrate.label>
+	<UnpackElephantLeatherCrate.description>Распаковать 75 слоновьих шкура из контейнера.</UnpackElephantLeatherCrate.description>
+	<UnpackElephantLeatherCrate.jobstring>Распаковывает.</UnpackElephantLeatherCrate.jobstring>
+
+	<UnpackDeerLeatherCrate.label>Открыть контейнер с оленьими шкурами (75)</UnpackDeerLeatherCrate.label>
+	<UnpackDeerLeatherCrate.description>Распаковать 75 оленьих шкур из контейнера.</UnpackDeerLeatherCrate.description>
+	<UnpackDeerLeatherCrate.jobstring>Распаковывает.</UnpackDeerLeatherCrate.jobstring>
+
+	<UnpackMegatheriumLeatherCrate.label>Открыть контейнер со шкурами ленивцев (75)</UnpackMegatheriumLeatherCrate.label>
+	<UnpackMegatheriumLeatherCrate.description>Распаковать 75 шкур ленивцев из контейнера.</UnpackMegatheriumLeatherCrate.description>
+	<UnpackMegatheriumLeatherCrate.jobstring>Распаковывает.</UnpackMegatheriumLeatherCrate.jobstring>
+
+	<UnpackElkLeatherCrate.label>Открыть контейнер с лосиными шкурами (75)</UnpackElkLeatherCrate.label>
+	<UnpackElkLeatherCrate.description>Распаковать 75 лосиных шкур из контейнера.</UnpackElkLeatherCrate.description>
+	<UnpackElkLeatherCrate.jobstring>Распаковывает.</UnpackElkLeatherCrate.jobstring>
+
+	<UnpackTimberwolfLeatherCrate.label>Открыть контейнер с волчьими шкурами (75)</UnpackTimberwolfLeatherCrate.label>
+	<UnpackTimberwolfLeatherCrate.description>Распаковать 75 волчьих шкур из контейнера.</UnpackTimberwolfLeatherCrate.description>
+	<UnpackTimberwolfLeatherCrate.jobstring>Распаковывает.</UnpackTimberwolfLeatherCrate.jobstring>
+
+	<UnpackArcticwolfLeatherCrate.label>Открыть контейнер со шкурами полярных волков (75)</UnpackArcticwolfLeatherCrate.label>
+	<UnpackArcticwolfLeatherCrate.description>Распаковать 75 шкур полярных волков из контейнера.</UnpackArcticwolfLeatherCrate.description>
+	<UnpackArcticwolfLeatherCrate.jobstring>Распаковывает.</UnpackArcticwolfLeatherCrate.jobstring>
+
+	<UnpackFennecfoxLeatherCrate.label>Открыть контейнер со шкурами африканских лисиц (75)</UnpackFennecfoxLeatherCrate.label>
+	<UnpackFennecfoxLeatherCrate.description>Распаковать 75 шкур африканских лисиц из контейнера.</UnpackFennecfoxLeatherCrate.description>
+	<UnpackFennecfoxLeatherCrate.jobstring>Распаковывает.</UnpackFennecfoxLeatherCrate.jobstring>
+
+	<UnpackRedfoxLeatherCrate.label>Открыть контейнер со шкурами рыжих лисиц (75)</UnpackRedfoxLeatherCrate.label>
+	<UnpackRedfoxLeatherCrate.description>Распаковать 75 шкур рыжих лисиц из контейнера.</UnpackRedfoxLeatherCrate.description>
+	<UnpackRedfoxLeatherCrate.jobstring>Распаковывает.</UnpackRedfoxLeatherCrate.jobstring>
+
+	<UnpackArcticfoxLeatherCrate.label>Открыть контейнер со шкурами полярных лисиц (75)</UnpackArcticfoxLeatherCrate.label>
+	<UnpackArcticfoxLeatherCrate.description>Распаковать 75 шкур полярных лисиц из контейнера.</UnpackArcticfoxLeatherCrate.description>
+	<UnpackArcticfoxLeatherCrate.jobstring>Распаковывает.</UnpackArcticfoxLeatherCrate.jobstring>
+	
+	<!-- =======Herbi======= -->
+
+	<UnpackPotatoCrate.label>Открыть контейнер с картофелем (75)</UnpackPotatoCrate.label>
 	<UnpackPotatoCrate.description>Распаковать 75 картофеля из контейнера.</UnpackPotatoCrate.description>
 	<UnpackPotatoCrate.jobstring>Распаковывает.</UnpackPotatoCrate.jobstring>
 
-	<UnpackBerryCrate.label>Распаковать контейнер с ягодами (75)</UnpackBerryCrate.label>
+	<UnpackBerryCrate.label>Открыть контейнер с ягодами (75)</UnpackBerryCrate.label>
 	<UnpackBerryCrate.description>Распаковать 75 ягод из контейнера.</UnpackBerryCrate.description>
 	<UnpackBerryCrate.jobstring>Распаковывает.</UnpackBerryCrate.jobstring>
 
-	<UnpackAgaveCrate.label>Распаковать контейнер с агавой (75)</UnpackAgaveCrate.label>
+	<UnpackAgaveCrate.label>Открыть контейнер с агавой (75)</UnpackAgaveCrate.label>
 	<UnpackAgaveCrate.description>Распаковать 75 плодов агавы из контейнера.</UnpackAgaveCrate.description>
 	<UnpackAgaveCrate.jobstring>Распаковывает.</UnpackAgaveCrate.jobstring>
 
-	<UnpackHopsCrate.label>Распаковать контейнер с хмелем (75)</UnpackHopsCrate.label>
+	<UnpackHopsCrate.label>Открыть контейнер с хмелем (75)</UnpackHopsCrate.label>
 	<UnpackHopsCrate.description>Распаковать 75 хмеля из контейнера.</UnpackHopsCrate.description>
 	<UnpackHopsCrate.jobstring>Распаковывает.</UnpackHopsCrate.jobstring>
 
-	<UnpackRiceCrate.label>Распаковать контейнер с рисом (75)</UnpackRiceCrate.label>
+	<UnpackRiceCrate.label>Открыть контейнер с рисом (75)</UnpackRiceCrate.label>
 	<UnpackRiceCrate.description>Распаковать 75 риса из контейнера.</UnpackRiceCrate.description>
 	<UnpackRiceCrate.jobstring>Распаковывает.</UnpackRiceCrate.jobstring>
 
-	<UnpackCornCrate.label>Распаковать контейнер с кукурузой (75)</UnpackCornCrate.label>
+	<UnpackCornCrate.label>Открыть контейнер с кукурузой (75)</UnpackCornCrate.label>
 	<UnpackCornCrate.description>Распаковать 75 кукурузы из контейнера.</UnpackCornCrate.description>
 	<UnpackCornCrate.jobstring>Распаковывает.</UnpackCornCrate.jobstring>
 
-	<UnpackMeatCanCrate.label>Распаковать контейнер с мясными консервами (75)</UnpackMeatCanCrate.label>
+	<UnpackMeatCanCrate.label>Открыть контейнер с мясными консервами (75)</UnpackMeatCanCrate.label>
 	<UnpackMeatCanCrate.description>Распаковать 75 мясных консервов из контейнера.</UnpackMeatCanCrate.description>
-	<UnpackMeatCanCrate.jobstring>Unpacking cans.</UnpackMeatCanCrate.jobstring>
+	<UnpackMeatCanCrate.jobstring>Распаковывает консервы.</UnpackMeatCanCrate.jobstring>
 
-	<UnpackVeggiesCanCrate.label>Распаковать контейнер с овощными консервами (75)</UnpackVeggiesCanCrate.label>
+	<UnpackVeggiesCanCrate.label>Открыть контейнер с овощными консервами (75)</UnpackVeggiesCanCrate.label>
 	<UnpackVeggiesCanCrate.description>Распаковать 75 овощных консервов из контейнера.</UnpackVeggiesCanCrate.description>
 	<UnpackVeggiesCanCrate.jobstring>Распаковывает.</UnpackVeggiesCanCrate.jobstring>
+	
+	<!-- =======Drugs=========== -->
 
-	<UnpackSmokeleafJointCrate.label>Распаковать контейнер с листьями дымолиста (75)</UnpackSmokeleafJointCrate.label>
+	<UnpackSmokeleafJointCrate.label>Открыть контейнер с листьями дымолиста (75)</UnpackSmokeleafJointCrate.label>
 	<UnpackSmokeleafJointCrate.description>Распаковать 75 листьев дымолиста из контейнера.</UnpackSmokeleafJointCrate.description>
 	<UnpackSmokeleafJointCrate.jobstring>Распаковывает.</UnpackSmokeleafJointCrate.jobstring>
 
-	<UnpackYayoCrate.label>Распаковать контейнер с порошком психина (75)</UnpackYayoCrate.label>
+	<UnpackYayoCrate.label>Открыть контейнер с порошком психина (75)</UnpackYayoCrate.label>
 	<UnpackYayoCrate.description>Распаковать 75 порошка психина из контейнера.</UnpackYayoCrate.description>
 	<UnpackYayoCrate.jobstring>Распаковывает.</UnpackYayoCrate.jobstring>
 
-	<UnpackGoJuiceCrate.label>Распаковать контейнер с озверином (75)</UnpackGoJuiceCrate.label>
+	<UnpackGoJuiceCrate.label>Открыть контейнер с озверином (75)</UnpackGoJuiceCrate.label>
 	<UnpackGoJuiceCrate.description>Распаковать 75 озверина из контейнера.</UnpackGoJuiceCrate.description>
 	<UnpackGoJuiceCrate.jobstring>Распаковывает.</UnpackGoJuiceCrate.jobstring>
 
-	<UnpackLuciferiumCrate.label>Распаковать контейнер с люциферием (75)</UnpackLuciferiumCrate.label>
+	<UnpackLuciferiumCrate.label>Открыть контейнер с люциферием (75)</UnpackLuciferiumCrate.label>
 	<UnpackLuciferiumCrate.description>Распаковать 75 таблеток люциферия из контейнера.</UnpackLuciferiumCrate.description>
 	<UnpackLuciferiumCrate.jobstring>Распаковывает.</UnpackLuciferiumCrate.jobstring>
 
-	<UnpackMalariBlockCrate.label>Распаковать контейнер с антималярином (75)</UnpackMalariBlockCrate.label>
+	<UnpackMalariBlockCrate.label>Открыть контейнер с антималярином (75)</UnpackMalariBlockCrate.label>
 	<UnpackMalariBlockCrate.description>Распаковать 75 таблеток антималярина из контейнера.</UnpackMalariBlockCrate.description>
 	<UnpackMalariBlockCrate.jobstring>Распаковывает.</UnpackMalariBlockCrate.jobstring>
 
-	<UnpackFlakeCrate.label>Распаковать контейнер с хлопьями психина (75)</UnpackFlakeCrate.label>
+	<UnpackFlakeCrate.label>Открыть контейнер с хлопьями психина (75)</UnpackFlakeCrate.label>
 	<UnpackFlakeCrate.description>Распаковать 75 хлопьев психина из контейнера.</UnpackFlakeCrate.description>
 	<UnpackFlakeCrate.jobstring>Распаковывает.</UnpackFlakeCrate.jobstring>
 
-	<UnpackWakeUpCrate.label>Распаковать контейнер с бодрином (75)</UnpackWakeUpCrate.label>
+	<UnpackWakeUpCrate.label>Открыть контейнер с бодрином (75)</UnpackWakeUpCrate.label>
 	<UnpackWakeUpCrate.description>Распаковать 75 бодрина из контейнера.</UnpackWakeUpCrate.description>
 	<UnpackWakeUpCrate.jobstring>Распаковывает.</UnpackWakeUpCrate.jobstring>
-
-	<UnpackSquieerlCrate.label>Распаковать контейнер с беличьим мясом (75)</UnpackSquieerlCrate.label>
-	<UnpackSquieerlCrate.description>Распаковать 75 ед. беличьего мяса из контейнера.</UnpackSquieerlCrate.description>
-	<UnpackSquieerlCrate.jobstring>Распаковывает.</UnpackSquieerlCrate.jobstring>
-
-	<UnpackMuffaloCrate.label>Распаковать контейнер с мясом муффало (75)</UnpackMuffaloCrate.label>
-	<UnpackMuffaloCrate.description>Распаковать 75 ед. мяса муффало из контейнера.</UnpackMuffaloCrate.description>
-	<UnpackMuffaloCrate.jobstring>Распаковывает.</UnpackMuffaloCrate.jobstring>
-
-	<UnpackBoomratCrate.label>Распаковать контейнер с мясом бумкрысы (75)</UnpackBoomratCrate.label>
-	<UnpackBoomratCrate.description>Распаковать 75 ед. мяса бумкрысы из контейнера.</UnpackBoomratCrate.description>
-	<UnpackBoomratCrate.jobstring>Распаковывает.</UnpackBoomratCrate.jobstring>
-
-	<UnpackHumanCrate.label>Распаковать контейнер с человеческим мясом (75)</UnpackHumanCrate.label>
-	<UnpackHumanCrate.description>Распаковать 75 человеческого мяса из контейнера.</UnpackHumanCrate.description>
-	<UnpackHumanCrate.jobstring>Распаковывает.</UnpackHumanCrate.jobstring>
-
-	<UnpackDeerCrate.label>Распаковать контейнер с олениной (75)</UnpackDeerCrate.label>
-	<UnpackDeerCrate.description>Распаковать 75 ед. оленины из контейнера.</UnpackDeerCrate.description>
-	<UnpackDeerCrate.jobstring>Распаковывает.</UnpackDeerCrate.jobstring>
-
-	<UnpackIguanaCrate.label>Распаковать контейнер с мясом игуаны (75)</UnpackIguanaCrate.label>
-	<UnpackIguanaCrate.description>Распаковать 75 ед. мяса игуаны из контейнера.</UnpackIguanaCrate.description>
-	<UnpackIguanaCrate.jobstring>Распаковывает.</UnpackIguanaCrate.jobstring>
-
-	<UnpackCobraCrate.label>Распаковать контейнер с мясом кобры (75)</UnpackCobraCrate.label>
-	<UnpackCobraCrate.description>Распаковать 75 ед. мяса кобры из контейнера.</UnpackCobraCrate.description>
-	<UnpackCobraCrate.jobstring>Распаковывает.</UnpackCobraCrate.jobstring>
-
-	<UnpackHareCrate.label>Распаковать контейнер с заячьим мясом (75)</UnpackHareCrate.label>
-	<UnpackHareCrate.description>Распаковать 75 ед. заячьего мяса из контейнера.</UnpackHareCrate.description>
-	<UnpackHareCrate.jobstring>Распаковывает.</UnpackHareCrate.jobstring>
-
-	<UnpackRhinocerosCrate.label>Распаковать контейнер с мясом носорога (75)</UnpackRhinocerosCrate.label>
-	<UnpackRhinocerosCrate.description>Распаковать 75 ед. мяса носорога из контейнера.</UnpackRhinocerosCrate.description>
-	<UnpackRhinocerosCrate.jobstring>Распаковывает.</UnpackRhinocerosCrate.jobstring>
-
-	<UnpackMonkeyCrate.label>Распаковать контейнер с мясом обезьяны (75)</UnpackMonkeyCrate.label>
-	<UnpackMonkeyCrate.description>Распаковать 75 ед. мяса обезьяны из контейнера.</UnpackMonkeyCrate.description>
-	<UnpackMonkeyCrate.jobstring>Распаковывает.</UnpackMonkeyCrate.jobstring>
-
-	<UnpackElkCrate.label>Распаковать контейнер с лосятиной (75)</UnpackElkCrate.label>
-	<UnpackElkCrate.description>Распаковать 75 ед. лосятины из контейнера.</UnpackElkCrate.description>
-	<UnpackElkCrate.jobstring>Распаковывает.</UnpackElkCrate.jobstring>
-
-	<UnpackDromedaryCrate.label>Распаковать контейнер с верблюжьим мясом (75)</UnpackDromedaryCrate.label>
-	<UnpackDromedaryCrate.description>Распаковать 75 ед. верблюжьего мяса из контейнера.</UnpackDromedaryCrate.description>
-	<UnpackDromedaryCrate.jobstring>Распаковывает.</UnpackDromedaryCrate.jobstring>
-
-	<UnpackAlphaBeaverCrate.label>Распаковать контейнер с мясом альфабобра (75)</UnpackAlphaBeaverCrate.label>
-	<UnpackAlphaBeaverCrate.description>Распаковать 75 ед. мяса альфабобра из контейнера.</UnpackAlphaBeaverCrate.description>
-	<UnpackAlphaBeaverCrate.jobstring>Распаковывает.</UnpackAlphaBeaverCrate.jobstring>
-
-	<UnpackTortoiseCrate.label>Распаковать контейнер с мясом черепахи (75)</UnpackTortoiseCrate.label>
-	<UnpackTortoiseCrate.description>Распаковать 75 ед. черепашьего мяса из контейнера.</UnpackTortoiseCrate.description>
-	<UnpackTortoiseCrate.jobstring>Распаковывает.</UnpackTortoiseCrate.jobstring>
+	
+	<!-- =======Food_Meat======= -->
+	
+	<UnpackMeatCrate.label>Открыть контейнер с мясным фаршем (75)</UnpackMeatCrate.label>
+	<UnpackMeatCrate.description>Распаковать 75 мясного фарша из контейнера.</UnpackMeatCrate.description>
+	<UnpackMeatCrate.jobstring>Распаковывает.</UnpackMeatCrate.jobstring>
 
 </LanguageData>

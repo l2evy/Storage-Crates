@@ -67,6 +67,60 @@
 	<MakeDevilstrandCrate.description>Упаковать 75 дьявлоткани в контейнер.</MakeDevilstrandCrate.description>
 	<MakeDevilstrandCrate.jobString>Упаковывает.</MakeDevilstrandCrate.jobString>
 	
+	<!-- =======Leather/Hide====-->
+	
+	<MakeTurkeyLeatherCrate.label>Упаковать шкуры индеек (75)</MakeTurkeyLeatherCrate.label>
+	<MakeTurkeyLeatherCrate.description>Упаковать 75 шкур индеек в контейнер.</MakeTurkeyLeatherCrate.description>
+	<MakeTurkeyLeatherCrate.jobstring>Упаковывает.</MakeTurkeyLeatherCrate.jobstring>
+
+	<MakeAlpacaLeatherCrate.label>Упаковать шкуры альпак (75)</MakeAlpacaLeatherCrate.label>
+	<MakeAlpacaLeatherCrate.description>Упаковать 75 шкур альпак в контейнер.</MakeAlpacaLeatherCrate.description>
+	<MakeAlpacaLeatherCrate.jobstring>Упаковывает.</MakeAlpacaLeatherCrate.jobstring>
+
+	<MakePigLeatherCrate.label>Упаковать свиные шкуры (75)</MakePigLeatherCrate.label>
+	<MakePigLeatherCrate.description>Упаковать 75 свиных шкур в контейнер.</MakePigLeatherCrate.description>
+	<MakePigLeatherCrate.jobstring>Упаковывает.</MakePigLeatherCrate.jobstring>
+
+	<MakeCowLeatherCrate.label>Упаковать коровьи шкуры (75)</MakeCowLeatherCrate.label>
+	<MakeCowLeatherCrate.description>Упаковать 75 коровьих шкур в контейнер.</MakeCowLeatherCrate.description>
+	<MakeCowLeatherCrate.jobstring>Упаковывает.</MakeCowLeatherCrate.jobstring>
+
+	<MakeElephantLeatherCrate.label>Упаковать слоновьи шкуры (75)</MakeElephantLeatherCrate.label>
+	<MakeElephantLeatherCrate.description>Упаковать 75 слоновьих шкур в контейнер.</MakeElephantLeatherCrate.description>
+	<MakeElephantLeatherCrate.jobstring>Упаковывает.</MakeElephantLeatherCrate.jobstring>
+
+	<MakeDeerLeatherCrate.label>Упаковать оленьи шкуры (75)</MakeDeerLeatherCrate.label>
+	<MakeDeerLeatherCrate.description>Упаковать 75 оленьих шкур в контейнер.</MakeDeerLeatherCrate.description>
+	<MakeDeerLeatherCrate.jobstring>Упаковывает.</MakeDeerLeatherCrate.jobstring>
+
+	<MakeMegatheriumLeatherCrate.label>Упаковать шкуры ленивцев (75)</MakeMegatheriumLeatherCrate.label>
+	<MakeMegatheriumLeatherCrate.description>Упаковать 75 шкур ленивцев в контейнер.</MakeMegatheriumLeatherCrate.description>
+	<MakeMegatheriumLeatherCrate.jobstring>Упаковывает.</MakeMegatheriumLeatherCrate.jobstring>
+
+	<MakeElkLeatherCrate.label>Упаковать лосиные шкуры (75)</MakeElkLeatherCrate.label>
+	<MakeElkLeatherCrate.description>Упаковать 75 лосиных шкур в контейнер.</MakeElkLeatherCrate.description>
+	<MakeElkLeatherCrate.jobstring>Упаковывает.</MakeElkLeatherCrate.jobstring>
+
+	<MakeTimberwolfLeatherCrate.label>Упаковать волчьи шкуры (75)</MakeTimberwolfLeatherCrate.label>
+	<MakeTimberwolfLeatherCrate.description>Упаковать 75 волчьих шкур в контейнер.</MakeTimberwolfLeatherCrate.description>
+	<MakeTimberwolfLeatherCrate.jobstring>Упаковывает.</MakeTimberwolfLeatherCrate.jobstring>
+
+	<MakeArcticwolfLeatherCrate.label>Упаковать шкуры полярных волков (75)</MakeArcticwolfLeatherCrate.label>
+	<MakeArcticwolfLeatherCrate.description>Упаковать 75 шкур полярных волков в контейнер.</MakeArcticwolfLeatherCrate.description>
+	<MakeArcticwolfLeatherCrate.jobstring>Упаковывает.</MakeArcticwolfLeatherCrate.jobstring>
+
+	<MakeFennecfoxLeatherCrate.label>Упаковать шкуры африканских лисиц (75)</MakeFennecfoxLeatherCrate.label>
+	<MakeFennecfoxLeatherCrate.description>Упаковать 75 шкур африканских лисиц в контейнер.</MakeFennecfoxLeatherCrate.description>
+	<MakeFennecfoxLeatherCrate.jobstring>Упаковывает.</MakeFennecfoxLeatherCrate.jobstring>
+
+	<MakeRedfoxLeatherCrate.label>Упаковать шкуры рыжих лисиц (75)</MakeRedfoxLeatherCrate.label>
+	<MakeRedfoxLeatherCrate.description>Упаковать 75 шкур рыжих лисиц в контейнер.</MakeRedfoxLeatherCrate.description>
+	<MakeRedfoxLeatherCrate.jobstring>Упаковывает.</MakeRedfoxLeatherCrate.jobstring>
+
+	<MakeArcticfoxLeatherCrate.label>Упаковать шкуры полярных лисиц (75)</MakeArcticfoxLeatherCrate.label>
+	<MakeArcticfoxLeatherCrate.description>Упаковать 75 шкур полярных лисиц в контейнер.</MakeArcticfoxLeatherCrate.description>
+	<MakeArcticfoxLeatherCrate.jobstring>Упаковывает.</MakeArcticfoxLeatherCrate.jobstring>
+	
 	<!-- =======Herbi======= -->
 	
 	<MakePotatoCrate.label>Упаковать картофель (75)</MakePotatoCrate.label>
@@ -131,62 +185,20 @@
 	<MakeWakeUpCrate.description>Упаковать 75 бодрина в контейнер.</MakeWakeUpCrate.description>
 	<MakeWakeUpCrate.jobstring>Упаковывает.</MakeWakeUpCrate.jobstring>
 	
+	<!-- =======Drug Material Packing====== -->
+	
+	<MakePsychoidLeavesCrate.label>Упаковать листья психита (75)</MakePsychoidLeavesCrate.label>
+	<MakePsychoidLeavesCrate.description>Упаковать 75 листьев психита в контейнер.</MakePsychoidLeavesCrate.description>
+	<MakePsychoidLeavesCrate.jobstring>Упаковывает.</MakePsychoidLeavesCrate.jobstring>
+
+	<MakeSmokeleafLeavesCrate.label>Упаковать листья дымолиста (75)</MakeSmokeleafLeavesCrate.label>
+	<MakeSmokeleafLeavesCrate.description>Упаковать 75 листьев дымолиста в контейнер.</MakeSmokeleafLeavesCrate.description>
+	<MakeSmokeleafLeavesCrate.jobstring>Упаковывает.</MakeSmokeleafLeavesCrate.jobstring>
+	
 	<!-- =======Food_Meat======= -->
 	
-	<MakeSquieerlCrate.label>Упаковать беличье мясо (75)</MakeSquieerlCrate.label>
-	<MakeSquieerlCrate.description>Упаковать 75 ед. беличьего мяса в контейнер.</MakeSquieerlCrate.description>
-	<MakeSquieerlCrate.jobstring>Упаковывает.</MakeSquieerlCrate.jobstring>
-
-	<MakeMuffaloCrate.label>Упаковать мясо муффало (75)</MakeMuffaloCrate.label>
-	<MakeMuffaloCrate.description>Упаковать 75 ед. мяса муффало в контейнер.</MakeMuffaloCrate.description>
-	<MakeMuffaloCrate.jobstring>Упаковывает.</MakeMuffaloCrate.jobstring>
-
-	<MakeBoomCrate.label>Упаковать мясо бумкрысы (75)</MakeBoomCrate.label>
-	<MakeBoomCrate.description>Упаковать 75 ед. мяса бумкрысы в контейнер.</MakeBoomCrate.description>
-	<MakeBoomCrate.jobstring>Упаковывает.</MakeBoomCrate.jobstring>
-
-	<MakeHumanCrate.label>Упаковать человечье мясо (75)</MakeHumanCrate.label>
-	<MakeHumanCrate.description>Упаковать 75 ед. человечьего мяса в контейнер.</MakeHumanCrate.description>
-	<MakeHumanCrate.jobstring>Упаковывает.</MakeHumanCrate.jobstring>
-
-	<MakeDeerCrate.label>Упаковать оленину (75)</MakeDeerCrate.label>
-	<MakeDeerCrate.description>Упаковать 75 ед. оленины в контейнер.</MakeDeerCrate.description>
-	<MakeDeerCrate.jobstring>Упаковывает.</MakeDeerCrate.jobstring>
-
-	<MakeIguanaCrate.label>Упаковать мясо игуаны (75)</MakeIguanaCrate.label>
-	<MakeIguanaCrate.description>Упаковать 75 ед. мяса игуаны в контейнер.</MakeIguanaCrate.description>
-	<MakeIguanaCrate.jobstring>Упаковывает.</MakeIguanaCrate.jobstring>
-	
-	<MakeCobraCrate.label>Упаковать мясо кобры (75)</MakeCobraCrate.label>
-	<MakeCobraCrate.description>Упаковать 75 ед. мяса кобры в контейнер.</MakeCobraCrate.description>
-	<MakeCobraCrate.jobstring>Упаковывает.</MakeCobraCrate.jobstring>
-
-	<MakeHareCrate.label>Упаковать заячье мясо (75)</MakeHareCrate.label>
-	<MakeHareCrate.description>Упаковать 75 ед. заячьего мяса в контейнер.</MakeHareCrate.description>
-	<MakeHareCrate.jobstring>Упаковывает.</MakeHareCrate.jobstring>
-
-	<MakeRhinocerosCrate.label>Упаковать мясо носорога (75)</MakeRhinocerosCrate.label>
-	<MakeRhinocerosCrate.description>Упаковать 75 ед. мяса носорога в контейнер.</MakeRhinocerosCrate.description>
-	<MakeRhinocerosCrate.jobstring>Упаковывает.</MakeRhinocerosCrate.jobstring>
-
-	<MakeMonkeyCrate.label>Упаковать мясо обезьяны (75)</MakeMonkeyCrate.label>
-	<MakeMonkeyCrate.description>Упаковать 75 ед. обезьяньего мяса в контейнер.</MakeMonkeyCrate.description>
-	<MakeMonkeyCrate.jobstring>Упаковывает.</MakeMonkeyCrate.jobstring>
-
-	<MakeElkCrate.label>Упаковать лосятину (75)</MakeElkCrate.label>
-	<MakeElkCrate.description>Упаковать 75 ед. лосятины в контейнер.</MakeElkCrate.description>
-	<MakeElkCrate.jobstring>Упаковывает.</MakeElkCrate.jobstring>
-
-	<MakeDromedaryCrate.label>Упаковать верблюжье мясо (75)</MakeDromedaryCrate.label>
-	<MakeDromedaryCrate.description>Упаковать 75 ед. верблюжьего мяса в контейнер.</MakeDromedaryCrate.description>
-	<MakeDromedaryCrate.jobstring>Упаковывает.</MakeDromedaryCrate.jobstring>
-
-	<MakeAlphaBeaverCrate.label>Упаковать мясо альфабобра (75)</MakeAlphaBeaverCrate.label>
-	<MakeAlphaBeaverCrate.description>Упаковать 75 ед. мяса альфабобра в контейнер.</MakeAlphaBeaverCrate.description>
-	<MakeAlphaBeaverCrate.jobstring>Упаковывает.</MakeAlphaBeaverCrate.jobstring>
-
-	<MakeTurtleCrate.label>Упаковать черепашье мясо (75)</MakeTurtleCrate.label>
-	<MakeTurtleCrate.description>Упаковать 75 ед. черепашьего мяса в контейнер.</MakeTurtleCrate.description>
-	<MakeTurtleCrate.jobstring>Упаковывает.</MakeTurtleCrate.jobstring>
+	<MakeMeatCrate.label>Упаковать мясной фарш (75)</MakeMeatCrate.label>
+	<MakeMeatCrate.description>Упаковать 75 мясного фарша в контейнер.</MakeMeatCrate.description>
+	<MakeMeatCrate.jobstring>Упаковывает.</MakeMeatCrate.jobstring>
 
 </LanguageData>

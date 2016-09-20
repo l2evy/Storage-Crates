@@ -8,5 +8,9 @@
 	<PackVeggiesCan.label>законсервировать овощи</PackVeggiesCan.label>
 	<PackVeggiesCan.description>Положить некоторое количество овощей в консервную банку.</PackVeggiesCan.description>
 	<PackVeggiesCan.jobString>Консервирует овощи.</PackVeggiesCan.jobString>
+	
+	<PrepairMeat.label>приготовить мясо</PrepairMeat.label>
+	<PrepairMeat.description>Убрать лишний жир и перекрутить мясо в фарш.</PrepairMeat.description>
+	<PrepairMeat.jobstring>Делает фарш из мяса.</PrepairMeat.jobstring>
 
 </LanguageData>

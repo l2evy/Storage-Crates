@@ -70,33 +70,7 @@
 	
 	<!-- =======Food_Meat======= -->
 	
-	<EvilMeatCrate.label>Упаковка с беличьим мясом (75)</EvilMeatCrate.label>
-	
-	<MuffMeatCrate.label>Упаковка с мясом муффало (75)</MuffMeatCrate.label>
-	
-	<BoomMeatCrate.label>Упаковка с мясом бумкрысы (75)</BoomMeatCrate.label>
-	
-	<NadeMeatCrate.label>Упаковка человеческого мяса (75)</NadeMeatCrate.label>
-
-	<DeerMeatCrate.label>Упаковка с олениной (75)</DeerMeatCrate.label>
-
-	<IguanaMeatCrate.label>Упаковка с мясом игуаны (75)</IguanaMeatCrate.label>
-
-	<CobraMeatCrate.label>Упаковка с мясом кобры (75)</CobraMeatCrate.label>
-	
-	<RabitMeatCrate.label>Упаковка с заячьим мясом (75)</RabitMeatCrate.label>
-	
-	<RhinoMeatCrate.label>Упаковка с мясом носорога (75)</RhinoMeatCrate.label>
-	
-	<MonkeyMeatCrate.label>Упаковка с мясом обезьяны (75)</MonkeyMeatCrate.label>
-	
-	<ElkMeatCrate.label>Упаковка с лосятиной (75)</ElkMeatCrate.label>
-	
-	<DromedaryMeatCrate.label>Упаковка с верблюжьим мясом (75)</DromedaryMeatCrate.label>
-	
-	<BeaverMeatCrate.label>Упаковка с мясом альфабобра (75)</BeaverMeatCrate.label>
-
-	<TurtleMeatCrate.label>Упаковка с черепашьим мясом (75)</TurtleMeatCrate.label>
+	<MeatCrate.label>Упаковка мясного фарша (75)</MeatCrate.label>
 	
 	<!-- =======Cloth_Material======= -->
 	
@@ -128,13 +102,13 @@
 
 	<TimberwolfLeatherCrate.label>Упаковка волчьих шкур (75)</TimberwolfLeatherCrate.label>
 
-	<ArticwolfLeatherCrate.label>Упаковка шкур полярных волков (75)</ArticwolfLeatherCrate.label>
+	<ArcticwolfLeatherCrate.label>Упаковка шкур полярных волков (75)</ArcticwolfLeatherCrate.label>
 
 	<FennecfoxLeatherCrate.label>Упаковка шкур африканских лисиц (75)</FennecfoxLeatherCrate.label>
 
 	<RedfoxLeatherCrate.label>Упаковка шкур рыжих лисиц (75)</RedfoxLeatherCrate.label>
 
-	<ArticfoxLeatherCrate.label>Упаковка шкур полярных лисиц (75)</ArticfoxLeatherCrate.label>
+	<ArcticfoxLeatherCrate.label>Упаковка шкур полярных лисиц (75)</ArcticfoxLeatherCrate.label>
 
 	<!-- =============== Cans ============ -->
 	
