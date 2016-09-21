@@ -1,3 +1,10 @@
+9/18/16 1.15.3a> 1.15.4
+-Added various types of Freighters (Regular and Supply) for selling/buying crates (may need/get more balance)
+-Added temporary icons for the resource menu in the top left 
+-Changed crate groups and parrent groups for better organized top left resource menu
+-Added visual damage to the packing benches
+-Changed packing benches to be moveable/uninstall/install so you can move them around
+
 9/16/16 1.15.3 > 1.15.3a
 -Fixed Processed Meat being consumed before cooked Meals (evidently RawBad prefer is better than Meal??)
 -Adjusted the remaining crate values to include the Steel Crate Plates (+60 Value)
