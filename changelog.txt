@@ -1,4 +1,4 @@
-9/18/16 1.15.3a> 1.15.4
+9/21/16 1.15.3a> 1.15.4
 -Added various types of Freighters (Regular and Supply) for selling/buying crates (may need/get more balance)
 -Added temporary icons for the resource menu in the top left 
 -Changed crate groups and parrent groups for better organized top left resource menu
