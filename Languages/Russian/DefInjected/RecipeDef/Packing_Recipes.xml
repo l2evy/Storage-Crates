@@ -187,8 +187,8 @@
 	
 	<!-- =======Drug Material Packing====== -->
 	
-	<MakePsychoidLeavesCrate.label>Упаковать листья психита (75)</MakePsychoidLeavesCrate.label>
-	<MakePsychoidLeavesCrate.description>Упаковать 75 листьев психита в контейнер.</MakePsychoidLeavesCrate.description>
+	<MakePsychoidLeavesCrate.label>Упаковать листья психолиста (75)</MakePsychoidLeavesCrate.label>
+	<MakePsychoidLeavesCrate.description>Упаковать 75 листьев психолиста в контейнер.</MakePsychoidLeavesCrate.description>
 	<MakePsychoidLeavesCrate.jobstring>Упаковывает.</MakePsychoidLeavesCrate.jobstring>
 
 	<MakeSmokeleafLeavesCrate.label>Упаковать листья дымолиста (75)</MakeSmokeleafLeavesCrate.label>
