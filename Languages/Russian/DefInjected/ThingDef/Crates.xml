@@ -60,7 +60,7 @@
 	
 	<GoJuiceCrate.label>Упаковка озверина (75)</GoJuiceCrate.label>
 	
-	<LuciferiumCrate.label>Упаковка люциферия (75)</LuciferiumCrate.label>
+	<LuciferiumCrate.label>Упаковка сатанина (75)</LuciferiumCrate.label>
 	
 	<MalariBlockCrate.label>Упаковка антималярина (75)</MalariBlockCrate.label>
 	
@@ -84,9 +84,9 @@
 
 	<!-- ========Leather/Hide======== -->
 
-	<TurkeyLeatherCrate.label>Упаковка шкур индейки (75)</TurkeyLeatherCrate.label>
+	<TurkeyLeatherCrate.label>Упаковка шкур индеек (75)</TurkeyLeatherCrate.label>
 
-	<AlpacaLeatherCrate.label>Упаковка шкур альпаки (75)</AlpacaLeatherCrate.label>
+	<AlpacaLeatherCrate.label>Упаковка шкур альпака (75)</AlpacaLeatherCrate.label>
 
 	<PigLeatherCrate.label>Упаковка свиных кож (75)</PigLeatherCrate.label>
 
@@ -96,7 +96,7 @@
 
 	<DeerLeatherCrate.label>Упаковка оленьих шкур (75)</DeerLeatherCrate.label>
 
-	<MegatheriumLeatherCrate.label>Упаковка кож ленивца (75)</MegatheriumLeatherCrate.label>
+	<MegatheriumLeatherCrate.label>Упаковка шкур ленивца (75)</MegatheriumLeatherCrate.label>
 
 	<ElkLeatherCrate.label>Упаковка беличьих шкурок (75)</ElkLeatherCrate.label>
 
@@ -104,11 +104,11 @@
 
 	<ArcticwolfLeatherCrate.label>Упаковка шкур полярных волков (75)</ArcticwolfLeatherCrate.label>
 
-	<FennecfoxLeatherCrate.label>Упаковка шкур африканских лисиц (75)</FennecfoxLeatherCrate.label>
+	<FennecfoxLeatherCrate.label>Упаковка шкур фенеков (75)</FennecfoxLeatherCrate.label>
 
 	<RedfoxLeatherCrate.label>Упаковка шкур рыжих лисиц (75)</RedfoxLeatherCrate.label>
 
-	<ArcticfoxLeatherCrate.label>Упаковка шкур полярных лисиц (75)</ArcticfoxLeatherCrate.label>
+	<ArcticfoxLeatherCrate.label>Упаковка шкур песцов (75)</ArcticfoxLeatherCrate.label>
 
 	<!-- =============== Cans ============ -->
 	

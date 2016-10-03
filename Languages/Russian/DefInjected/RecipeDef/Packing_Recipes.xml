@@ -73,8 +73,8 @@
 	<MakeTurkeyLeatherCrate.description>Упаковать 75 шкур индеек в контейнер.</MakeTurkeyLeatherCrate.description>
 	<MakeTurkeyLeatherCrate.jobstring>Упаковывает.</MakeTurkeyLeatherCrate.jobstring>
 
-	<MakeAlpacaLeatherCrate.label>Упаковать шкуры альпак (75)</MakeAlpacaLeatherCrate.label>
-	<MakeAlpacaLeatherCrate.description>Упаковать 75 шкур альпак в контейнер.</MakeAlpacaLeatherCrate.description>
+	<MakeAlpacaLeatherCrate.label>Упаковать шкуры альпака (75)</MakeAlpacaLeatherCrate.label>
+	<MakeAlpacaLeatherCrate.description>Упаковать 75 шкур альпака в контейнер.</MakeAlpacaLeatherCrate.description>
 	<MakeAlpacaLeatherCrate.jobstring>Упаковывает.</MakeAlpacaLeatherCrate.jobstring>
 
 	<MakePigLeatherCrate.label>Упаковать свиные шкуры (75)</MakePigLeatherCrate.label>
@@ -109,16 +109,16 @@
 	<MakeArcticwolfLeatherCrate.description>Упаковать 75 шкур полярных волков в контейнер.</MakeArcticwolfLeatherCrate.description>
 	<MakeArcticwolfLeatherCrate.jobstring>Упаковывает.</MakeArcticwolfLeatherCrate.jobstring>
 
-	<MakeFennecfoxLeatherCrate.label>Упаковать шкуры африканских лисиц (75)</MakeFennecfoxLeatherCrate.label>
-	<MakeFennecfoxLeatherCrate.description>Упаковать 75 шкур африканских лисиц в контейнер.</MakeFennecfoxLeatherCrate.description>
+	<MakeFennecfoxLeatherCrate.label>Упаковать шкуры фенеков (75)</MakeFennecfoxLeatherCrate.label>
+	<MakeFennecfoxLeatherCrate.description>Упаковать 75 шкур фенеков в контейнер.</MakeFennecfoxLeatherCrate.description>
 	<MakeFennecfoxLeatherCrate.jobstring>Упаковывает.</MakeFennecfoxLeatherCrate.jobstring>
 
 	<MakeRedfoxLeatherCrate.label>Упаковать шкуры рыжих лисиц (75)</MakeRedfoxLeatherCrate.label>
 	<MakeRedfoxLeatherCrate.description>Упаковать 75 шкур рыжих лисиц в контейнер.</MakeRedfoxLeatherCrate.description>
 	<MakeRedfoxLeatherCrate.jobstring>Упаковывает.</MakeRedfoxLeatherCrate.jobstring>
 
-	<MakeArcticfoxLeatherCrate.label>Упаковать шкуры полярных лисиц (75)</MakeArcticfoxLeatherCrate.label>
-	<MakeArcticfoxLeatherCrate.description>Упаковать 75 шкур полярных лисиц в контейнер.</MakeArcticfoxLeatherCrate.description>
+	<MakeArcticfoxLeatherCrate.label>Упаковать шкуры песцов (75)</MakeArcticfoxLeatherCrate.label>
+	<MakeArcticfoxLeatherCrate.description>Упаковать 75 шкур песцов в контейнер.</MakeArcticfoxLeatherCrate.description>
 	<MakeArcticfoxLeatherCrate.jobstring>Упаковывает.</MakeArcticfoxLeatherCrate.jobstring>
 	
 	<!-- =======Herbi======= -->
