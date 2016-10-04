@@ -105,20 +105,20 @@
 	<UnpackTimberwolfLeatherCrate.description>Распаковать 75 волчьих шкур из контейнера.</UnpackTimberwolfLeatherCrate.description>
 	<UnpackTimberwolfLeatherCrate.jobstring>Распаковывает.</UnpackTimberwolfLeatherCrate.jobstring>
 
-	<UnpackArcticwolfLeatherCrate.label>Распаковать шкуры полярных волков (75)</UnpackArcticwolfLeatherCrate.label>
-	<UnpackArcticwolfLeatherCrate.description>Распаковать 75 шкур полярных волков из контейнера.</UnpackArcticwolfLeatherCrate.description>
+	<UnpackArcticwolfLeatherCrate.label>Распаковать снеговолчьи шкуры (75)</UnpackArcticwolfLeatherCrate.label>
+	<UnpackArcticwolfLeatherCrate.description>Распаковать 75 снеговолчьих шкур из контейнера.</UnpackArcticwolfLeatherCrate.description>
 	<UnpackArcticwolfLeatherCrate.jobstring>Распаковывает.</UnpackArcticwolfLeatherCrate.jobstring>
 
 	<UnpackFennecfoxLeatherCrate.label>Распаковать шкуры фенеков (75)</UnpackFennecfoxLeatherCrate.label>
 	<UnpackFennecfoxLeatherCrate.description>Распаковать 75 шкур фенеков из контейнера.</UnpackFennecfoxLeatherCrate.description>
 	<UnpackFennecfoxLeatherCrate.jobstring>Распаковывает.</UnpackFennecfoxLeatherCrate.jobstring>
 
-	<UnpackRedfoxLeatherCrate.label>Распаковать шкуры рыжих лисиц (75)</UnpackRedfoxLeatherCrate.label>
-	<UnpackRedfoxLeatherCrate.description>Распаковать 75 шкур рыжих лисиц из контейнера.</UnpackRedfoxLeatherCrate.description>
+	<UnpackRedfoxLeatherCrate.label>Распаковать лисьи шкуры (75)</UnpackRedfoxLeatherCrate.label>
+	<UnpackRedfoxLeatherCrate.description>Распаковать 75 лисьих шкур из контейнера.</UnpackRedfoxLeatherCrate.description>
 	<UnpackRedfoxLeatherCrate.jobstring>Распаковывает.</UnpackRedfoxLeatherCrate.jobstring>
 
-	<UnpackArcticfoxLeatherCrate.label>Распаковать шкуры песцов (75)</UnpackArcticfoxLeatherCrate.label>
-	<UnpackArcticfoxLeatherCrate.description>Распаковать 75 шкур песцов из контейнера.</UnpackArcticfoxLeatherCrate.description>
+	<UnpackArcticfoxLeatherCrate.label>Распаковать песцовые шкуры (75)</UnpackArcticfoxLeatherCrate.label>
+	<UnpackArcticfoxLeatherCrate.description>Распаковать 75 песцовых шкур из контейнера.</UnpackArcticfoxLeatherCrate.description>
 	<UnpackArcticfoxLeatherCrate.jobstring>Распаковывает.</UnpackArcticfoxLeatherCrate.jobstring>
 	
 	<!-- =======Herbi======= -->
