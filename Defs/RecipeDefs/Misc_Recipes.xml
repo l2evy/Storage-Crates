@@ -34,6 +34,38 @@
    </RecipeDef>
 
    <RecipeDef>
+      <defName>BreakdownSteelPlate</defName>
+      <label>Breakdown Steel Crate Plates</label>
+      <description>Melt the crate plates back into steel.</description>
+      <jobString>Hammering.</jobString>
+      <workAmount>300</workAmount>
+      <workSpeedStat>HammeringSpeed</workSpeedStat>
+      <efficiencyStat>HammeringEfficiency</efficiencyStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>KMSteelPlate</li>
+               </thingDefs>
+            </filter>
+            <count>5</count>
+         </li>
+      </ingredients>
+      <products>
+         <Steel>3</Steel>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>KMSteelPlate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <recipeUsers>
+         <li>TableMachining</li>
+      </recipeUsers>
+   </RecipeDef>
+
+   <RecipeDef>
       <defName>MakeSteelCan</defName>
       <label>Make Steel Can</label>
       <description>Turn steel plates into cans.</description>
