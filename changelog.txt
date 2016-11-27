@@ -1,4 +1,4 @@
-11/X/2016 1.15.4 > 1.15.4a
+11/27/2016 1.15.4 > 1.15.4a
 -More ongoing updates to RU language support (thanks so much to Bugo, all their work 100%)
 -Fixed market value typo ( from , to . and thanks to Vincent on steam comments for the find)
 -Adjusted Freighter cargo values from Expensive to Normal to balance prices a little more
