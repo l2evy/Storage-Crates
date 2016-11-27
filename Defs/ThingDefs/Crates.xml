@@ -176,7 +176,7 @@
 
       <label>Sandstone Crate(75)</label>
       <statBases>
-         <MarketValue>202,5</MarketValue>
+         <MarketValue>202.5</MarketValue>
       </statBases>
       <description>Crate containing 75 sandstone units</description>
       <graphicData>
@@ -196,7 +196,7 @@
       <defName>GraniteCrate</defName>
       <label>Granite Crate(75)</label>
       <statBases>
-         <MarketValue>217,5</MarketValue>
+         <MarketValue>217.5</MarketValue>
       </statBases>
       <description>Crate containing 75 granite units</description>
       <graphicData>
@@ -216,7 +216,7 @@
       <defName>LimestoneCrate</defName>
       <label>Limestone Crate(75)</label>
       <statBases>
-         <MarketValue>202,5</MarketValue>
+         <MarketValue>202.5</MarketValue>
       </statBases>
       <description>Crate containing 75 limestone units</description>
       <graphicData>
@@ -236,7 +236,7 @@
       <defName>SlateCrate</defName>
       <label>Slate Crate(75)</label>
       <statBases>
-         <MarketValue>202,5</MarketValue>
+         <MarketValue>202.5</MarketValue>
       </statBases>
       <description>Crate containing 75 Slate units</description>
       <graphicData>
@@ -256,7 +256,7 @@
       <defName>MarbleCrate</defName>
       <label>Marble Crate(75)</label>
       <statBases>
-         <MarketValue>202,5</MarketValue>
+         <MarketValue>202.5</MarketValue>
       </statBases>
       <description>Crate containing 75 Marble units</description>
       <graphicData>
@@ -278,7 +278,7 @@
       <defName>BerryCrate</defName>
       <label>Berry Crate (75)</label>
       <statBases>
-         <MarketValue>217,5</MarketValue>
+         <MarketValue>217.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Food_Herbi/BerryCrate</texPath>
@@ -592,7 +592,7 @@
       <defName>ClothCrate</defName>
       <label>Cloth Crate (75)</label>
       <statBases>
-         <MarketValue>172,5</MarketValue>
+         <MarketValue>172.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Cloth/ClothCrate</texPath>
@@ -670,7 +670,7 @@
       <defName>TurkeyLeatherCrate</defName>
       <label>Turkey Leather Crate (75)</label>
       <statBases>
-         <MarketValue>292,5</MarketValue>
+         <MarketValue>292.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -689,7 +689,7 @@
       <defName>AlpacaLeatherCrate</defName>
       <label>Alpaca Hide Crate (75)</label>
       <statBases>
-         <MarketValue>292,5</MarketValue>
+         <MarketValue>292.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -708,7 +708,7 @@
       <defName>PigLeatherCrate</defName>
       <label>Pig Skin Crate (75)</label>
       <statBases>
-         <MarketValue>292,5</MarketValue>
+         <MarketValue>292.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -727,7 +727,7 @@
       <defName>CowLeatherCrate</defName>
       <label>Cow Skin Crate (75)</label>
       <statBases>
-         <MarketValue>292,5</MarketValue>
+         <MarketValue>292.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -746,7 +746,7 @@
       <defName>ElephantLeatherCrate</defName>
       <label>Elephant Skin Crate (75)</label>
       <statBases>
-         <MarketValue>292,5</MarketValue>
+         <MarketValue>292.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -765,7 +765,7 @@
       <defName>DeerLeatherCrate</defName>
       <label>Deer Hide Crate (75)</label>
       <statBases>
-         <MarketValue>292,5</MarketValue>
+         <MarketValue>292.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -784,7 +784,7 @@
       <defName>MegatheriumLeatherCrate</defName>
       <label>Megatherium Leather Crate (75)</label>
       <statBases>
-         <MarketValue>292,5</MarketValue>
+         <MarketValue>292.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -803,7 +803,7 @@
       <defName>ElkLeatherCrate</defName>
       <label>Elk Leather Crate (75)</label>
       <statBases>
-         <MarketValue>292,5</MarketValue>
+         <MarketValue>292.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -822,7 +822,7 @@
       <defName>TimberwolfLeatherCrate</defName>
       <label>Timberwolf Skin Crate (75)</label>
       <statBases>
-         <MarketValue>292,5</MarketValue>
+         <MarketValue>292.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -841,7 +841,7 @@
       <defName>ArcticwolfLeatherCrate</defName>
       <label>Arctic Wolf Skin Crate (75)</label>
       <statBases>
-         <MarketValue>292,5</MarketValue>
+         <MarketValue>292.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -860,7 +860,7 @@
       <defName>FennecfoxLeatherCrate</defName>
       <label>Fennec Fox Skin Crate (75)</label>
       <statBases>
-         <MarketValue>292,5</MarketValue>
+         <MarketValue>292.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -879,7 +879,7 @@
       <defName>RedfoxLeatherCrate</defName>
       <label>Red Fox Skin Crate (75)</label>
       <statBases>
-         <MarketValue>292,5</MarketValue>
+         <MarketValue>292.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -898,7 +898,7 @@
       <defName>ArcticfoxLeatherCrate</defName>
       <label>Arctic Fox Skin Crate (75)</label>
       <statBases>
-         <MarketValue>292,5</MarketValue>
+         <MarketValue>292.5</MarketValue>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
