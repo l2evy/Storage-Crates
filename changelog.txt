@@ -3,7 +3,7 @@
 -Fixed market value typo ( from , to . and thanks to Vincent on steam comments for the find)
 -Adjusted Freighter cargo values from Expensive to Normal to balance prices a little more
 	(Few reports came in that prices was too high, too easy to make tons of money, thanks for the feedback!)
--Steel Crate Plate Breakdown 15-20% loss -Added Steel Crate Plate breakdown recipe @ 10% loss
+-Added Steel Crate Plate breakdown recipe @ 0% loss for now
 -Rename Packing/Unpacking Benches for better clarification (Names subject to further change)
 	Basic Packing Bench > Packing Bench
 	Basic Unpacking bench > Unpacking Bench
