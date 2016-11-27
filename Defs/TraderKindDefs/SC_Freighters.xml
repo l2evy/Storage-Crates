@@ -273,7 +273,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Component</thingDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <countRange>
           <min>1</min>
           <max>12</max>
@@ -281,7 +281,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Steel</thingDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <countRange>
           <min>48</min>
           <max>222</max>
@@ -289,7 +289,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>WoodLog</thingDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <countRange>
           <min>10</min>
           <max>111</max>
@@ -297,7 +297,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Plasteel</thingDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <countRange>
           <min>1</min>
           <max>40</max>
@@ -305,7 +305,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Cloth</thingDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <countRange>
           <min>-200</min>
           <max>111</max>
@@ -325,7 +325,7 @@
           <min>1</min>
           <max>2</max>
         </thingDefCountRange>
-        <price>Expensive</price>
+        <price>Normal</price>
         <totalPriceRange>
           <min>2200</min>
           <max>4000</max>
@@ -333,7 +333,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>ResourcesRaw</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>2</min>
           <max>4</max>
@@ -345,7 +345,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>FoodRaw</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>2</min>
           <max>8</max>
@@ -357,7 +357,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>FoodMeals</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>1</min>
           <max>2</max>
@@ -369,7 +369,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Neutroamine</thingDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <countRange>
           <min>2</min>
           <max>70</max>
@@ -377,7 +377,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chocolate</thingDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <totalPriceRange>
           <min>-700</min>
           <max>36</max>
@@ -385,7 +385,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Beer</thingDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <totalPriceRange>
           <min>-700</min>
           <max>111</max>
@@ -393,7 +393,7 @@
       </li>      
       <li Class="StockGenerator_SingleDef">
         <thingDef>Medicine</thingDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <countRange>
           <min>10</min>
           <max>30</max>
@@ -401,7 +401,7 @@
       </li>
       <li Class="StockGenerator_Tag">
         <tradeTag>Furniture</tradeTag>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>0</min>
           <max>12</max>
@@ -416,7 +416,7 @@
         <tradeTags>
           <li>StandardAnimal</li>
         </tradeTags>
-        <price>Expensive</price>
+        <price>Normal</price>
         <kindCountRange>
           <min>2</min>
           <max>4</max>
@@ -431,11 +431,11 @@
           <min>10</min>
           <max>20</max>
         </countRange>
-        <price>Expensive</price>
+        <price>Normal</price>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>Drugs</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>2</min>
           <max>4</max>
@@ -455,7 +455,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesMat</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>2</min>
           <max>4</max>
@@ -467,7 +467,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesBlock</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>1</min>
           <max>4</max>
@@ -479,7 +479,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesCText</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>2</min>
           <max>6</max>
@@ -491,7 +491,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesLText</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>1</min>
           <max>3</max>
@@ -503,7 +503,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesRGrown</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>2</min>
           <max>6</max>
@@ -515,7 +515,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesMeat</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>0</min>
           <max>1</max>
@@ -578,7 +578,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Medicine</thingDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <countRange>
           <min>10</min>
           <max>30</max>
@@ -617,7 +617,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesRGrown</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>-20</min>
           <max>-10</max>
@@ -625,7 +625,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesMeat</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>-20</min>
           <max>-10</max>
@@ -656,7 +656,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Cloth</thingDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <countRange>
           <min>10</min>
           <max>300</max>
@@ -676,7 +676,7 @@
           <min>1</min>
           <max>2</max>
         </thingDefCountRange>
-        <price>Expensive</price>
+        <price>Normal</price>
         <totalPriceRange>
           <min>500</min>
           <max>1500</max>
@@ -684,7 +684,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Medicine</thingDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <countRange>
           <min>10</min>
           <max>30</max>
@@ -695,11 +695,11 @@
           <min>10</min>
           <max>20</max>
         </countRange>
-        <price>Expensive</price>
+        <price>Normal</price>
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesCText</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>-20</min>
           <max>-10</max>
@@ -711,7 +711,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesLText</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>-20</min>
           <max>-10</max>
@@ -723,7 +723,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesRGrown</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>-20</min>
           <max>-10</max>
@@ -731,7 +731,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesMeat</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>-20</min>
           <max>-10</max>
@@ -820,7 +820,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesMeat</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>-10</min>
           <max>-5</max>
@@ -828,7 +828,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesRGrown</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>-10</min>
           <max>-5</max>
@@ -836,7 +836,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesDrug</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>-20</min>
           <max>-10</max>
@@ -1011,7 +1011,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesMeat</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>-20</min>
           <max>-10</max>
@@ -1019,7 +1019,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesRGrown</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>-20</min>
           <max>-10</max>
@@ -1096,7 +1096,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Medicine</thingDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <countRange>
           <min>5</min>
           <max>15</max>
@@ -1166,7 +1166,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesMeat</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>-20</min>
           <max>-10</max>
@@ -1174,7 +1174,7 @@
       </li>
       <li Class="StockGenerator_Category">
         <categoryDef>CratesRGrown</categoryDef>
-        <price>Expensive</price>
+        <price>Normal</price>
         <thingDefCountRange>
           <min>-20</min>
           <max>-10</max>
