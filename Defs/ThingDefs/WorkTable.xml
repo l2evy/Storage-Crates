@@ -17,7 +17,7 @@
 
    <ThingDef ParentName="BuildingBase">
       <DefName>PackingBenchTierOne</DefName>
-      <label>Basic Packing Bench</label>
+      <label>Packing Bench</label>
       <ThingClass>KompressionMod.PackingBenchTierOne</ThingClass>
       <Description>A workbench where you can cut your meal with plasma torch or pack a crate.</Description>
       <graphicData>
@@ -106,7 +106,7 @@
 
    <ThingDef ParentName="BuildingBase">
       <DefName>UnpackingBenchTierOne</DefName>
-      <label>Basic Unpacking Bench</label>
+      <label>Unpacking Bench</label>
       <ThingClass>KompressionMod.PackingBenchTierOne</ThingClass>
       <Description>A workbench where you can package items into a environment friendly crate.</Description>
       <graphicData>
@@ -195,7 +195,7 @@
 
    <ThingDef ParentName="BuildingBase">
       <DefName>FoodPackingBench</DefName>
-      <label>Basic Food Packing Bench</label>
+      <label>Consumables Packing Bench</label>
       <ThingClass>KompressionMod.FoodBench</ThingClass>
       <Description>Pack the food in the environment friendly crate.</Description>
       <graphicData>
@@ -272,7 +272,7 @@
 
    <ThingDef ParentName="BuildingBase">
       <DefName>FoodUnPackingBench</DefName>
-      <label>Basic Food Unpacking Bench</label>
+      <label>Consumeables Unpacking Bench</label>
       <ThingClass>KompressionMod.FoodBench</ThingClass>
       <Description>Unpack the food from the environment friendly crate.</Description>
       <graphicData>
