@@ -795,9 +795,9 @@
    </RecipeDef>   
 
    <RecipeDef>
-      <defName>MakeMegatheriumLeatherCrate</defName>
-      <label>Megatherium Leather Crate (75)</label>
-      <description>Packs 75 Megatherium Leather into a crate.</description>
+      <defName>MakeMegaslothLeatherCrate</defName>
+      <label>Megasloth Leather Crate (75)</label>
+      <description>Packs 75 Megasloth Leather into a crate.</description>
       <jobString>Packing heat.</jobString>
       <workAmount>100</workAmount>
       <workSpeedStat>SmeltingSpeed</workSpeedStat>
@@ -807,7 +807,7 @@
          <li>
             <filter>
                <thingDefs>
-                  <li>Megatherium_Leather</li>
+                  <li>Megasloth_Leather</li>
                </thingDefs>
             </filter>
             <count>75</count>
@@ -822,12 +822,12 @@
          </li>
       </ingredients>
       <products>
-         <MegatheriumLeatherCrate>1</MegatheriumLeatherCrate>
+         <MegaslothLeatherCrate>1</MegaslothLeatherCrate>
       </products>
       <fixedIngredientFilter>
          <thingDefs>
             <li>KMSteelPlate</li>
-            <li>Megatherium_Leather</li>
+            <li>Megasloth_Leather</li>
          </thingDefs>
       </fixedIngredientFilter>
    </RecipeDef>   
@@ -1360,6 +1360,45 @@
       </fixedIngredientFilter>
    </RecipeDef>
 
+   <!-- ======Weapons======== -->
+
+   <RecipeDef>
+      <defName>MakeMortarshellCrate</defName>
+      <label>Mortar Shell Crate (25)</label>
+      <description>Packs 25 Mortar Shells into a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>SmeltingSpeed</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>MortarShell</li>
+               </thingDefs>
+            </filter>
+            <count>25</count>
+         </li>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>KMSteelPlate</li>
+               </thingDefs>
+            </filter>
+            <count>6</count>
+         </li>
+      </ingredients>
+      <products>
+         <MortarshellCrate>1</MortarshellCrate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>KMSteelPlate</li>
+            <li>MortarShell</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>   
+
    <!-- =======_Drugs_======= -->
 
    <RecipeDef>
@@ -1511,9 +1550,9 @@
    </RecipeDef>
 
    <RecipeDef>
-      <defName>MakeMalariBlockCrate</defName>
-      <label>Malari-Block Crate (75)</label>
-      <description>Packs 75 Malari-Block into a crate.</description>
+      <defName>MakePenoxycylineCrate</defName>
+      <label>Penoxycyline Crate (75)</label>
+      <description>Packs 75 Penoxycyline into a crate.</description>
       <jobString>Packing heat.</jobString>
       <workAmount>100</workAmount>
       <workSpeedStat>SmeltingSpeed</workSpeedStat>
@@ -1522,7 +1561,7 @@
          <li>
             <filter>
                <thingDefs>
-                  <li>MalariBlock</li>
+                  <li>Penoxycyline</li>
                </thingDefs>
             </filter>
             <count>75</count>
@@ -1537,12 +1576,12 @@
          </li>
       </ingredients>
       <products>
-         <MalariBlockCrate>1</MalariBlockCrate>
+         <PenoxycylineCrate>1</PenoxycylineCrate>
       </products>
       <fixedIngredientFilter>
          <thingDefs>
             <li>KMSteelPlate</li>
-            <li>MalariBlock</li>
+            <li>Penoxycyline</li>
          </thingDefs>
       </fixedIngredientFilter>
    </RecipeDef>
