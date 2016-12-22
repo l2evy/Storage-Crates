@@ -1,3 +1,18 @@
+12/22/2016 1.15.4a> 1.16.0
+-Updated for Alpha 16
+-Added weight values to Crates and the Steel Crate Plates (total weight of all 75 items + steel crate plates used in production)
+-Added Mortar Shell Crate (only 25 per crate cause they are heavy!)
+-Adjusted prices for drug crates to match the Alpha 16 drug price changes
+-Renamed Megatherium Leather Crate to Megasloth Leather Crate
+***-I would like to thank the following people for helping me update compatibility for Alpha 16
+mrofa
+NotFood
+Fluffy
+erdelf
+Dingo
+Zhentar
+***-I would also like to thank the rimworld modding scene and modding discord in general!
+
 11/27/2016 1.15.4 > 1.15.4a
 -More ongoing updates to RU language support (thanks so much to Bugo, all their work 100%)
 -Fixed market value typo ( from , to . and thanks to Vincent on steam comments for the find)
