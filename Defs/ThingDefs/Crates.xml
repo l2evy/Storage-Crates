@@ -27,6 +27,7 @@
       <label>Food Can crate</label>
       <statBases>
          <MarketValue>260</MarketValue>
+         <Mass>77</Mass>
       </statBases>
 
       <graphicData>
@@ -49,6 +50,7 @@
       <label>Steel Crate(75)</label>
       <statBases>
          <MarketValue>210</MarketValue>
+         <Mass>39.5</Mass>
       </statBases>
       <description>Crate containing 75 steel units</description>
       <graphicData>
@@ -71,6 +73,7 @@
       <label>Gold Crate(500)</label>
       <statBases>
          <MarketValue>1260</MarketValue>
+         <Mass>27</Mass>
       </statBases>
       <description>Crate containing 500 gold units</description>
       <graphicData>
@@ -92,6 +95,7 @@
       <statBases>
          <MarketValue>560</MarketValue>
          <SellPriceFactor>1.0</SellPriceFactor>
+         <Mass>7</Mass>
       </statBases>
       <description>Crate containing 500 silver units</description>
       <graphicData>
@@ -112,6 +116,7 @@
       <label>Wood Crate(75)</label>
       <statBases>
          <MarketValue>165</MarketValue>
+         <Mass>32</Mass>
       </statBases>
       <description>Crate containing 75 wood units</description>
       <graphicData>
@@ -132,6 +137,7 @@
       <label>Plasteel Crate(75)</label>
       <statBases>
          <MarketValue>2085</MarketValue>
+         <Mass>39.5</Mass>
       </statBases>
       <description>Crate containing 75 wood units</description>
       <graphicData>
@@ -153,6 +159,7 @@
       <!-- Due the method used to multiply count of some resources had to change uranium cout to 80, since the int32 method dont allow formulas -->
       <statBases>
          <MarketValue>460</MarketValue>
+         <Mass>9.5</Mass>
       </statBases>
       <description>Crate containing 80 uranium units</description>
       <graphicData>
@@ -177,6 +184,7 @@
       <label>Sandstone Crate(75)</label>
       <statBases>
          <MarketValue>202.5</MarketValue>
+         <Mass>77</Mass>
       </statBases>
       <description>Crate containing 75 sandstone units</description>
       <graphicData>
@@ -197,6 +205,7 @@
       <label>Granite Crate(75)</label>
       <statBases>
          <MarketValue>217.5</MarketValue>
+         <Mass>95.75</Mass>
       </statBases>
       <description>Crate containing 75 granite units</description>
       <graphicData>
@@ -217,6 +226,7 @@
       <label>Limestone Crate(75)</label>
       <statBases>
          <MarketValue>202.5</MarketValue>
+         <Mass>84.5</Mass>
       </statBases>
       <description>Crate containing 75 limestone units</description>
       <graphicData>
@@ -237,6 +247,7 @@
       <label>Slate Crate(75)</label>
       <statBases>
          <MarketValue>202.5</MarketValue>
+         <Mass>69.5</Mass>
       </statBases>
       <description>Crate containing 75 Slate units</description>
       <graphicData>
@@ -257,6 +268,7 @@
       <label>Marble Crate(75)</label>
       <statBases>
          <MarketValue>202.5</MarketValue>
+         <Mass>95.75</Mass>
       </statBases>
       <description>Crate containing 75 Marble units</description>
       <graphicData>
@@ -279,6 +291,7 @@
       <label>Berry Crate (75)</label>
       <statBases>
          <MarketValue>217.5</MarketValue>
+         <Mass>4.025</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Food_Herbi/BerryCrate</texPath>
@@ -298,6 +311,7 @@
       <label>Potato Crate (75)</label>
       <statBases>
          <MarketValue>202.5</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Food_Herbi/PotatoCrate</texPath>
@@ -317,6 +331,7 @@
       <label>Agave Crate (75)</label>
       <statBases>
          <MarketValue>217.5</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Food_Herbi/AgaveFruitCrate</texPath>
@@ -336,6 +351,7 @@
       <label>Hops Crate (75)</label>
       <statBases>
          <MarketValue>217.5</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Food_Herbi/HopsCrate</texPath>
@@ -355,6 +371,7 @@
       <label>Corn Crate (75)</label>
       <statBases>
          <MarketValue>202.5</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Food_Herbi/CornCrate</texPath>
@@ -371,10 +388,10 @@
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
       <defName>RiceCrate</defName>
-
       <label>Rice Crate (75)</label>
       <statBases>
          <MarketValue>202.5</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Food_Herbi/RiceCrate</texPath>
@@ -389,13 +406,36 @@
       <StoredStuffAmmount>75</StoredStuffAmmount>
    </ThingDef>
 
+   <!--====== Weapons =========-->
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>MortarshellCrate</defName>
+      <label>Mortar Shell Crate (25)</label>
+      <statBases>
+         <MarketValue>1110.0</MarketValue>
+         <Mass>89.5</Mass>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Mortarcrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>CratesDrug</li>
+      </thingCategories>
+      <StoredStuff>MortarShell</StoredStuff>
+      <StoredStuffAmmount>25</StoredStuffAmmount>
+   </ThingDef>
+
    <!--=========Drugs==========-->
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
       <defName>SmokeleafJointCrate</defName>
       <label>Smokeleaf Joint (75)</label>
       <statBases>
-         <MarketValue>1035.0</MarketValue>
+         <MarketValue>885.0</MarketValue>
+         <Mass>2.375</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Drugs/SmokeleafCrate</texPath>
@@ -414,7 +454,8 @@
       <defName>YayoCrate</defName>
       <label>Yayo Crate (75)</label>
       <statBases>
-         <MarketValue>1410.0</MarketValue>
+         <MarketValue>1785.0</MarketValue>
+         <Mass>2.1125</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Drugs/YayoCrate</texPath>
@@ -433,7 +474,8 @@
       <defName>GoJuiceCrate</defName>
       <label>Go-Juice Crate (75)</label>
       <statBases>
-         <MarketValue>6060.0</MarketValue>
+         <MarketValue>3435.0</MarketValue>
+         <Mass>5</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Drugs/GoJuiceCrate</texPath>
@@ -452,7 +494,8 @@
       <defName>LuciferiumCrate</defName>
       <label>Luciferium Crate (75)</label>
       <statBases>
-         <MarketValue>7560.0</MarketValue>
+         <MarketValue>9060.0</MarketValue>
+         <Mass>2.225</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Drugs/LuciferiumCrate</texPath>
@@ -468,10 +511,11 @@
    </ThingDef>
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
-      <defName>MalariBlockCrate</defName>
-      <label>Malari-Block Crate (75)</label>
+      <defName>PenoxycylineCrate</defName>
+      <label>Penoxycyline Crate (75)</label>
       <statBases>
-         <MarketValue>3060.0</MarketValue>
+         <MarketValue>2460.0</MarketValue>
+         <Mass>2.15</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Drugs/MalariBlockCrate</texPath>
@@ -482,7 +526,7 @@
       <thingCategories>
          <li>CratesDrug</li>
       </thingCategories>
-      <StoredStuff>MalariBlock</StoredStuff>
+      <StoredStuff>Penoxycyline</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
    </ThingDef>
 
@@ -490,7 +534,8 @@
       <defName>FlakeCrate</defName>
       <label>Flake Crate (75)</label>
       <statBases>
-         <MarketValue>885.0</MarketValue>
+         <MarketValue>1110.0</MarketValue>
+         <Mass>2.15</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Drugs/FlakeCrate</texPath>
@@ -509,7 +554,8 @@
       <defName>WakeUpCrate</defName>
       <label>Wake-Up Crate (75)</label>
       <statBases>
-         <MarketValue>2010.0</MarketValue>
+         <MarketValue>1860.0</MarketValue>
+         <Mass>2.1125</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Drugs/WakeUpCrate</texPath>
@@ -572,6 +618,7 @@
       <label>Processed Meat Crate (75)</label>
       <statBases>
          <MarketValue>262.50</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Food_Meat/MeatCrate</texPath>
@@ -593,6 +640,7 @@
       <label>Cloth Crate (75)</label>
       <statBases>
          <MarketValue>172.5</MarketValue>
+         <Mass>3.95</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Cloth/ClothCrate</texPath>
@@ -612,6 +660,7 @@
       <label>Synthread Crate (75)</label>
       <statBases>
          <MarketValue>885</MarketValue>
+         <Mass>3.875</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Cloth/SynththreadCrate</texPath>
@@ -631,6 +680,7 @@
       <label>Hyperwave Crate (75)</label>
       <statBases>
          <MarketValue>3435</MarketValue>
+         <Mass>4.85</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Cloth/HyperwaveCrate</texPath>
@@ -650,6 +700,7 @@
       <label>Devilstrand Crate (75)</label>
       <statBases>
          <MarketValue>1260</MarketValue>
+         <Mass>4.4</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Cloth/DevilstrandCrate</texPath>
@@ -671,6 +722,7 @@
       <label>Turkey Leather Crate (75)</label>
       <statBases>
          <MarketValue>292.5</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -690,6 +742,7 @@
       <label>Alpaca Hide Crate (75)</label>
       <statBases>
          <MarketValue>292.5</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -709,6 +762,7 @@
       <label>Pig Skin Crate (75)</label>
       <statBases>
          <MarketValue>292.5</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -728,6 +782,7 @@
       <label>Cow Skin Crate (75)</label>
       <statBases>
          <MarketValue>292.5</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -747,6 +802,7 @@
       <label>Elephant Skin Crate (75)</label>
       <statBases>
          <MarketValue>292.5</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -766,6 +822,7 @@
       <label>Deer Hide Crate (75)</label>
       <statBases>
          <MarketValue>292.5</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -781,10 +838,11 @@
    </ThingDef>    
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
-      <defName>MegatheriumLeatherCrate</defName>
-      <label>Megatherium Leather Crate (75)</label>
+      <defName>MegaslothLeatherCrate</defName>
+      <label>Megasloth Leather Crate (75)</label>
       <statBases>
          <MarketValue>292.5</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -795,7 +853,7 @@
       <thingCategories>
          <li>CratesLText</li>
       </thingCategories>
-      <StoredStuff>Megatherium_Leather</StoredStuff>
+      <StoredStuff>Megasloth_Leather</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
    </ThingDef>    
 
@@ -804,6 +862,7 @@
       <label>Elk Leather Crate (75)</label>
       <statBases>
          <MarketValue>292.5</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -823,6 +882,7 @@
       <label>Timberwolf Skin Crate (75)</label>
       <statBases>
          <MarketValue>292.5</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -842,6 +902,7 @@
       <label>Arctic Wolf Skin Crate (75)</label>
       <statBases>
          <MarketValue>292.5</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -861,6 +922,7 @@
       <label>Fennec Fox Skin Crate (75)</label>
       <statBases>
          <MarketValue>292.5</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -880,6 +942,7 @@
       <label>Red Fox Skin Crate (75)</label>
       <statBases>
          <MarketValue>292.5</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -899,6 +962,7 @@
       <label>Arctic Fox Skin Crate (75)</label>
       <statBases>
          <MarketValue>292.5</MarketValue>
+         <Mass>4.25</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
