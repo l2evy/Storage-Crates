@@ -585,7 +585,7 @@
       <soundInteract>Metal_Drop</soundInteract>
       <soundDrop>Metal_Drop</soundDrop>
       <thingCategories>
-         <li>Crates</li>
+         <li>CratesDrug</li>
       </thingCategories>
       <StoredStuff>PsychoidLeaves</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
@@ -604,7 +604,7 @@
       <soundInteract>Metal_Drop</soundInteract>
       <soundDrop>Metal_Drop</soundDrop>
       <thingCategories>
-         <li>Crates</li>
+         <li>CratesDrug</li>
       </thingCategories>
       <StoredStuff>SmokeleafLeaves</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
