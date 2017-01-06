@@ -1385,5 +1385,35 @@
          </thingDefs>
       </fixedIngredientFilter>
    </RecipeDef>    
+   
+   <RecipeDef>
+      <defName>UnpackKibbleCrate</defName>
+      <label>Un-pack kibble Crate (75)</label>
+      <description>Un-pack 75 kibble from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>KibbleCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Kibble>75</Kibble>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>KibbleCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+   </RecipeDef>    
 
 </RecipeDefs>
