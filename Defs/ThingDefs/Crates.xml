@@ -572,7 +572,6 @@
 
         <!--   ======Drug Materials=======     -->
 
-<!--
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
       <defName>PsychoidLeavesCrate</defName>
       <label>Psychoid Leaves Crate (75)</label>
@@ -610,7 +609,7 @@
       <StoredStuff>SmokeleafLeaves</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
    </ThingDef>      
--->
+
    <!-- =======Food_Meat======= -->
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
