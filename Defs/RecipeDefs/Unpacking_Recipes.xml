@@ -1293,7 +1293,7 @@
    </RecipeDef>
 
    <!-- =======Drug Materials== -->
-<!--
+
    <RecipeDef>
       <defName>UnpackPsychoidLeavesCrate</defName>
       <label>Un-pack Psychoid Leaves Crate (75)</label>
@@ -1344,7 +1344,7 @@
          </li>
       </ingredients>
       <products>
-         <SmokeleafLeaves>75</Smokeleafleaves>
+         <SmokeleafLeaves>75</SmokeleafLeaves>
          <KMSteelPlate>6</KMSteelPlate>
       </products>
       <fixedIngredientFilter>
@@ -1353,7 +1353,7 @@
          </thingDefs>
       </fixedIngredientFilter>
    </RecipeDef>   
--->
+
    <!-- =======Food_Meat======= -->
 
    <RecipeDef>
