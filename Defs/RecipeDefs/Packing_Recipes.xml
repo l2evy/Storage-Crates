@@ -1690,7 +1690,7 @@
          </li>
       </ingredients>
       <products>
-         <MeatCrate>1</MeatCrate>
+         <PsychoidLeavesCrate>1</PsychoidLeavesCrate>
       </products>
       <fixedIngredientFilter>
          <thingDefs>
@@ -1728,7 +1728,7 @@
          </li>
       </ingredients>
       <products>
-         <MeatCrate>1</MeatCrate>
+         <SmokeleafLeavesCrate>1</SmokeleafLeavesCrate>
       </products>
       <fixedIngredientFilter>
          <thingDefs>
