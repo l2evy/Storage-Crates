@@ -246,6 +246,7 @@
          <li>MakeMeatCrate</li>
          <li>MakeMeatCanCrate</li>
          <li>MakeVeggiesCanCrate</li>
+         <li>MakeKibbleCrate</li>
          <li>MakeSmokeleafJointCrate</li>
          <li>MakeYayoCrate</li>
          <li>MakeGoJuiceCrate</li>
@@ -322,6 +323,7 @@
          <li>UnpackMeatCrate</li>
          <li>UnpackMeatCanCrate</li>
          <li>UnpackVeggiesCanCrate</li>
+         <li>UnpackKibbleCrate</li>
          <li>UnpackSmokeleafJointCrate</li>
          <li>UnpackYayoCrate</li>
          <li>UnpackGoJuiceCrate</li>
