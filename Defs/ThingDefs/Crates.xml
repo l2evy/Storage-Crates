@@ -632,6 +632,26 @@
       <StoredStuff>SCMeat</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
    </ThingDef>
+   
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>KibbleCrate</defName>
+      <label>Kibble Crate (75)</label>
+      <statBases>
+         <MarketValue>262.50</MarketValue>
+         <Mass>4.25</Mass>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Food_Meat/MeatCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>CratesMeat</li>
+      </thingCategories>
+      <StoredStuff>Kibble</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
 
    <!-- =======Cloth_Material======= -->
 
