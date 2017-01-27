@@ -52,6 +52,10 @@
 	
 	<RiceCrate.label>Упаковка риса (75)</RiceCrate.label>
 	
+	<!--====== Weapons =========-->
+	
+	<MortarshellCrate.label>Упаковка миномётных снарядов (25)</MortarshellCrate.label>
+	
 	<!--=========Drugs==========-->
 	
 	<SmokeleafJointCrate.label>Упаковка листьев дымолиста (75)</SmokeleafJointCrate.label>
@@ -62,7 +66,7 @@
 	
 	<LuciferiumCrate.label>Упаковка сатанина (75)</LuciferiumCrate.label>
 	
-	<MalariBlockCrate.label>Упаковка антималярина (75)</MalariBlockCrate.label>
+	<PenoxycylineCrate.label>Упаковка пеноксициклина (75)</PenoxycylineCrate.label>
 	
 	<FlakeCrate.label>Упаковка хлопьев психина (75)</FlakeCrate.label>
 	
@@ -96,7 +100,7 @@
 
 	<DeerLeatherCrate.label>Упаковка оленьих шкур (75)</DeerLeatherCrate.label>
 
-	<MegatheriumLeatherCrate.label>Упаковка шкур ленивца (75)</MegatheriumLeatherCrate.label>
+	<MegaslothLeatherCrate.label>Упаковка шкур ленивца (75)</MegaslothLeatherCrate.label>
 
 	<ElkLeatherCrate.label>Упаковка беличьих шкурок (75)</ElkLeatherCrate.label>
 

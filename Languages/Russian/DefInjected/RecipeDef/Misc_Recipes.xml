@@ -5,6 +5,10 @@
 	<MakeSteelPlate.description>Сделать стальные листы из металла с помощью молотка.</MakeSteelPlate.description>
 	<MakeSteelPlate.jobString>Стучит молотком.</MakeSteelPlate.jobString>
 	
+	<BreakdownSteelPlate.label>поломать стальные листы</BreakdownSteelPlate.label>
+	<BreakdownSteelPlate.description>Растопить стальные листы обратно в сталь.</BreakdownSteelPlate.description>
+	<BreakdownSteelPlate.jobstring>Стучит молотком.</BreakdownSteelPlate.jobstring>
+	
 	<MakeSteelCan.label>сделать консервные банки</MakeSteelCan.label>
 	<MakeSteelCan.description>Перекрутить стальные листы в консервные банки.</MakeSteelCan.description>
 	<MakeSteelCan.jobString>Крафтит.</MakeSteelCan.jobString>

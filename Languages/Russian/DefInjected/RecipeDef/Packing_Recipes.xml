@@ -93,9 +93,9 @@
 	<MakeDeerLeatherCrate.description>Упаковать 75 оленьих шкур в контейнер.</MakeDeerLeatherCrate.description>
 	<MakeDeerLeatherCrate.jobstring>Упаковывает.</MakeDeerLeatherCrate.jobstring>
 
-	<MakeMegatheriumLeatherCrate.label>Упаковать шкуры ленивцев (75)</MakeMegatheriumLeatherCrate.label>
-	<MakeMegatheriumLeatherCrate.description>Упаковать 75 шкур ленивцев в контейнер.</MakeMegatheriumLeatherCrate.description>
-	<MakeMegatheriumLeatherCrate.jobstring>Упаковывает.</MakeMegatheriumLeatherCrate.jobstring>
+	<MakeMegaslothLeatherCrate.label>Упаковать шкуры ленивцев (75)</MakeMegaslothLeatherCrate.label>
+	<MakeMegaslothLeatherCrate.description>Упаковать 75 шкур ленивцев в контейнер.</MakeMegaslothLeatherCrate.description>
+	<MakeMegaslothLeatherCrate.jobstring>Упаковывает.</MakeMegaslothLeatherCrate.jobstring>
 
 	<MakeElkLeatherCrate.label>Упаковать лосиные шкуры (75)</MakeElkLeatherCrate.label>
 	<MakeElkLeatherCrate.description>Упаковать 75 лосиных шкур в контейнер.</MakeElkLeatherCrate.description>
@@ -155,6 +155,12 @@
 	<MakeVeggiesCanCrate.description>Упаковать 75 овощных консервов в контейнер.</MakeVeggiesCanCrate.description>
 	<MakeVeggiesCanCrate.jobstring>Упаковывает консервы.</MakeVeggiesCanCrate.jobstring>
 	
+	<!-- ======Weapons======== -->
+	
+	<MakeMortarshellCrate.label>Упаковать миномётные снаряды (25)</MakeMortarshellCrate.label>
+	<MakeMortarshellCrate.description>Упаковать 25 миномётных снарядов в контейнер.</MakeMortarshellCrate.description>
+	<MakeMortarshellCrate.jobstring>Упаковывает.</MakeMortarshellCrate.jobstring>
+	
 	<!-- =======_Drugs_======= -->
 	
 	<MakeSmokeleafJointCrate.label>Упаковать листья дымолиста (75)</MakeSmokeleafJointCrate.label>
@@ -173,9 +179,9 @@
 	<MakeLuciferiumCrate.description>Упаковать 75 таблеток сатанина в контейнер.</MakeLuciferiumCrate.description>
 	<MakeLuciferiumCrate.jobstring>Упаковывает.</MakeLuciferiumCrate.jobstring>
 
-	<MakeMalariBlockCrate.label>Упаковать антималярин (75)</MakeMalariBlockCrate.label>
-	<MakeMalariBlockCrate.description>Упаковать 75 таблеток антималярина в контейнер.</MakeMalariBlockCrate.description>
-	<MakeMalariBlockCrate.jobstring>Упаковывает.</MakeMalariBlockCrate.jobstring>
+	<MakePenoxycylineCrate.label>Упаковать пеноксициклин (75)</MakePenoxycylineCrate.label>
+	<MakePenoxycylineCrate.description>Упаковать 75 таблеток пеноксициклина в контейнер.</MakePenoxycylineCrate.description>
+	<MakePenoxycylineCrate.jobstring>Упаковывает.</MakePenoxycylineCrate.jobstring>
 
 	<MakeFlakeCrate.label>Упаковать хлопья психина (75)</MakeFlakeCrate.label>
 	<MakeFlakeCrate.description>Упаковать 75 хлопьев психина в контейнер.</MakeFlakeCrate.description>

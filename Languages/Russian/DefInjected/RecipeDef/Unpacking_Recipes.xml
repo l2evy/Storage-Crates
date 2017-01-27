@@ -93,9 +93,9 @@
 	<UnpackDeerLeatherCrate.description>Распаковать 75 оленьих шкур из контейнера.</UnpackDeerLeatherCrate.description>
 	<UnpackDeerLeatherCrate.jobstring>Распаковывает.</UnpackDeerLeatherCrate.jobstring>
 
-	<UnpackMegatheriumLeatherCrate.label>Распаковать шкуры ленивцев (75)</UnpackMegatheriumLeatherCrate.label>
-	<UnpackMegatheriumLeatherCrate.description>Распаковать 75 шкур ленивцев из контейнера.</UnpackMegatheriumLeatherCrate.description>
-	<UnpackMegatheriumLeatherCrate.jobstring>Распаковывает.</UnpackMegatheriumLeatherCrate.jobstring>
+	<UnpackMegaslothLeatherCrate.label>Распаковать шкуры ленивцев (75)</UnpackMegaslothLeatherCrate.label>
+	<UnpackMegaslothLeatherCrate.description>Распаковать 75 шкур ленивцев из контейнера.</UnpackMegaslothLeatherCrate.description>
+	<UnpackMegaslothLeatherCrate.jobstring>Распаковывает.</UnpackMegaslothLeatherCrate.jobstring>
 
 	<UnpackElkLeatherCrate.label>Распаковать лосиные шкуры (75)</UnpackElkLeatherCrate.label>
 	<UnpackElkLeatherCrate.description>Распаковать 75 лосиных шкур из контейнера.</UnpackElkLeatherCrate.description>
@@ -155,6 +155,12 @@
 	<UnpackVeggiesCanCrate.description>Распаковать 75 овощных консервов из контейнера.</UnpackVeggiesCanCrate.description>
 	<UnpackVeggiesCanCrate.jobstring>Распаковывает.</UnpackVeggiesCanCrate.jobstring>
 	
+	<!-- ====== Weapons =========== -->
+	
+	<UnpackMortarshellCrate.label>Распаковать миномётные снаряды (25)</UnpackMortarshellCrate.label>
+	<UnpackMortarshellCrate.description>Распаковать 25 миномётных снарядов из контейнера.</UnpackMortarshellCrate.description>
+	<UnpackMortarshellCrate.jobstring>Распаковывает.</UnpackMortarshellCrate.jobstring>
+	
 	<!-- =======Drugs=========== -->
 
 	<UnpackSmokeleafJointCrate.label>Распаковать листья дымолиста (75)</UnpackSmokeleafJointCrate.label>
@@ -176,6 +182,10 @@
 	<UnpackMalariBlockCrate.label>Распаковать антималярин (75)</UnpackMalariBlockCrate.label>
 	<UnpackMalariBlockCrate.description>Распаковать 75 таблеток антималярина из контейнера.</UnpackMalariBlockCrate.description>
 	<UnpackMalariBlockCrate.jobstring>Распаковывает.</UnpackMalariBlockCrate.jobstring>
+	
+	<UnpackPenoxycylineCrate.label>Распаковать пеноксициклин (75)</UnpackPenoxycylineCrate.label>
+	<UnpackPenoxycylineCrate.description>Распаковать 75 таблеток пеноксициклина из контейнера.</UnpackPenoxycylineCrate.description>
+	<UnpackPenoxycylineCrate.jobstring>Распаковывает.</UnpackPenoxycylineCrate.jobstring>
 
 	<UnpackFlakeCrate.label>Распаковать хлопья психина (75)</UnpackFlakeCrate.label>
 	<UnpackFlakeCrate.description>Распаковать 75 хлопьев психина из контейнера.</UnpackFlakeCrate.description>
