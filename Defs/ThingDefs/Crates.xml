@@ -435,7 +435,7 @@
       <label>Smokeleaf Joint (75)</label>
       <statBases>
          <MarketValue>885.0</MarketValue>
-         <Mass>2.375</Mass>
+         <Mass>5.73</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Drugs/SmokeleafCrate</texPath>
@@ -455,7 +455,7 @@
       <label>Yayo Crate (75)</label>
       <statBases>
          <MarketValue>1785.0</MarketValue>
-         <Mass>2.1125</Mass>
+         <Mass>5.73</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Drugs/YayoCrate</texPath>
@@ -475,7 +475,7 @@
       <label>Go-Juice Crate (75)</label>
       <statBases>
          <MarketValue>3435.0</MarketValue>
-         <Mass>5</Mass>
+         <Mass>9.48</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Drugs/GoJuiceCrate</texPath>
@@ -495,7 +495,7 @@
       <label>Luciferium Crate (75)</label>
       <statBases>
          <MarketValue>9060.0</MarketValue>
-         <Mass>2.225</Mass>
+         <Mass>2.73</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Drugs/LuciferiumCrate</texPath>
@@ -515,7 +515,7 @@
       <label>Penoxycyline Crate (75)</label>
       <statBases>
          <MarketValue>2460.0</MarketValue>
-         <Mass>2.15</Mass>
+         <Mass>2.73</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Drugs/MalariBlockCrate</texPath>
@@ -535,7 +535,7 @@
       <label>Flake Crate (75)</label>
       <statBases>
          <MarketValue>1110.0</MarketValue>
-         <Mass>2.15</Mass>
+         <Mass>5.73</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Drugs/FlakeCrate</texPath>
@@ -555,7 +555,7 @@
       <label>Wake-Up Crate (75)</label>
       <statBases>
          <MarketValue>1860.0</MarketValue>
-         <Mass>2.1125</Mass>
+         <Mass>2.73</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Drugs/WakeUpCrate</texPath>
