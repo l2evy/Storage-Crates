@@ -1,3 +1,7 @@
+8/30/2017 1.16.0 > 1.17.0
+-Updated for Alpha 17
+-Adjusted drug crate weight to reflect the new drug weights
+
 12/22/2016 1.15.4a> 1.16.0
 -Updated for Alpha 16
 -Added weight values to Crates and the Steel Crate Plates (total weight of all 75 items + steel crate plates used in production)
