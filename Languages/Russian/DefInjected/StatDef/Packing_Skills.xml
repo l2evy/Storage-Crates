@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<PackingTime.label>Время упаковки</PackingTime.label>
-	<PackingTime.description>Скорость пальцев персонажа снижается пропорционально силе/скорости нажатия на кнопку автоматической упаковки.</PackingTime.description>
+  <PackingTime.label>Время упаковки</PackingTime.label>
+  <PackingTime.description>Скорость пальцев персонажа снижается пропорционально силе/скорости нажатия на кнопку автоматической упаковки.</PackingTime.description>
 
-	<PackingEfficiency.label>Эффективность упаковки</PackingEfficiency.label>
-	<PackingEfficiency.description>Эффективность движений пальцев поселенца при нажатии кнопки автоматической упаковки.</PackingEfficiency.description>
+  <PackingEfficiency.label>Эффективность упаковки</PackingEfficiency.label>
+  <PackingEfficiency.description>Эффективность движений пальцев поселенца при нажатии кнопки автоматической упаковки.</PackingEfficiency.description>
 
-	<HammeringSpeed.label>Скорость ударов молотком</HammeringSpeed.label>
-	<HammeringSpeed.description>Скорость, с которой персонаж бьёт молотком, не попадая по пальцам.</HammeringSpeed.description>
+  <HammeringSpeed.label>Скорость ударов молотком</HammeringSpeed.label>
+  <HammeringSpeed.description>Скорость, с которой персонаж бьёт молотком, не попадая по пальцам.</HammeringSpeed.description>
 
-	<HammeringEfficiency.label>Эффективность ударов молотком</HammeringEfficiency.label>
-	<HammeringEfficiency.description>Как сильно персонаж бьёт, как разбивает, как крафтит и прочее — с помощью молотка.</HammeringEfficiency.description>
+  <HammeringEfficiency.label>Эффективность ударов молотком</HammeringEfficiency.label>
+  <HammeringEfficiency.description>Как сильно персонаж бьёт, как разбивает, как крафтит и прочее — с помощью молотка.</HammeringEfficiency.description>
+
 
 </LanguageData>

@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<MakeSteelPlate.label>сделать стальные листы</MakeSteelPlate.label>
-	<MakeSteelPlate.description>Сделать стальные листы из металла с помощью молотка.</MakeSteelPlate.description>
-	<MakeSteelPlate.jobString>Стучит молотком.</MakeSteelPlate.jobString>
-	
-	<BreakdownSteelPlate.label>поломать стальные листы</BreakdownSteelPlate.label>
-	<BreakdownSteelPlate.description>Растопить стальные листы обратно в сталь.</BreakdownSteelPlate.description>
-	<BreakdownSteelPlate.jobstring>Стучит молотком.</BreakdownSteelPlate.jobstring>
-	
-	<MakeSteelCan.label>сделать консервные банки</MakeSteelCan.label>
-	<MakeSteelCan.description>Перекрутить стальные листы в консервные банки.</MakeSteelCan.description>
-	<MakeSteelCan.jobString>Крафтит.</MakeSteelCan.jobString>
+  <MakeSteelPlate.label>сделать стальные листы</MakeSteelPlate.label>
+  <MakeSteelPlate.description>Сделать стальные листы из металла с помощью молотка.</MakeSteelPlate.description>
+  <MakeSteelPlate.jobString>Стучит молотком.</MakeSteelPlate.jobString>
+
+  <BreakdownSteelPlate.label>поломать стальные листы</BreakdownSteelPlate.label>
+  <BreakdownSteelPlate.description>Растопить стальные листы обратно в сталь.</BreakdownSteelPlate.description>
+  <BreakdownSteelPlate.jobString>Стучит молотком.</BreakdownSteelPlate.jobString>
+
+  <MakeSteelCan.label>сделать консервные банки</MakeSteelCan.label>
+  <MakeSteelCan.description>Перекрутить стальные листы в консервные банки.</MakeSteelCan.description>
+  <MakeSteelCan.jobString>Крафтит.</MakeSteelCan.jobString>
+
 
 </LanguageData>

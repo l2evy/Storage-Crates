@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<SCMeat.label>Мясной фарш</SCMeat.label>
-	<SCMeat.description>Обработанное мясо, готовое для консервирования или приготовления пищи.</SCMeat.description>
+  <SCMeat.label>Мясной фарш</SCMeat.label>
+  <SCMeat.description>Обработанное мясо, готовое для консервирования или приготовления пищи.</SCMeat.description>
+
 
 </LanguageData>

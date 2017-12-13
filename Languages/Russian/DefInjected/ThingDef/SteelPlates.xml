@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<KMSteelPlate.label>Стальная плита</KMSteelPlate.label>
-	<KMSteelPlate.description>Сделана по космической технологии, практически нержавеющая.</KMSteelPlate.description>
+  <KMSteelPlate.label>Стальная плита</KMSteelPlate.label>
+  <KMSteelPlate.description>Сделана по космической технологии, практически нержавеющая.</KMSteelPlate.description>
+
 
 </LanguageData>

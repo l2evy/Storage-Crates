@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<SC_VegMeatStew.label>Рагу из овощей и мяса</SC_VegMeatStew.label>
-	<SC_VegMeatStew.description>Сварить похлёбку из мяса и овощных консервов.</SC_VegMeatStew.description>
-	<SC_VegMeatStew.jobstring>Готовит рагу из овощей и мяса.</SC_VegMeatStew.jobstring>
+  <SC_VegMeatStew.label>Рагу из овощей и мяса</SC_VegMeatStew.label>
+  <SC_VegMeatStew.description>Сварить похлёбку из мяса и овощных консервов.</SC_VegMeatStew.description>
+  <SC_VegMeatStew.jobString>Готовит рагу из овощей и мяса.</SC_VegMeatStew.jobString>
 
-	<SC_VegMeatStew5.label>Рагу из овощей и мяса (5)</SC_VegMeatStew5.label>
-	<SC_VegMeatStew5.description>Сварить большую похлёбку из 5 мясных и овощных консервов.</SC_VegMeatStew5.description>
-	<SC_VegMeatStew5.jobstring>Готовит большую похлёбку из овощей и мяса.</SC_VegMeatStew5.jobstring>
+  <SC_VegMeatStew5.label>Рагу из овощей и мяса (5)</SC_VegMeatStew5.label>
+  <SC_VegMeatStew5.description>Сварить большую похлёбку из 5 мясных и овощных консервов.</SC_VegMeatStew5.description>
+  <SC_VegMeatStew5.jobString>Готовит большую похлёбку из овощей и мяса.</SC_VegMeatStew5.jobString>
+
 
 </LanguageData>

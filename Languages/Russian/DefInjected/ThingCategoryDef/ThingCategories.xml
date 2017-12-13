@@ -1,13 +1,14 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<SCCrates.label>Контейнеры</SCCrates.label>
-	<CratesMat.label>Материалы</CratesMat.label>
-	<CratesBlock.label>Блоки</CratesBlock.label>
-	<CratesRGrown.label>Урожай/Зелень</CratesRGrown.label>
-	<CratesDrug.label>Препараты</CratesDrug.label>
-	<CratesMeat.label>Мясо</CratesMeat.label>
-	<CratesCText.label>Ткань</CratesCText.label>
-	<CratesLText.label>Кожи/Шкуры</CratesLText.label>
+  <SCCrates.label>Контейнеры</SCCrates.label>
+  <CratesMat.label>Материалы</CratesMat.label>
+  <CratesBlock.label>Блоки</CratesBlock.label>
+  <CratesRGrown.label>Урожай/Зелень</CratesRGrown.label>
+  <CratesDrug.label>Препараты</CratesDrug.label>
+  <CratesMeat.label>Мясо</CratesMeat.label>
+  <CratesCText.label>Ткань</CratesCText.label>
+  <CratesLText.label>Кожи/Шкуры</CratesLText.label>
+
 
 </LanguageData>

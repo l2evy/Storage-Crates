@@ -1,16 +1,27 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-	<PackingBenchTierOne.label>упаковка ресурсов</PackingBenchTierOne.label>
-	<PackingBenchTierOne.Description>Рабочий стол, на котором ресурсы и консервы упаковывается в специальные контейнеры.</PackingBenchTierOne.Description>
-	
-	<UnpackingBenchTierOne.label>распаковка ресурсов</UnpackingBenchTierOne.label>
-	<UnpackingBenchTierOne.Description>Рабочий стол, на котором осуществляется распаковка ресурсов и консеров из герметичных контейнеров.</UnpackingBenchTierOne.Description>
-	
-	<FoodPackingBench.label>распаковка продуктов</FoodPackingBench.label>
-	<FoodPackingBench.Description>Рабочий стол, на котором осуществляется экологически чистая упаковка продуктов питания и препаратов.</FoodPackingBench.Description>
-	
-	<FoodUnPackingBench.label>распаковка продуктов</FoodUnPackingBench.label>
-	<FoodUnPackingBench.Description>Рабочий стол, на котором осуществляется распаковка продуктов питания и препаратов из герметичных контейнеров.</FoodUnPackingBench.Description>
+  <PackingBenchTierOne.label>упаковка ресурсов</PackingBenchTierOne.label>
+  <PackingBenchTierOne.description>Рабочий стол, на котором ресурсы и консервы упаковываются в специальные контейнеры.</PackingBenchTierOne.description>
+  <PackingBenchTierOne_Blueprint.label>упаковка ресурсов (проект)</PackingBenchTierOne_Blueprint.label>
+  <PackingBenchTierOne_Blueprint_Install.label>упаковка ресурсов (проект)</PackingBenchTierOne_Blueprint_Install.label>
+  <PackingBenchTierOne_Frame.label>упаковка ресурсов (строится)</PackingBenchTierOne_Frame.label>
+  <PackingBenchTierOne_Frame.description>Рабочий стол, на котором ресурсы и консервы упаковываются в специальные контейнеры.</PackingBenchTierOne_Frame.description>
+
+  <UnpackingBenchTierOne.label>распаковка ресурсов</UnpackingBenchTierOne.label>
+  <UnpackingBenchTierOne.description>Рабочий стол, на котором осуществляется распаковка ресурсов и консеров из герметичных контейнеров.</UnpackingBenchTierOne.description>
+  <UnpackingBenchTierOne_Blueprint_Install.label>распаковка ресурсов (проект)</UnpackingBenchTierOne_Blueprint_Install.label>
+
+  <FoodPackingBench.label>упаковка продуктов</FoodPackingBench.label>
+  <FoodPackingBench.description>Рабочий стол, на котором осуществляется экологически чистая упаковка продуктов питания и препаратов.</FoodPackingBench.description>
+  <FoodPackingBench_Blueprint.label>станок упаковки расходных материалов (проект)</FoodPackingBench_Blueprint.label>
+  <FoodPackingBench_Blueprint_Install.label>станок упаковки расходных материалов (проект)</FoodPackingBench_Blueprint_Install.label>
+  <FoodPackingBench_Frame.label>станок упаковки расходных материалов (строится)</FoodPackingBench_Frame.label>
+  <FoodPackingBench_Frame.description>Рабочий стол, на котором осуществляется экологически чистая упаковка продуктов питания и препаратов.</FoodPackingBench_Frame.description>
+
+  <FoodUnPackingBench.label>распаковка продуктов</FoodUnPackingBench.label>
+  <FoodUnPackingBench.description>Рабочий стол, на котором осуществляется распаковка продуктов питания и препаратов из герметичных контейнеров.</FoodUnPackingBench.description>
+  <FoodUnPackingBench_Blueprint_Install.label>станок распаковки расходных материалов (проект)</FoodUnPackingBench_Blueprint_Install.label>
+
 
 </LanguageData>
