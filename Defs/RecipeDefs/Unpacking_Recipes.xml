@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
 
 
    <!-- =======Minerals======= -->
    <RecipeDef>
-      <defName>UnpackSteelCrate</defName>
+      <defName>unpackSteelCrate</defName>
       <label>Un-pack Steel Crate (75)</label>
       <description>Un-Pack 75 steel pieces from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -31,10 +31,13 @@
             <li>SteelCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackSilverCrate</defName>
+      <defName>unpackSilverCrate</defName>
       <label>Un-packSilver Crate (500)</label>
       <description>Un-pack 500 silver pieces from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -60,10 +63,13 @@
             <li>SilverCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackGoldCrate</defName>
+      <defName>unpackGoldCrate</defName>
       <label>Un-pack Gold Crate (500)</label>
       <description>Un-packs 500 gold pieces from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -89,10 +95,13 @@
             <li>GoldCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackWoodCrate</defName>
+      <defName>unpackWoodCrate</defName>
       <label>Un-pack Wood log Crate (75)</label>
       <description>Un-packs 75 wood logs from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -118,10 +127,13 @@
             <li>WoodCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackPlasteelCrate</defName>
+      <defName>unpackPlasteelCrate</defName>
       <label>Un-pack Plasteel Crate (75)</label>
       <description>Un-pack 75 plasteel pieces from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -147,10 +159,13 @@
             <li>PlasteelCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackUraniumCrate</defName>
+      <defName>unpackUraniumCrate</defName>
       <label>Un-pack Uranium Crate (80)</label>
       <description>Un-pack 80 uranium pieces from crate.</description>
       <jobString>Packing heat.</jobString>
@@ -176,12 +191,15 @@
             <li>UraniumCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <!-- =======Stones======= -->
 
    <RecipeDef>
-      <defName>UnpackSandstoneCrate</defName>
+      <defName>unpackSandstoneCrate</defName>
       <label>Un-pack Sandstone Crate (75)</label>
       <description>Un-pack 75 sandstone blocks from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -207,10 +225,13 @@
             <li>SandStoneCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackGraniteCrate</defName>
+      <defName>unpackGraniteCrate</defName>
       <label>Un-pack Granit Crate (75)</label>
       <description>Un-pack 75 granite blocks from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -236,10 +257,13 @@
             <li>GraniteCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackLimestoneCrate</defName>
+      <defName>unpackLimestoneCrate</defName>
       <label>Un-pack Limestone Crate (75)</label>
       <description>Un-pack 75 limestone blocks from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -265,10 +289,13 @@
             <li>LimestoneCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackSlateCrate</defName>
+      <defName>unpackSlateCrate</defName>
       <label>Un-pack Slate Crate (75)</label>
       <description>Un-pack 75 slate blocks from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -294,10 +321,13 @@
             <li>SlateCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackMarbleCrate</defName>
+      <defName>unpackMarbleCrate</defName>
       <label>Un-pack Marble Crate (75)</label>
       <description>Un-pack 75 marble blocks from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -323,12 +353,15 @@
             <li>MarbleCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <!-- =======Cloth_Materials======= -->
 
    <RecipeDef>
-      <defName>UnpackClothCrate</defName>
+      <defName>unpackClothCrate</defName>
       <label>Un-pack Cloth Crate (75)</label>
       <description>Un-pack 75 cloth from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -354,10 +387,13 @@
             <li>ClothCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackSynthreadCrate</defName>
+      <defName>unpackSynthreadCrate</defName>
       <label>Un-pack Synthread Crate (75)</label>
       <description>Un-pack 75 synthread from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -383,10 +419,13 @@
             <li>SynthreadCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackHyperwaveCrate</defName>
+      <defName>unpackHyperwaveCrate</defName>
       <label>Un-pack Hyperwave Crate (75)</label>
       <description>Un-pack 75 hyperwave from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -412,10 +451,13 @@
             <li>HyperwaveCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackDevilstrandCrate</defName>
+      <defName>unpackDevilstrandCrate</defName>
       <label>Un-pack Devilstrand Crate (75)</label>
       <description>Un-pack 75 devilstrand from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -441,12 +483,15 @@
             <li>DevilstrandCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <!-- =======Leather/Hide====-->
 
    <RecipeDef>
-      <defName>UnpackTurkeyLeatherCrate</defName>
+      <defName>unpackTurkeyLeatherCrate</defName>
       <label>Un-pack Turkey Leather Crate (75)</label>
       <description>Un-pack 75 Turkey Leather from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -472,10 +517,13 @@
             <li>TurkeyLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackAlpacaLeatherCrate</defName>
+      <defName>unpackAlpacaLeatherCrate</defName>
       <label>Un-pack Alpaca Hide Crate (75)</label>
       <description>Un-pack 75 Alpaca hide from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -501,10 +549,13 @@
             <li>AlpacaLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackPigLeatherCrate</defName>
+      <defName>unpackPigLeatherCrate</defName>
       <label>Un-pack Pig Skin Crate (75)</label>
       <description>Un-pack 75 Pig skin from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -530,10 +581,13 @@
             <li>PigLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackCowLeatherCrate</defName>
+      <defName>unpackCowLeatherCrate</defName>
       <label>Un-pack Cow Skin Crate (75)</label>
       <description>Un-pack 75 Cow skin from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -559,10 +613,13 @@
             <li>CowLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackElephantLeatherCrate</defName>
+      <defName>unpackElephantLeatherCrate</defName>
       <label>Un-pack Elephant Skin Crate (75)</label>
       <description>Un-pack 75 Elephant skin from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -588,10 +645,13 @@
             <li>ElephantLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackDeerLeatherCrate</defName>
+      <defName>unpackDeerLeatherCrate</defName>
       <label>Un-pack Deer Hide Crate (75)</label>
       <description>Un-pack 75 Deer Hide from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -617,10 +677,13 @@
             <li>DeerLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackMegaslothLeatherCrate</defName>
+      <defName>unpackMegaslothLeatherCrate</defName>
       <label>Un-pack Megasloth Leather Crate (75)</label>
       <description>Un-pack 75 Megasloth Leather from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -646,10 +709,13 @@
             <li>MegaslothLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackElkLeatherCrate</defName>
+      <defName>unpackElkLeatherCrate</defName>
       <label>Un-pack Elk Hide Crate (75)</label>
       <description>Un-pack 75 Elk hide from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -675,10 +741,13 @@
             <li>ElkLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackTimberwolfLeatherCrate</defName>
+      <defName>unpackTimberwolfLeatherCrate</defName>
       <label>Un-pack Timberwolf Skin Crate (75)</label>
       <description>Un-pack 75 Timberwolf skin from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -704,10 +773,13 @@
             <li>TimberwolfLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackArcticwolfLeatherCrate</defName>
+      <defName>unpackArcticwolfLeatherCrate</defName>
       <label>Un-pack Arctic Wolf Skin Crate (75)</label>
       <description>Un-pack 75 Arctic Wolf skins from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -733,10 +805,13 @@
             <li>ArcticwolfLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackFennecfoxLeatherCrate</defName>
+      <defName>unpackFennecfoxLeatherCrate</defName>
       <label>Un-pack Fennec Fox Skin Crate (75)</label>
       <description>Un-pack 75 Fennec Fox skins from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -762,10 +837,13 @@
             <li>FennecfoxLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackRedfoxLeatherCrate</defName>
+      <defName>unpackRedfoxLeatherCrate</defName>
       <label>Un-pack Red Fox Skin Crate (75)</label>
       <description>Un-pack 75 Red Fox skins from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -791,10 +869,13 @@
             <li>RedfoxLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackArcticfoxLeatherCrate</defName>
+      <defName>unpackArcticfoxLeatherCrate</defName>
       <label>Un-pack Arctic Fox Skin Crate (75)</label>
       <description>Un-pack 75 Arctic Fox skins from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -820,12 +901,15 @@
             <li>ArcticfoxLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>
 
    <!-- =======Herbi======= -->
 
    <RecipeDef>
-      <defName>UnpackPotatoCrate</defName>
+      <defName>unpackPotatoCrate</defName>
       <label>Un-pack Potato Crate (75)</label>
       <description>Un-pack 75 potatoes from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -851,10 +935,13 @@
             <li>PotatoCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>FoodUnPackingBench</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackBerryCrate</defName>
+      <defName>unpackBerryCrate</defName>
       <label>Un-pack Berry Crate (75)</label>
       <description>Un-pack 75 berries from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -880,10 +967,13 @@
             <li>BerryCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>FoodUnPackingBench</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackAgaveCrate</defName>
+      <defName>unpackAgaveCrate</defName>
       <label>Un-pack Agave Crate (75)</label>
       <description>Un-pack 75 agave fruits from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -909,10 +999,13 @@
             <li>AgaveCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>FoodUnPackingBench</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackHopsCrate</defName>
+      <defName>unpackHopsCrate</defName>
       <label>Un-pack Hops Crate (75)</label>
       <description>Un-pack 75 hops fruits from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -938,10 +1031,13 @@
             <li>HopsCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>FoodUnPackingBench</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackRiceCrate</defName>
+      <defName>unpackRiceCrate</defName>
       <label>Un-pack Rice Crate (75)</label>
       <description>Un-pack 75 rice fruits from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -967,10 +1063,13 @@
             <li>RiceCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>FoodUnPackingBench</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackCornCrate</defName>
+      <defName>unpackCornCrate</defName>
       <label>Un-pack Corn Crate (75)</label>
       <description>Un-pack 75 corn fruits from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -996,13 +1095,16 @@
             <li>CornCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>FoodUnPackingBench</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackMeatCanCrate</defName>
+      <defName>unpackMeatCanCrate</defName>
       <label>Un-pack Meat Can Crate (75)</label>
       <description>Un-Packs 75 meat cans from a crate.</description>
-      <jobString>Unpacking cans.</jobString>
+      <jobString>unpacking cans.</jobString>
       <workAmount>100</workAmount>
       <workSpeedStat>PackingTime</workSpeedStat>
       <effectWorking>ConstructMetal</effectWorking>
@@ -1025,10 +1127,13 @@
             <li>MeatCanCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>FoodUnPackingBench</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackVeggiesCanCrate</defName>
+      <defName>unpackVeggiesCanCrate</defName>
       <label>Un-pack Vegetables Can Crate (75)</label>
       <description>Un-Packs 75 vegetables cans from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -1054,12 +1159,15 @@
             <li>VeggiesCanCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>FoodUnPackingBench</li>
+      </recipeUsers>
    </RecipeDef>
 
-   <!-- ====== Weapons =========== -->
+   <!-- ====== Weapons =========== 
 
    <RecipeDef>
-      <defName>UnpackMortarshellCrate</defName>
+      <defName>unpackMortarshellCrate</defName>
       <label>Un-pack Mortar Shell Crate (25)</label>
       <description>Un-Packs 25 Mortar Shells from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -1077,7 +1185,7 @@
          </li>
       </ingredients>
       <products>
-         <MortarShell>25</MortarShell>
+         <MortarShells>25</MortarShells>
          <KMSteelPlate>6</KMSteelPlate>
       </products>
       <fixedIngredientFilter>
@@ -1086,11 +1194,11 @@
          </thingDefs>
       </fixedIngredientFilter>
    </RecipeDef>
-
+-->
    <!-- =======Drugs=========== -->
 
    <RecipeDef>
-      <defName>UnpackSmokeleafJointCrate</defName>
+      <defName>unpackSmokeleafJointCrate</defName>
       <label>Un-pack Smokeleaf Joint Crate (75)</label>
       <description>Un-Packs 75 Smokeleaf Joints from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -1116,10 +1224,13 @@
             <li>SmokeleafJointCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>FoodUnPackingBench</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackYayoCrate</defName>
+      <defName>unpackYayoCrate</defName>
       <label>Un-pack Yayo Crate (75)</label>
       <description>Un-Packs 75 Yayo from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -1145,10 +1256,13 @@
             <li>YayoCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>FoodUnPackingBench</li>
+      </recipeUsers>
    </RecipeDef>   
 
    <RecipeDef>
-      <defName>UnpackGoJuiceCrate</defName>
+      <defName>unpackGoJuiceCrate</defName>
       <label>Un-pack Go-Juice Crate (75)</label>
       <description>Un-Packs 75 Go-Juice from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -1174,10 +1288,13 @@
             <li>GoJuiceCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>FoodUnPackingBench</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackLuciferiumCrate</defName>
+      <defName>unpackLuciferiumCrate</defName>
       <label>Un-pack Luciferium Crate (75)</label>
       <description>Un-Packs 75 Luciferium pills from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -1203,10 +1320,13 @@
             <li>LuciferiumCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>FoodUnPackingBench</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackPenoxycylineCrate</defName>
+      <defName>unpackPenoxycylineCrate</defName>
       <label>Un-pack Penoxycyline Crate (75)</label>
       <description>Un-Packs 75 Penoxycyline pills from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -1232,10 +1352,13 @@
             <li>PenoxycylineCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>FoodUnPackingBench</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackFlakeCrate</defName>
+      <defName>unpackFlakeCrate</defName>
       <label>Un-pack Flake Crate (75)</label>
       <description>Un-Packs 75 Flake from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -1261,10 +1384,13 @@
             <li>FlakeCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>FoodUnPackingBench</li>
+      </recipeUsers>
    </RecipeDef>
 
    <RecipeDef>
-      <defName>UnpackWakeUpCrate</defName>
+      <defName>unpackWakeUpCrate</defName>
       <label>Un-pack Wake-Up Crate (75)</label>
       <description>Un-Packs 75 Wake-Up from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -1290,12 +1416,15 @@
             <li>WakeUpCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>FoodUnPackingBench</li>
+      </recipeUsers>
    </RecipeDef>
 
    <!-- =======Drug Materials== -->
 <!--
    <RecipeDef>
-      <defName>UnpackPsychoidLeavesCrate</defName>
+      <defName>unpackPsychoidLeavesCrate</defName>
       <label>Un-pack Psychoid Leaves Crate (75)</label>
       <description>Un-pack 75 Psychoid Leaves from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -1325,7 +1454,7 @@
    </RecipeDef> 
 
    <RecipeDef>
-      <defName>UnpackSmokeleafLeavesCrate</defName>
+      <defName>unpackSmokeleafLeavesCrate</defName>
       <label>Un-pack Smokeleaf Leaves Crate (75)</label>
       <description>Un-pack 75 Smokeleaf Leaves from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -1357,7 +1486,7 @@
    <!-- =======Food_Meat======= -->
 
    <RecipeDef>
-      <defName>UnpackMeatCrate</defName>
+      <defName>unpackMeatCrate</defName>
       <label>Un-pack Processed Meat Crate (75)</label>
       <description>Un-pack 75 Processed Meat from a crate.</description>
       <jobString>Packing heat.</jobString>
@@ -1384,6 +1513,9 @@
             <li>MeatCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
+      <recipeUsers>
+         <li>FoodUnPackingBench</li>
+      </recipeUsers>
    </RecipeDef>    
 
-</RecipeDefs>
+</Defs>

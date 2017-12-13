@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingCategoryDefs>
+<Defs>
 
    		<ThingCategoryDef>
       		<defName>SCCrates</defName>
@@ -65,4 +65,4 @@
       			<iconPath>UI/Icons/ThingCategories/LText</iconPath>
    			</ThingCategoryDef>
 
-</ThingCategoryDefs>
+</Defs>

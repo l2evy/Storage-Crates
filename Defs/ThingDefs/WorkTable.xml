@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
    <ThingDef Name="BuildingBase" Abstract="True">
       <category>Building</category>
@@ -15,11 +15,11 @@
    </ThingDef>
 
 
-   <ThingDef ParentName="BuildingBase">
-      <DefName>PackingBenchTierOne</DefName>
+   <ThingDef Name="PackingBenchTierOne" ParentName="BuildingBase">
+      <defName>PackingBenchTierOne</defName>
       <label>Packing Bench</label>
-      <ThingClass>KompressionMod.PackingBenchTierOne</ThingClass>
-      <Description>A workbench where you can cut your meal with plasma torch or pack a crate.</Description>
+      <thingClass>KompressionMod.PackingBenchTierOne</thingClass>
+      <description>A workbench where you can cut your meal with plasma torch or pack a crate.</description>
       <graphicData>
          <texPath>Things/Building/Frames/PackingBenchTier1_Open</texPath>
          <shaderType>CutoutComplex</shaderType>
@@ -32,61 +32,30 @@
           <cornerBR>Damage/Corner</cornerBR>
          </damageData>
       </graphicData>
-      <CostList>
+      <costList>
          <KMSteelPlate>6</KMSteelPlate>
-      </CostList>
+      </costList>
       <stuffCategories>
          <li>Metallic</li>
          <li>Woody</li>
       </stuffCategories>
       <costStuffCount>30</costStuffCount>
-      <AltitudeLayer>Building</AltitudeLayer>
+      <altitudeLayer>Building</altitudeLayer>
       <statBases>
          <WorkToMake>1500</WorkToMake>
          <MaxHitPoints>250</MaxHitPoints>
          <Flammability>0.5</Flammability>
       </statBases>
-      <Size>(3,1)</Size>
+      <size>(3,1)</size>
       <tickerType>Normal</tickerType>
-      <DesignationCategory>Production</DesignationCategory>
-      <Passability>Impassable</Passability>
+      <designationCategory>Production</designationCategory>
+      <passability>Impassable</passability>
       <hasInteractionCell>True</hasInteractionCell>
       <interactionCellOffset>(0,0,-1)</interactionCellOffset>
       <surfaceType>Item</surfaceType>
       <inspectorTabs>
          <li>ITab_Bills</li>
       </inspectorTabs>
-      <recipes>
-         <li>MakeSteelCrate</li>
-         <li>MakeSilverCrate</li>
-         <li>MakeGoldCrate</li>
-         <li>MakeWoodCrate</li>
-         <li>MakePlasteelCrate</li>
-         <li>MakeUraniumCrate</li>
-         <li>MakeSandstoneCrate</li>
-         <li>MakeGraniteCrate</li>
-         <li>MakeLimestoneCrate</li>
-         <li>MakeSlateCrate</li>
-         <li>MakeMarbleCrate</li>
-         <li>MakeClothCrate</li>
-         <li>MakeSynthreadCrate</li>
-         <li>MakeHyperwaveCrate</li>
-         <li>MakeDevilstrandCrate</li>
-         <li>MakeDeerLeatherCrate</li>
-         <li>MakePigLeatherCrate</li>
-         <li>MakeCowLeatherCrate</li>
-         <li>MakeTurkeyLeatherCrate</li>
-         <li>MakeAlpacaLeatherCrate</li>
-         <li>MakeElkLeatherCrate</li>
-         <li>MakeElephantLeatherCrate</li>
-         <li>MakeMegaslothLeatherCrate</li>
-         <li>MakeTimberwolfLeatherCrate</li>
-         <li>MakeArcticwolfLeatherCrate</li>
-         <li>MakeFennecfoxLeatherCrate</li>
-         <li>MakeRedfoxLeatherCrate</li>
-         <li>MakeArcticfoxLeatherCrate</li>
-         <li>MakeMortarshellCrate</li>
-      </recipes>
       <comps>
          <li Class="CompProperties_Power">
             <compClass>CompPowerTrader</compClass>
@@ -105,11 +74,11 @@
       </comps>
    </ThingDef>
 
-   <ThingDef ParentName="BuildingBase">
-      <DefName>UnpackingBenchTierOne</DefName>
+   <ThingDef Name="UnPackingBenchTierOne" ParentName="BuildingBase">
+      <defName>UnpackingBenchTierOne</defName>
       <label>Unpacking Bench</label>
-      <ThingClass>KompressionMod.PackingBenchTierOne</ThingClass>
-      <Description>A workbench where you can package items into a environment friendly crate.</Description>
+      <thingClass>KompressionMod.PackingBenchTierOne</thingClass>
+      <description>A workbench where you can package items into a environment friendly crate.</description>
       <graphicData>
          <texPath>Things/Building/Frames/PackingBenchTier1_Closed</texPath>
          <shaderType>CutoutComplex</shaderType>
@@ -122,60 +91,29 @@
           <cornerBR>Damage/Corner</cornerBR>
          </damageData>
       </graphicData>
-      <CostList>
+      <costList>
          <KMSteelPlate>6</KMSteelPlate>
-      </CostList>
+      </costList>
       <stuffCategories>
          <li>Metallic</li>
          <li>Woody</li>
       </stuffCategories>
       <costStuffCount>30</costStuffCount>
-      <AltitudeLayer>Building</AltitudeLayer>
+      <altitudeLayer>Building</altitudeLayer>
       <statBases>
          <WorkToMake>1500</WorkToMake>
          <MaxHitPoints>250</MaxHitPoints>
          <Flammability>0.5</Flammability>
       </statBases>
-      <Size>(3,1)</Size>
+      <size>(3,1)</size>
       <tickerType>Normal</tickerType>
-      <Passability>Impassable</Passability>
+      <passability>Impassable</passability>
       <hasInteractionCell>True</hasInteractionCell>
       <interactionCellOffset>(0,0,-1)</interactionCellOffset>
       <surfaceType>Item</surfaceType>
       <inspectorTabs>
          <li>ITab_Bills</li>
       </inspectorTabs>
-      <recipes>
-         <li>UnpackSteelCrate</li>
-         <li>UnpackSilverCrate</li>
-         <li>UnpackGoldCrate</li>
-         <li>UnpackWoodCrate</li>
-         <li>UnpackPlasteelCrate</li>
-         <li>UnpackUraniumCrate</li>
-         <li>UnpackSandstoneCrate</li>
-         <li>UnpackGraniteCrate</li>
-         <li>UnpackLimestoneCrate</li>
-         <li>UnpackSlateCrate</li>
-         <li>UnpackMarbleCrate</li>
-         <li>UnpackClothCrate</li>
-         <li>UnpackSynthreadCrate</li>
-         <li>UnpackHyperwaveCrate</li>
-         <li>UnpackDevilstrandCrate</li>
-         <li>UnpackDeerLeatherCrate</li>
-         <li>UnpackPigLeatherCrate</li>
-         <li>UnpackCowLeatherCrate</li>
-         <li>UnpackTurkeyLeatherCrate</li>
-         <li>UnpackAlpacaLeatherCrate</li>
-         <li>UnpackElkLeatherCrate</li>
-         <li>UnpackElephantLeatherCrate</li>
-         <li>UnpackMegaslothLeatherCrate</li>
-         <li>UnpackTimberwolfLeatherCrate</li>
-         <li>UnpackArcticwolfLeatherCrate</li>
-         <li>UnpackFennecfoxLeatherCrate</li>
-         <li>UnpackRedfoxLeatherCrate</li>
-         <li>UnpackArcticfoxLeatherCrate</li>
-         <li>UnpackMortarshellCrate</li>
-      </recipes>
       <comps>
          <li Class="CompProperties_Power">
             <compClass>CompPowerTrader</compClass>
@@ -194,12 +132,12 @@
       </comps>
    </ThingDef>
 
-   <ThingDef ParentName="BuildingBase">
-      <DefName>FoodPackingBench</DefName>
+   <ThingDef Name="FoodPackingBench" ParentName="BuildingBase">
+      <defName>FoodPackingBench</defName>
       <label>Consumables Packing Bench</label>
       <designationCategory>Production</designationCategory>
-      <ThingClass>KompressionMod.FoodBench</ThingClass>
-      <Description>Pack the food in the environment friendly crate.</Description>
+      <thingClass>KompressionMod.FoodBench</thingClass>
+      <description>Pack the food in the environment friendly crate.</description>
       <graphicData>
          <texPath>Things/Building/Frames/FoodBench_Packing</texPath>
          <shaderType>CutoutComplex</shaderType>
@@ -212,48 +150,29 @@
           <cornerBR>Damage/Corner</cornerBR>
          </damageData>
       </graphicData>
-      <CostList>
+      <costList>
          <KMSteelPlate>6</KMSteelPlate>
-      </CostList>
+      </costList>
       <stuffCategories>
          <li>Metallic</li>
          <li>Woody</li>
       </stuffCategories>
       <costStuffCount>30</costStuffCount>
-      <AltitudeLayer>Building</AltitudeLayer>
+      <altitudeLayer>Building</altitudeLayer>
       <statBases>
          <WorkToMake>1500</WorkToMake>
          <MaxHitPoints>250</MaxHitPoints>
          <Flammability>0.5</Flammability>
       </statBases>
-      <Size>(3,1)</Size>
+      <size>(3,1)</size>
       <tickerType>Normal</tickerType>
-      <DesignationCategory>Production</DesignationCategory>
-      <Passability>Impassable</Passability>
+      <passability>Impassable</passability>
       <hasInteractionCell>True</hasInteractionCell>
       <interactionCellOffset>(0,0,-1)</interactionCellOffset>
       <surfaceType>Item</surfaceType>
       <inspectorTabs>
          <li>ITab_Bills</li>
       </inspectorTabs>
-      <recipes>
-         <li>MakePotatoCrate</li>
-         <li>MakeBerryCrate</li>
-         <li>MakeAgaveCrate</li>
-         <li>MakeHopsCrate</li>
-         <li>MakeRiceCrate</li>
-         <li>MakeCornCrate</li>
-         <li>MakeMeatCrate</li>
-         <li>MakeMeatCanCrate</li>
-         <li>MakeVeggiesCanCrate</li>
-         <li>MakeSmokeleafJointCrate</li>
-         <li>MakeYayoCrate</li>
-         <li>MakeGoJuiceCrate</li>
-         <li>MakeLuciferiumCrate</li>
-         <li>MakePenoxycylineCrate</li>
-         <li>MakeFlakeCrate</li>
-         <li>MakeWakeUpCrate</li>         
-      </recipes>
       <comps>
          <li Class="CompProperties_Power">
             <compClass>CompPowerTrader</compClass>
@@ -272,11 +191,11 @@
       </comps>
    </ThingDef>
 
-   <ThingDef ParentName="BuildingBase">
-      <DefName>FoodUnPackingBench</DefName>
+   <ThingDef Name="FoodUnPackingbench" ParentName="BuildingBase">
+      <defName>FoodUnPackingBench</defName>
       <label>Consumeables Unpacking Bench</label>
-      <ThingClass>KompressionMod.FoodBench</ThingClass>
-      <Description>Unpack the food from the environment friendly crate.</Description>
+      <thingClass>KompressionMod.FoodBench</thingClass>
+      <description>Unpack the food from the environment friendly crate.</description>
       <graphicData>
          <texPath>Things/Building/Frames/FoodBench_UnPacking</texPath>
          <shaderType>CutoutComplex</shaderType>
@@ -289,47 +208,29 @@
           <cornerBR>Damage/Corner</cornerBR>
          </damageData>
       </graphicData>
-      <CostList>
+      <costList>
          <KMSteelPlate>6</KMSteelPlate>
-      </CostList>
+      </costList>
       <stuffCategories>
          <li>Metallic</li>
          <li>Woody</li>
       </stuffCategories>
       <costStuffCount>30</costStuffCount>
-      <AltitudeLayer>Building</AltitudeLayer>
+      <altitudeLayer>Building</altitudeLayer>
       <statBases>
          <WorkToMake>1500</WorkToMake>
          <MaxHitPoints>250</MaxHitPoints>
          <Flammability>0.5</Flammability>
       </statBases>
-      <Size>(3,1)</Size>
+      <size>(3,1)</size>
       <tickerType>Normal</tickerType>
-      <Passability>Impassable</Passability>
+      <passability>Impassable</passability>
       <hasInteractionCell>True</hasInteractionCell>
       <interactionCellOffset>(0,0,-1)</interactionCellOffset>
       <surfaceType>Item</surfaceType>
       <inspectorTabs>
          <li>ITab_Bills</li>
       </inspectorTabs>
-      <recipes>
-         <li>UnpackPotatoCrate</li>
-         <li>UnpackBerryCrate</li>
-         <li>UnpackAgaveCrate</li>
-         <li>UnpackHopsCrate</li>
-         <li>UnpackRiceCrate</li>
-         <li>UnpackCornCrate</li>
-         <li>UnpackMeatCrate</li>
-         <li>UnpackMeatCanCrate</li>
-         <li>UnpackVeggiesCanCrate</li>
-         <li>UnpackSmokeleafJointCrate</li>
-         <li>UnpackYayoCrate</li>
-         <li>UnpackGoJuiceCrate</li>
-         <li>UnpackLuciferiumCrate</li>
-         <li>UnpackPenoxycylineCrate</li>
-         <li>UnpackFlakeCrate</li>
-         <li>UnpackWakeUpCrate</li>     
-      </recipes>
       <comps>
          <li Class="CompProperties_Power">
             <compClass>CompPowerTrader</compClass>
@@ -348,4 +249,4 @@
       </comps>
    </ThingDef>
 
-</ThingDefs>
+</Defs>

@@ -1,3 +1,6 @@
+12/12/2017 1.17.0 > 1.18.0
+-Updated for Beta 18
+
 8/30/2017 1.16.0 > 1.17.0
 -Updated for Alpha 17
 -Adjusted drug crate weight to reflect the new drug weights

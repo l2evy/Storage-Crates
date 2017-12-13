@@ -3,7 +3,7 @@
   <name>Storage Crates</name>
   <author>1.0+: l2evy</author>
   <url></url>
-  <targetVersion>0.17.1557</targetVersion>
+  <targetVersion>0.18.1722</targetVersion>
   <description>
 Storage Crates is a mod focused on compact and neat stockpiling of bulk resources.
 The basic structure is you build some steel crate plates, then assemble them plus your stack of 75 of any resource (500 for gold/silver) and produce the crate.
@@ -28,6 +28,6 @@ You can then even pack the meat/veggie cans into a crate for storage too.
 Special thanks to Nasikabatrachus for the original idea
 Developement : 1.0: Nirahiel, 1.0+: l2evy
 Textures : 1.0:mrofa , 1.0+: l2evy
-*Updated for Rimworld 11b>17 and now maintained by : l2evy
+*Updated for Rimworld 11b>B18 and now maintained by : l2evy
   </description>
 </ModMetaData>

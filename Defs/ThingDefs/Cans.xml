@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Resources>
+<Defs>
    <!-- ========== BASES =========== -->
    <ThingDef Name="EmptyCanBase" Abstract="True">
       <thingClass>ThingWithComps</thingClass>
@@ -132,4 +132,4 @@
 
    </ThingDef>
 
-</Resources>
+</Defs>

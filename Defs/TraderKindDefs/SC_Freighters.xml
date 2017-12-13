@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DefPackage-TraderKindDef>
+<Defs>
 
   <TraderKindDef>
     <defName>Orbital_SCFreighterSupply</defName>
@@ -810,14 +810,14 @@
           <max>1</max>
         </countRange>
       </li>
-      <li Class="StockGenerator_SingleDef">
+      <!--<li Class="StockGenerator_SingleDef">
         <thingDef>MortarShell</thingDef>
         <price>Cheap</price>
         <countRange>
           <min>30</min>
           <max>60</max>
         </countRange>
-      </li>
+      </li> -->
       <li Class="StockGenerator_Category">
         <categoryDef>CratesMeat</categoryDef>
         <price>Normal</price>
@@ -876,13 +876,13 @@
           <max>2000</max>
         </countRange>
       </li>
-      <li Class="StockGenerator_SingleDef">
+      <!-- <li Class="StockGenerator_SingleDef">
         <thingDef>GoldCrate</thingDef>
         <countRange>
           <min>2</min>
           <max>250</max>
         </countRange>
-      </li>
+      </li> -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>Plasteel</thingDef>
         <countRange>
@@ -1132,13 +1132,13 @@
           <max>1</max>
         </countRange>
       </li>
-      <li Class="StockGenerator_SingleDef">
+      <!-- <li Class="StockGenerator_SingleDef">
         <thingDef>MortarShell</thingDef>
         <countRange>
           <min>-10</min>
           <max>120</max>
         </countRange>
-      </li>
+      </li> -->
       <li Class="StockGenerator_Clothes">
         <countRange>
           <min>3</min>
@@ -1190,4 +1190,4 @@
   </TraderKindDef>
 
 
-</DefPackage-TraderKindDef>
+</Defs>

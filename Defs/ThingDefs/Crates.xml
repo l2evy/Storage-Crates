@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Resources>
+<Defs>
 
    <ThingDef Name="CrateBase" Abstract="True">
       <thingClass>KompressionMod.Crate</thingClass>
@@ -406,7 +406,7 @@
       <StoredStuffAmmount>75</StoredStuffAmmount>
    </ThingDef>
 
-   <!--====== Weapons =========-->
+   <!--====== Weapons =========
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
       <defName>MortarshellCrate</defName>
@@ -424,10 +424,10 @@
       <thingCategories>
          <li>CratesDrug</li>
       </thingCategories>
-      <StoredStuff>MortarShell</StoredStuff>
+      <StoredStuff>MortarShells</StoredStuff>
       <StoredStuffAmmount>25</StoredStuffAmmount>
    </ThingDef>
-
+-->
    <!--=========Drugs==========-->
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
@@ -993,4 +993,4 @@
       <stackLimit>75</stackLimit>
    </ThingDef>
 
-</Resources>
+</Defs>

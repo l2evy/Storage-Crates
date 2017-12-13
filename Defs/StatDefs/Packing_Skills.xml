@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<StatDefs>
+<Defs>
 
    <StatDef>
       <defName>PackingTime</defName>
@@ -14,8 +14,8 @@
       <skillNeedFactors>
          <li Class="SkillNeed_BaseBonus">
             <skill>Crafting</skill>
-            <baseFactor>0.4</baseFactor>
-            <bonusFactor>0.06</bonusFactor>
+            <baseValue>0.4</baseValue>
+            <bonusPerLevel>0.06</bonusPerLevel>
          </li>
       </skillNeedFactors>
       <capacityFactors>
@@ -39,8 +39,8 @@
       <skillNeedFactors>
          <li Class="SkillNeed_BaseBonus">
             <skill>Crafting</skill>
-            <baseFactor>1</baseFactor>
-            <bonusFactor>0</bonusFactor>
+            <baseValue>1</baseValue>
+            <bonusPerLevel>0</bonusPerLevel>
          </li>
       </skillNeedFactors>
       <capacityFactors>
@@ -64,8 +64,8 @@
       <skillNeedFactors>
          <li Class="SkillNeed_BaseBonus">
             <skill>Crafting</skill>
-            <baseFactor>0.4</baseFactor>
-            <bonusFactor>0.06</bonusFactor>
+            <baseValue>0.4</baseValue>
+            <bonusPerLevel>0.06</bonusPerLevel>
          </li>
       </skillNeedFactors>
       <capacityFactors>
@@ -89,8 +89,8 @@
       <skillNeedFactors>
          <li Class="SkillNeed_BaseBonus">
             <skill>Crafting</skill>
-            <baseFactor>1</baseFactor>
-            <bonusFactor>0</bonusFactor>
+            <baseValue>1</baseValue>
+            <bonusPerLevel>0</bonusPerLevel>
          </li>
       </skillNeedFactors>
       <capacityFactors>
@@ -101,4 +101,4 @@
       </capacityFactors>
    </StatDef>
 
-</StatDefs>
+</Defs>

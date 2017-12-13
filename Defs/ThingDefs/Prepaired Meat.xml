@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef Name="MealBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
@@ -28,7 +28,7 @@
     <ingestible>
       <foodType>Processed</foodType>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
-      <optimalityOffset>16</optimalityOffset>
+      <optimalityOffsetHumanlikes>16</optimalityOffsetHumanlikes>
     </ingestible>
   </ThingDef>
 
@@ -63,4 +63,4 @@
     </ingestible>
   </ThingDef>
 
-</ThingDefs>  
+</Defs>  
