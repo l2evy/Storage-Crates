@@ -993,4 +993,41 @@
       <stackLimit>75</stackLimit>
    </ThingDef>
 
+<!-- ============ FUEL DRUM ========-->
+
+	<ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>ChemfuelCrate</defName>
+      <label>Chemfuel Barrel (75)</label>
+      <statBases>
+         <MarketValue>275</MarketValue>
+         <Mass>5.40</Mass>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Chemfuel</texPath>
+         <graphicClass>Graphic_StackCount</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>CratesLText</li>
+      </thingCategories>
+      <StoredStuff>Chemfuel</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+      <comps>
+         <li Class="CompProperties_Explosive">
+            <explosiveRadius>2.1</explosiveRadius>
+            <explosiveDamageType>Flame</explosiveDamageType>
+            <explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
+            <startWickOnDamageTaken>Flame</startWickOnDamageTaken>
+            <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+            <preExplosionSpawnThingDef>FilthFuel</preExplosionSpawnThingDef>
+            <preExplosionSpawnChance>1</preExplosionSpawnChance>
+            <wickTicks>
+               <min>70</min>
+               <max>150</max>
+            </wickTicks>
+         </li>
+      </comps>
+   </ThingDef>
+
 </Defs>

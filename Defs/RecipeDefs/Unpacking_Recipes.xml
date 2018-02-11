@@ -1516,6 +1516,39 @@
       <recipeUsers>
          <li>FoodUnPackingBench</li>
       </recipeUsers>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>unpackChemfuelCrate</defName>
+      <label>Un-pack Chemfuel Barrel (75)</label>
+      <description>Un-pack 75 Chemfuel from a barrel.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>ChemfuelCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Chemfuel>75</Chemfuel>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>ChemfuelCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnPackingBenchTierOne</li>
+      </recipeUsers>
    </RecipeDef>    
 
 </Defs>
