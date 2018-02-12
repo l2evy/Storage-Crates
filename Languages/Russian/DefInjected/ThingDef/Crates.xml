@@ -101,6 +101,7 @@
 
   <VeggiesCanCrate.label>овощные консервы (75)</VeggiesCanCrate.label>
   <VeggiesCanCrate.description>Контейнер, содержащий 75 консервных банок с овощами.</VeggiesCanCrate.description>
-
+  
+  <ChemfuelCrate.label>бочонок с химическим топливом (75)</ChemfuelCrate.label>
 
 </LanguageData>
