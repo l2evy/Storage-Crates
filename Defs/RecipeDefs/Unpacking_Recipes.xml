@@ -1547,7 +1547,7 @@
          </thingDefs>
       </fixedIngredientFilter>
       <recipeUsers>
-         <li>UnPackingBenchTierOne</li>
+         <li>UnpackingBenchTierOne</li>
       </recipeUsers>
    </RecipeDef>    
 
