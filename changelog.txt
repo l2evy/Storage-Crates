@@ -1,6 +1,7 @@
 3/23/2018 1.18.1 > 1.18.2
 -Fixed Chemfuel Barrels to explode as they should (Thanks White Wizard from Steam comments for the report!)
 -Pushed Russian Translation Update (Thanks to the awesome Bugo from github!)
+-found and fixed gold crate changes and typo not sync'd to github (for some reason it did not push on those select changes to github)
 
 2/11/2018 1.18.0 > 1.18.1
 -Added Chemfuel Barrels (make sure to be careful with these)
