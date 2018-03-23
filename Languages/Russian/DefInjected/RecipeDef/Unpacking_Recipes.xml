@@ -197,5 +197,8 @@
   <unpackMeatCrate.description>Распаковать 75 мясного фарша из контейнера.</unpackMeatCrate.description>
   <unpackMeatCrate.jobString>Распаковывает.</unpackMeatCrate.jobString>
 
+  <unpackChemfuelCrate.label>Открыть бочонок с химическим топливом (75)</unpackChemfuelCrate.label>
+  <unpackChemfuelCrate.description>Достать 75 единиц химического топлива из бочонка.</unpackChemfuelCrate.description>
+  <unpackChemfuelCrate.jobstring>Открывает бочонок.</unpackChemfuelCrate.jobstring>
 
 </LanguageData>

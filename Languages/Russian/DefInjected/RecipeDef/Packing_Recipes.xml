@@ -204,5 +204,8 @@
   <makeMeatCrate.description>Упаковать 75 мясного фарша в контейнер.</makeMeatCrate.description>
   <makeMeatCrate.jobString>Упаковывает.</makeMeatCrate.jobString>
 
+  <makeChemfuelCrate.label>Поместить химическое топливо (75) в бочонок</makeChemfuelCrate.label>
+  <makeChemfuelCrate.description>Поместить 75 единиц химического топлива в бочонок.</makeChemfuelCrate.description>
+  <makeChemfuelCrate.jobstring>Закупоривает бочонок с топливом.</makeChemfuelCrate.jobstring>
 
 </LanguageData>
