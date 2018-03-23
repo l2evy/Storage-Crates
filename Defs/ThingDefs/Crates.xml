@@ -70,12 +70,12 @@
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
       <defName>GoldCrate</defName>
-      <label>Gold Crate(500)</label>
+      <label>Gold Crate(250)</label>
       <statBases>
-         <MarketValue>1260</MarketValue>
-         <Mass>27</Mass>
+         <MarketValue>660</MarketValue>
+         <Mass>14.49</Mass>
       </statBases>
-      <description>Crate containing 500 gold units</description>
+      <description>Crate containing 250 gold units</description>
       <graphicData>
          <texPath>Things/Item/Materials/GoldCrate</texPath>
          <graphicClass>Graphic_Single</graphicClass>
@@ -83,7 +83,7 @@
       <soundInteract>Metal_Drop</soundInteract>
       <soundDrop>Metal_Drop</soundDrop>
       <StoredStuff>Gold</StoredStuff>
-      <StoredStuffAmmount>500</StoredStuffAmmount>
+      <StoredStuffAmmount>250</StoredStuffAmmount>
       <thingCategories>
          <li>CratesMat</li>
       </thingCategories>
@@ -1000,6 +1000,7 @@
       <label>Chemfuel Barrel (75)</label>
       <statBases>
          <MarketValue>275</MarketValue>
+         <Flammability>0.20</Flammability>
          <Mass>5.40</Mass>
       </statBases>
       <graphicData>
@@ -1013,20 +1014,21 @@
       </thingCategories>
       <StoredStuff>Chemfuel</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
-      <comps>
-         <li Class="CompProperties_Explosive">
-            <explosiveRadius>2.1</explosiveRadius>
-            <explosiveDamageType>Flame</explosiveDamageType>
-            <explosiveExpandPerStackcount>0.037</explosiveExpandPerStackcount>
-            <startWickOnDamageTaken>Flame</startWickOnDamageTaken>
-            <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
-            <preExplosionSpawnThingDef>FilthFuel</preExplosionSpawnThingDef>
-            <preExplosionSpawnChance>1</preExplosionSpawnChance>
-            <wickTicks>
-               <min>70</min>
-               <max>150</max>
-            </wickTicks>
-         </li>
+      <tickerType>Normal</tickerType>
+         <comps>
+            <li Class="CompProperties_Explosive">
+               <explosiveRadius>2.1</explosiveRadius>
+               <explosiveDamageType>Flame</explosiveDamageType>
+               <explosiveExpandPerStackcount>0.37</explosiveExpandPerStackcount>
+               <startWickOnDamageTaken>Flame</startWickOnDamageTaken>
+               <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
+               <preExplosionSpawnThingDef>FilthFuel</preExplosionSpawnThingDef>
+               <preExplosionSpawnChance>1</preExplosionSpawnChance>
+               <wickTicks>
+                  <min>70</min>
+                  <max>150</max>
+               </wickTicks>
+            </li>
       </comps>
    </ThingDef>
 
