@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="MealBase" Abstract="True">
+  <ThingDef Name="PrepairedMealBase" Abstract="True">
     <thingClass>ThingWithComps</thingClass>
     <category>Item</category>
     <useHitPoints>true</useHitPoints>
@@ -32,17 +32,16 @@
     </ingestible>
   </ThingDef>
 
-  <ThingDef ParentName="MealBase" Name="MealRottable" Abstract="True">
+  <ThingDef ParentName="PrepairedMealBase" Name="PrepairedMealRottable" Abstract="True">
     <comps>
       <li Class="CompProperties_Rottable">
         <daysToRotStart>2</daysToRotStart>
         <rotDestroys>true</rotDestroys>
       </li>
-      <li Class="CompProperties_FoodPoisoningChance" />      
     </comps>
   </ThingDef>
 
-    <ThingDef ParentName="MealRottable">
+  <ThingDef ParentName="PrepairedMealRottable">
     <defName>SCMeat</defName>
     <label>Processed Meat</label>
     <description>Processed meat, ready for storage or cooking.</description>
@@ -54,10 +53,11 @@
       <DeteriorationRate>20</DeteriorationRate>
       <MarketValue>2.70</MarketValue>
       <WorkToMake>50</WorkToMake>
+      <Nutrition>0.05</Nutrition>
+      <Mass>0.03</Mass>
     </statBases>
     <ingestible>
       <preferability>DesperateOnly</preferability>
-      <nutrition>0.05</nutrition>
       <ingestEffect>EatMeat</ingestEffect>
       <ingestSound>RawMeat_Eat</ingestSound>
     </ingestible>

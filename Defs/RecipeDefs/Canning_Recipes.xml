@@ -2,115 +2,6 @@
 <Defs>
 
    <RecipeDef>
-      <defName>PackMeatCan</defName>
-      <label>can meat</label>
-      <description>Put some meat into a steel can.</description>
-      <jobString>Canning meat.</jobString>
-      <workAmount>300</workAmount>
-      <workSpeedStat>CookSpeed</workSpeedStat>
-      <effectWorking>Cook</effectWorking>
-      <soundWorking>Recipe_CookMeal</soundWorking>
-      <allowMixingIngredients>true</allowMixingIngredients>
-      <ingredients>
-         <li>
-            <filter>
-               <categories>
-                  <li>MeatRaw</li>
-               </categories>
-            </filter>
-            <count>5</count>
-         </li>
-         <li>
-            <filter>
-               <thingDefs>
-                  <li>EmptyCan</li>
-               </thingDefs>
-            </filter>
-            <count>2</count>
-         </li>
-      </ingredients>
-      <products>
-         <MeatCan>2</MeatCan>
-      </products>
-      <fixedIngredientFilter>
-         <categories>
-            <li>MeatRaw</li>
-         </categories>
-         <thingDefs>
-            <li>EmptyCan</li>
-         </thingDefs>
-         <exceptedThingDefs>
-            <li>MeatCan</li>
-         </exceptedThingDefs>
-      </fixedIngredientFilter>
-      <defaultIngredientFilter>
-         <categories>
-            <li>Foods</li>
-            <li>Manufactured</li>
-         </categories>
-      </defaultIngredientFilter>
-
-      <workSkill>Cooking</workSkill>
-      <recipeUsers>
-         <li>TableButcher</li>
-      </recipeUsers>
-   </RecipeDef>
-
-   <RecipeDef>
-      <defName>PackVeggiesCan</defName>
-      <label>can veggies</label>
-      <description>Put some veggies into a steel can.</description>
-      <jobString>Canning vegetables.</jobString>
-      <workAmount>300</workAmount>
-      <workSpeedStat>CookSpeed</workSpeedStat>
-      <effectWorking>Cook</effectWorking>
-      <soundWorking>Recipe_CookMeal</soundWorking>
-      <allowMixingIngredients>true</allowMixingIngredients>
-      <ingredients>
-         <li>
-            <filter>
-               <categories>
-                  <li>PlantFoodRaw</li>
-               </categories>
-            </filter>
-            <count>5</count>
-         </li>
-         <li>
-            <filter>
-               <thingDefs>
-                  <li>EmptyCan</li>
-               </thingDefs>
-            </filter>
-            <count>2</count>
-         </li>
-      </ingredients>
-      <products>
-         <VeggiesCan>2</VeggiesCan>
-      </products>
-      <fixedIngredientFilter>
-         <categories>
-            <li>PlantFoodRaw</li>
-         </categories>
-         <thingDefs>
-            <li>EmptyCan</li>
-         </thingDefs>
-         <exceptedThingDefs>
-            <li>VeggiesCan</li>
-         </exceptedThingDefs>
-      </fixedIngredientFilter>
-      <defaultIngredientFilter>
-         <categories>
-            <li>Foods</li>
-            <li>Manufactured</li>
-         </categories>
-      </defaultIngredientFilter>
-      <workSkill>Cooking</workSkill>
-      <recipeUsers>
-         <li>TableButcher</li>
-      </recipeUsers>
-   </RecipeDef>
-
-   <RecipeDef>
       <defName>PrepairMeat</defName>
       <label>Prepare meat</label>
       <description>Cut off excess fat and trim the meat.</description>
@@ -137,9 +28,9 @@
          <categories>
             <li>MeatRaw</li>
          </categories>
-         <exceptedThingDefs>
+         <disallowedThingDefs>
             <li>SCMeat</li>
-         </exceptedThingDefs>
+         </disallowedThingDefs>
       </fixedIngredientFilter>
       <defaultIngredientFilter>
          <categories>

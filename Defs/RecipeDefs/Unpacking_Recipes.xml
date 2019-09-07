@@ -491,9 +491,9 @@
    <!-- =======Leather/Hide====-->
 
    <RecipeDef>
-      <defName>unpackTurkeyLeatherCrate</defName>
-      <label>Un-pack Turkey Leather Crate (75)</label>
-      <description>Un-pack 75 Turkey Leather from a crate.</description>
+      <defName>unpackBirdLeatherCrate</defName>
+      <label>Un-pack Bird Leather Crate (75)</label>
+      <description>Un-pack 75 Bird Leather from a crate.</description>
       <jobString>Packing heat.</jobString>
       <workAmount>100</workAmount>
       <workSpeedStat>PackingTime</workSpeedStat>
@@ -502,19 +502,19 @@
          <li>
             <filter>
                <thingDefs>
-                  <li>TurkeyLeatherCrate</li>
+                  <li>BirdLeatherCrate</li>
                </thingDefs>
             </filter>
             <count>1</count>
          </li>
       </ingredients>
       <products>
-         <Turkey_Leather>75</Turkey_Leather>
+         <Leather_Bird>75</Leather_Bird>
          <KMSteelPlate>6</KMSteelPlate>
       </products>
       <fixedIngredientFilter>
          <thingDefs>
-            <li>TurkeyLeatherCrate</li>
+            <li>BirdLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
       <recipeUsers>
@@ -523,9 +523,9 @@
    </RecipeDef>
 
    <RecipeDef>
-      <defName>unpackAlpacaLeatherCrate</defName>
-      <label>Un-pack Alpaca Hide Crate (75)</label>
-      <description>Un-pack 75 Alpaca hide from a crate.</description>
+      <defName>unpackCamelLeatherCrate</defName>
+      <label>Un-pack Camel Hide Crate (75)</label>
+      <description>Un-pack 75 Camel hide from a crate.</description>
       <jobString>Packing heat.</jobString>
       <workAmount>100</workAmount>
       <workSpeedStat>PackingTime</workSpeedStat>
@@ -534,19 +534,19 @@
          <li>
             <filter>
                <thingDefs>
-                  <li>AlpacaLeatherCrate</li>
+                  <li>CamelLeatherCrate</li>
                </thingDefs>
             </filter>
             <count>1</count>
          </li>
       </ingredients>
       <products>
-         <Alpaca_Leather>75</Alpaca_Leather>
+         <Leather_Camel>75</Leather_Camel>
          <KMSteelPlate>6</KMSteelPlate>
       </products>
       <fixedIngredientFilter>
          <thingDefs>
-            <li>AlpacaLeatherCrate</li>
+            <li>CamelLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
       <recipeUsers>
@@ -573,7 +573,7 @@
          </li>
       </ingredients>
       <products>
-         <Pig_Leather>75</Pig_Leather>
+         <Leather_Pig>75</Leather_Pig>
          <KMSteelPlate>6</KMSteelPlate>
       </products>
       <fixedIngredientFilter>
@@ -587,9 +587,9 @@
    </RecipeDef>
 
    <RecipeDef>
-      <defName>unpackCowLeatherCrate</defName>
-      <label>Un-pack Cow Skin Crate (75)</label>
-      <description>Un-pack 75 Cow skin from a crate.</description>
+      <defName>unpackPlainLeatherCrate</defName>
+      <label>Un-pack Plain Leather Crate (75)</label>
+      <description>Un-pack 75 Plain Leather from a crate.</description>
       <jobString>Packing heat.</jobString>
       <workAmount>100</workAmount>
       <workSpeedStat>PackingTime</workSpeedStat>
@@ -598,19 +598,19 @@
          <li>
             <filter>
                <thingDefs>
-                  <li>CowLeatherCrate</li>
+                  <li>PlainLeatherCrate</li>
                </thingDefs>
             </filter>
             <count>1</count>
          </li>
       </ingredients>
       <products>
-         <Cow_Leather>75</Cow_Leather>
+         <Leather_Plain>75</Leather_Plain>
          <KMSteelPlate>6</KMSteelPlate>
       </products>
       <fixedIngredientFilter>
          <thingDefs>
-            <li>CowLeatherCrate</li>
+            <li>PlainLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
       <recipeUsers>
@@ -620,7 +620,7 @@
 
    <RecipeDef>
       <defName>unpackElephantLeatherCrate</defName>
-      <label>Un-pack Elephant Skin Crate (75)</label>
+      <label>Un-pack Elephant Leather Crate (75)</label>
       <description>Un-pack 75 Elephant skin from a crate.</description>
       <jobString>Packing heat.</jobString>
       <workAmount>100</workAmount>
@@ -637,7 +637,7 @@
          </li>
       </ingredients>
       <products>
-         <Elephant_Leather>75</Elephant_Leather>
+         <Leather_Elephant>75</Leather_Elephant>
          <KMSteelPlate>6</KMSteelPlate>
       </products>
       <fixedIngredientFilter>
@@ -651,9 +651,9 @@
    </RecipeDef>
 
    <RecipeDef>
-      <defName>unpackDeerLeatherCrate</defName>
-      <label>Un-pack Deer Hide Crate (75)</label>
-      <description>Un-pack 75 Deer Hide from a crate.</description>
+      <defName>unpackHeavyLeatherCrate</defName>
+      <label>Un-pack Heavy Fur Crate (75)</label>
+      <description>Un-pack 75 Heavy Fur from a crate.</description>
       <jobString>Packing heat.</jobString>
       <workAmount>100</workAmount>
       <workSpeedStat>PackingTime</workSpeedStat>
@@ -662,19 +662,19 @@
          <li>
             <filter>
                <thingDefs>
-                  <li>DeerLeatherCrate</li>
+                  <li>HeavyLeatherCrate</li>
                </thingDefs>
             </filter>
             <count>1</count>
          </li>
       </ingredients>
       <products>
-         <Deer_Leather>75</Deer_Leather>
+         <Leather_Heavy>75</Leather_Heavy>
          <KMSteelPlate>6</KMSteelPlate>
       </products>
       <fixedIngredientFilter>
          <thingDefs>
-            <li>DeerLeatherCrate</li>
+            <li>HeavyLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
       <recipeUsers>
@@ -683,9 +683,9 @@
    </RecipeDef>
 
    <RecipeDef>
-      <defName>unpackMegaslothLeatherCrate</defName>
-      <label>Un-pack Megasloth Leather Crate (75)</label>
-      <description>Un-pack 75 Megasloth Leather from a crate.</description>
+      <defName>unpackWolfLeatherCrate</defName>
+      <label>Un-pack Wolf Skin Crate (75)</label>
+      <description>Un-pack 75 Wolf skin from a crate.</description>
       <jobString>Packing heat.</jobString>
       <workAmount>100</workAmount>
       <workSpeedStat>PackingTime</workSpeedStat>
@@ -694,19 +694,19 @@
          <li>
             <filter>
                <thingDefs>
-                  <li>MegaslothLeatherCrate</li>
+                  <li>WolfLeatherCrate</li>
                </thingDefs>
             </filter>
             <count>1</count>
          </li>
       </ingredients>
       <products>
-         <Megasloth_Leather>75</Megasloth_Leather>
+         <Leather_Wolf>75</Leather_Wolf>
          <KMSteelPlate>6</KMSteelPlate>
       </products>
       <fixedIngredientFilter>
          <thingDefs>
-            <li>MegaslothLeatherCrate</li>
+            <li>WolfLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
       <recipeUsers>
@@ -715,9 +715,9 @@
    </RecipeDef>
 
    <RecipeDef>
-      <defName>unpackElkLeatherCrate</defName>
-      <label>Un-pack Elk Hide Crate (75)</label>
-      <description>Un-pack 75 Elk hide from a crate.</description>
+      <defName>unpackFoxLeatherCrate</defName>
+      <label>Un-pack Fox Skin Crate (75)</label>
+      <description>Un-pack 75 Fox skins from a crate.</description>
       <jobString>Packing heat.</jobString>
       <workAmount>100</workAmount>
       <workSpeedStat>PackingTime</workSpeedStat>
@@ -726,19 +726,19 @@
          <li>
             <filter>
                <thingDefs>
-                  <li>ElkLeatherCrate</li>
+                  <li>FoxLeatherCrate</li>
                </thingDefs>
             </filter>
             <count>1</count>
          </li>
       </ingredients>
       <products>
-         <Elk_Leather>75</Elk_Leather>
+         <Leather_Fox>75</Leather_Fox>
          <KMSteelPlate>6</KMSteelPlate>
       </products>
       <fixedIngredientFilter>
          <thingDefs>
-            <li>ElkLeatherCrate</li>
+            <li>FoxLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
       <recipeUsers>
@@ -747,9 +747,9 @@
    </RecipeDef>
 
    <RecipeDef>
-      <defName>unpackTimberwolfLeatherCrate</defName>
-      <label>Un-pack Timberwolf Skin Crate (75)</label>
-      <description>Un-pack 75 Timberwolf skin from a crate.</description>
+      <defName>unpackThrumboLeatherCrate</defName>
+      <label>Un-pack Thrumbo Fur Crate (75)</label>
+      <description>Un-pack 75 Thrumbo Fur from a crate.</description>
       <jobString>Packing heat.</jobString>
       <workAmount>100</workAmount>
       <workSpeedStat>PackingTime</workSpeedStat>
@@ -758,19 +758,19 @@
          <li>
             <filter>
                <thingDefs>
-                  <li>TimberwolfLeatherCrate</li>
+                  <li>ThrumboLeatherCrate</li>
                </thingDefs>
             </filter>
             <count>1</count>
          </li>
       </ingredients>
       <products>
-         <WolfTimber_Leather>75</WolfTimber_Leather>
+         <Leather_Fox>75</Leather_Fox>
          <KMSteelPlate>6</KMSteelPlate>
       </products>
       <fixedIngredientFilter>
          <thingDefs>
-            <li>TimberwolfLeatherCrate</li>
+            <li>ThrumboLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
       <recipeUsers>
@@ -779,9 +779,9 @@
    </RecipeDef>
 
    <RecipeDef>
-      <defName>unpackArcticwolfLeatherCrate</defName>
-      <label>Un-pack Arctic Wolf Skin Crate (75)</label>
-      <description>Un-pack 75 Arctic Wolf skins from a crate.</description>
+      <defName>unpackRhinoLeatherCrate</defName>
+      <label>Un-pack Rhinoceros Skin Crate (75)</label>
+      <description>Un-pack 75 Rhinoceros skins from a crate.</description>
       <jobString>Packing heat.</jobString>
       <workAmount>100</workAmount>
       <workSpeedStat>PackingTime</workSpeedStat>
@@ -790,19 +790,19 @@
          <li>
             <filter>
                <thingDefs>
-                  <li>ArcticwolfLeatherCrate</li>
+                  <li>RhinoLeatherCrate</li>
                </thingDefs>
             </filter>
             <count>1</count>
          </li>
       </ingredients>
       <products>
-         <WolfArctic_Leather>75</WolfArctic_Leather>
+         <Leather_Rhinoceros>75</Leather_Rhinoceros>
          <KMSteelPlate>6</KMSteelPlate>
       </products>
       <fixedIngredientFilter>
          <thingDefs>
-            <li>ArcticwolfLeatherCrate</li>
+            <li>RhinoLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
       <recipeUsers>
@@ -811,9 +811,9 @@
    </RecipeDef>
 
    <RecipeDef>
-      <defName>unpackFennecfoxLeatherCrate</defName>
-      <label>Un-pack Fennec Fox Skin Crate (75)</label>
-      <description>Un-pack 75 Fennec Fox skins from a crate.</description>
+      <defName>unpackPantheraLeatherCrate</defName>
+      <label>Un-pack Panthera Fur Crate (75)</label>
+      <description>Un-pack 75 Panthera Fur from a crate.</description>
       <jobString>Packing heat.</jobString>
       <workAmount>100</workAmount>
       <workSpeedStat>PackingTime</workSpeedStat>
@@ -822,19 +822,19 @@
          <li>
             <filter>
                <thingDefs>
-                  <li>FennecfoxLeatherCrate</li>
+                  <li>PantheraLeatherCrate</li>
                </thingDefs>
             </filter>
             <count>1</count>
          </li>
       </ingredients>
       <products>
-         <FoxFennec_Leather>75</FoxFennec_Leather>
+         <Leather_Panthera>75</Leather_Panthera>
          <KMSteelPlate>6</KMSteelPlate>
       </products>
       <fixedIngredientFilter>
          <thingDefs>
-            <li>FennecfoxLeatherCrate</li>
+            <li>PantheraLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
       <recipeUsers>
@@ -843,9 +843,9 @@
    </RecipeDef>
 
    <RecipeDef>
-      <defName>unpackRedfoxLeatherCrate</defName>
-      <label>Un-pack Red Fox Skin Crate (75)</label>
-      <description>Un-pack 75 Red Fox skins from a crate.</description>
+      <defName>unpackLightLeatherCrate</defName>
+      <label>Un-pack Light Leather Crate (75)</label>
+      <description>Un-pack 75 Light Leather from a crate.</description>
       <jobString>Packing heat.</jobString>
       <workAmount>100</workAmount>
       <workSpeedStat>PackingTime</workSpeedStat>
@@ -854,19 +854,19 @@
          <li>
             <filter>
                <thingDefs>
-                  <li>RedfoxLeatherCrate</li>
+                  <li>LightLeatherCrate</li>
                </thingDefs>
             </filter>
             <count>1</count>
          </li>
       </ingredients>
       <products>
-         <FoxRed_Leather>75</FoxRed_Leather>
+         <Leather_Light>75</Leather_Light>
          <KMSteelPlate>6</KMSteelPlate>
       </products>
       <fixedIngredientFilter>
          <thingDefs>
-            <li>RedfoxLeatherCrate</li>
+            <li>LightLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
       <recipeUsers>
@@ -875,9 +875,9 @@
    </RecipeDef>
 
    <RecipeDef>
-      <defName>unpackArcticfoxLeatherCrate</defName>
-      <label>Un-pack Arctic Fox Skin Crate (75)</label>
-      <description>Un-pack 75 Arctic Fox skins from a crate.</description>
+      <defName>unpackDogLeatherCrate</defName>
+      <label>Un-pack Dog Leather Crate (75)</label>
+      <description>Un-pack 75 Dog Leather from a crate.</description>
       <jobString>Packing heat.</jobString>
       <workAmount>100</workAmount>
       <workSpeedStat>PackingTime</workSpeedStat>
@@ -886,25 +886,249 @@
          <li>
             <filter>
                <thingDefs>
-                  <li>ArcticfoxLeatherCrate</li>
+                  <li>DogLeatherCrate</li>
                </thingDefs>
             </filter>
             <count>1</count>
          </li>
       </ingredients>
       <products>
-         <FoxArctic_Leather>75</FoxArctic_Leather>
+         <Leather_Dog>75</Leather_Dog>
          <KMSteelPlate>6</KMSteelPlate>
       </products>
       <fixedIngredientFilter>
          <thingDefs>
-            <li>ArcticfoxLeatherCrate</li>
+            <li>DogLeatherCrate</li>
          </thingDefs>
       </fixedIngredientFilter>
       <recipeUsers>
          <li>UnpackingBenchTierOne</li>
       </recipeUsers>
    </RecipeDef>
+
+   <RecipeDef>
+      <defName>unpackChinchillaLeatherCrate</defName>
+      <label>Un-pack Chinchilla Fur Crate (75)</label>
+      <description>Un-pack 75 Chinchilla Fur from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>ChinchillaLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Leather_Chinchilla>75</Leather_Chinchilla>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>ChinchillaLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>unpackLizardLeatherCrate</defName>
+      <label>Un-pack Lizard Leather Crate (75)</label>
+      <description>Un-pack 75 Lizard Leather from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>LizardLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Leather_Lizard>75</Leather_Lizard>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>LizardLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>unpackBluefurLeatherCrate</defName>
+      <label>Un-pack Blue Fur Crate (75)</label>
+      <description>Un-pack 75 Blue Fur from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>BluefurLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Leather_Bluefur>75</Leather_Bluefur>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>BluefurLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>unpackBearLeatherCrate</defName>
+      <label>Un-pack Bear Leather Crate (75)</label>
+      <description>Un-pack 75 Bear Leather from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>BearLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Leather_Bear>75</Leather_Bear>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>BearLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>unpackHumanLeatherCrate</defName>
+      <label>Un-pack Human Leather Crate (75)</label>
+      <description>Un-pack 75 Human Leather from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>HumanLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Leather_Human>75</Leather_Human>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>HumanLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>unpackPantheraLeatherCrate</defName>
+      <label>Un-pack Panthera Fur Crate (75)</label>
+      <description>Un-pack 75 Panthera Fur from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>PantheraLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Leather_Panthera>75</Leather_Panthera>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>PantheraLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>unpackPatchLeatherCrate</defName>
+      <label>Un-pack Patch Leather Crate (75)</label>
+      <description>Un-pack 75 Patch Leather from a crate.</description>
+      <jobString>Packing heat.</jobString>
+      <workAmount>100</workAmount>
+      <workSpeedStat>PackingTime</workSpeedStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>PatchLeatherCrate</li>
+               </thingDefs>
+            </filter>
+            <count>1</count>
+         </li>
+      </ingredients>
+      <products>
+         <Leather_Patch>75</Leather_Patch>
+         <KMSteelPlate>6</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>PatchLeatherCrate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <recipeUsers>
+         <li>UnpackingBenchTierOne</li>
+      </recipeUsers>
+   </RecipeDef>   
 
    <!-- =======Herbi======= -->
 
@@ -1099,7 +1323,7 @@
          <li>FoodUnPackingBench</li>
       </recipeUsers>
    </RecipeDef>
-
+<!--
    <RecipeDef>
       <defName>unpackMeatCanCrate</defName>
       <label>Un-pack Meat Can Crate (75)</label>
@@ -1164,7 +1388,9 @@
       </recipeUsers>
    </RecipeDef>
 
-   <!-- ====== Weapons =========== 
+-->
+
+   <!-- ====== Weapons ===========
 
    <RecipeDef>
       <defName>unpackMortarshellCrate</defName>

@@ -21,7 +21,7 @@
       <pathCost>15</pathCost>
    </ThingDef>
 
-
+<!--
    <ThingDef ParentName="CrateBase" Abstract="True" Name="CanCrateBase">
       <defName>CanCrate</defName>
       <label>Food Can crate</label>
@@ -42,6 +42,7 @@
       </thingCategories>
    </ThingDef>
 
+-->
 
    <!-- =======Materials======= -->
 
@@ -718,11 +719,11 @@
 <!-- ===========Leather/Hide==========-->
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
-      <defName>TurkeyLeatherCrate</defName>
-      <label>Turkey Leather Crate (75)</label>
+      <defName>BirdLeatherCrate</defName>
+      <label>Bird Skin Crate (75)</label>
       <statBases>
-         <MarketValue>292.5</MarketValue>
-         <Mass>4.25</Mass>
+         <MarketValue>195</MarketValue>
+         <Mass>4.23</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -733,16 +734,16 @@
       <thingCategories>
          <li>CratesLText</li>
       </thingCategories>
-      <StoredStuff>Turkey_Leather</StoredStuff>
+      <StoredStuff>Leather_Bird</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
    </ThingDef>    
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
-      <defName>AlpacaLeatherCrate</defName>
-      <label>Alpaca Hide Crate (75)</label>
+      <defName>CamelLeatherCrate</defName>
+      <label>Camel Hide Crate (75)</label>
       <statBases>
-         <MarketValue>292.5</MarketValue>
-         <Mass>4.25</Mass>
+         <MarketValue>232.5</MarketValue>
+         <Mass>4.23</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -753,7 +754,7 @@
       <thingCategories>
          <li>CratesLText</li>
       </thingCategories>
-      <StoredStuff>Alpaca_Leather</StoredStuff>
+      <StoredStuff>Leather_Camel</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
    </ThingDef>    
 
@@ -761,8 +762,8 @@
       <defName>PigLeatherCrate</defName>
       <label>Pig Skin Crate (75)</label>
       <statBases>
-         <MarketValue>292.5</MarketValue>
-         <Mass>4.25</Mass>
+         <MarketValue>202.5</MarketValue>
+         <Mass>4.23</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -773,36 +774,16 @@
       <thingCategories>
          <li>CratesLText</li>
       </thingCategories>
-      <StoredStuff>Pig_Leather</StoredStuff>
-      <StoredStuffAmmount>75</StoredStuffAmmount>
-   </ThingDef>    
-
-   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
-      <defName>CowLeatherCrate</defName>
-      <label>Cow Skin Crate (75)</label>
-      <statBases>
-         <MarketValue>292.5</MarketValue>
-         <Mass>4.25</Mass>
-      </statBases>
-      <graphicData>
-         <texPath>Things/Item/Leather/LeatherCrate</texPath>
-         <graphicClass>Graphic_Single</graphicClass>
-      </graphicData>
-      <soundInteract>Metal_Drop</soundInteract>
-      <soundDrop>Metal_Drop</soundDrop>
-      <thingCategories>
-         <li>CratesLText</li>
-      </thingCategories>
-      <StoredStuff>Cow_Leather</StoredStuff>
+      <StoredStuff>Leather_Pig</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
    </ThingDef>    
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
       <defName>ElephantLeatherCrate</defName>
-      <label>Elephant Skin Crate (75)</label>
+      <label>Elephant Leather Crate (75)</label>
       <statBases>
-         <MarketValue>292.5</MarketValue>
-         <Mass>4.25</Mass>
+         <MarketValue>285</MarketValue>
+         <Mass>4.23</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -813,16 +794,16 @@
       <thingCategories>
          <li>CratesLText</li>
       </thingCategories>
-      <StoredStuff>Elephant_Leather</StoredStuff>
+      <StoredStuff>Leather_Elephant</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
    </ThingDef>    
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
-      <defName>DeerLeatherCrate</defName>
-      <label>Deer Hide Crate (75)</label>
+      <defName>HeavyLeatherCrate</defName>
+      <label>Heavy Fur Crate (75)</label>
       <statBases>
-         <MarketValue>292.5</MarketValue>
-         <Mass>4.25</Mass>
+         <MarketValue>307.5</MarketValue>
+         <Mass>4.23</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -833,16 +814,16 @@
       <thingCategories>
          <li>CratesLText</li>
       </thingCategories>
-      <StoredStuff>Deer_Leather</StoredStuff>
+      <StoredStuff>Leather_Heavy</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
    </ThingDef>    
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
-      <defName>MegaslothLeatherCrate</defName>
-      <label>Megasloth Leather Crate (75)</label>
+      <defName>PlainLeatherCrate</defName>
+      <label>Plain Leather Crate (75)</label>
       <statBases>
-         <MarketValue>292.5</MarketValue>
-         <Mass>4.25</Mass>
+         <MarketValue>217.5</MarketValue>
+         <Mass>4.23</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -853,16 +834,16 @@
       <thingCategories>
          <li>CratesLText</li>
       </thingCategories>
-      <StoredStuff>Megasloth_Leather</StoredStuff>
+      <StoredStuff>Leather_Plain</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
    </ThingDef>    
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
-      <defName>ElkLeatherCrate</defName>
-      <label>Elk Leather Crate (75)</label>
+      <defName>WolfLeatherCrate</defName>
+      <label>Wolf Skin Crate (75)</label>
       <statBases>
-         <MarketValue>292.5</MarketValue>
-         <Mass>4.25</Mass>
+         <MarketValue>285</MarketValue>
+         <Mass>4.23</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -873,16 +854,36 @@
       <thingCategories>
          <li>CratesLText</li>
       </thingCategories>
-      <StoredStuff>Elk_Leather</StoredStuff>
+      <StoredStuff>Leather_Wolf</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>     
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>FoxLeatherCrate</defName>
+      <label>Fox Fur Crate (75)</label>
+      <statBases>
+         <MarketValue>322.5</MarketValue>
+         <Mass>4.23</Mass>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Leather/LeatherCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>CratesLText</li>
+      </thingCategories>
+      <StoredStuff>Leather_Fox</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
    </ThingDef>    
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
-      <defName>TimberwolfLeatherCrate</defName>
-      <label>Timberwolf Skin Crate (75)</label>
+      <defName>ThrumboLeatherCrate</defName>
+      <label>Thrumbo Fur Crate (75)</label>
       <statBases>
-         <MarketValue>292.5</MarketValue>
-         <Mass>4.25</Mass>
+         <MarketValue>1110</MarketValue>
+         <Mass>4.23</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -893,16 +894,16 @@
       <thingCategories>
          <li>CratesLText</li>
       </thingCategories>
-      <StoredStuff>WolfTimber_Leather</StoredStuff>
+      <StoredStuff>Leather_Thrumbo</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
-   </ThingDef>    
+   </ThingDef>
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
-      <defName>ArcticwolfLeatherCrate</defName>
-      <label>Arctic Wolf Skin Crate (75)</label>
+      <defName>RhinoLeatherCrate</defName>
+      <label>Rhinoceros Leather Crate (75)</label>
       <statBases>
-         <MarketValue>292.5</MarketValue>
-         <Mass>4.25</Mass>
+         <MarketValue>375</MarketValue>
+         <Mass>4.23</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -913,16 +914,16 @@
       <thingCategories>
          <li>CratesLText</li>
       </thingCategories>
-      <StoredStuff>WolfArctic_Leather</StoredStuff>
+      <StoredStuff>Leather_Rhinoceros</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
-   </ThingDef>    
+   </ThingDef>
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
-      <defName>FennecfoxLeatherCrate</defName>
-      <label>Fennec Fox Skin Crate (75)</label>
+      <defName>PantheraLeatherCrate</defName>
+      <label>Panthera Fur Crate (75)</label>
       <statBases>
-         <MarketValue>292.5</MarketValue>
-         <Mass>4.25</Mass>
+         <MarketValue>285</MarketValue>
+         <Mass>4.23</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -933,16 +934,16 @@
       <thingCategories>
          <li>CratesLText</li>
       </thingCategories>
-      <StoredStuff>FoxFennec_Leather</StoredStuff>
+      <StoredStuff>Leather_Panthera</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
-   </ThingDef>    
+   </ThingDef>
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
-      <defName>RedfoxLeatherCrate</defName>
-      <label>Red Fox Skin Crate (75)</label>
+      <defName>DogLeatherCrate</defName>
+      <label>Dog Leather Crate (75)</label>
       <statBases>
-         <MarketValue>292.5</MarketValue>
-         <Mass>4.25</Mass>
+         <MarketValue>210</MarketValue>
+         <Mass>4.23</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -953,16 +954,16 @@
       <thingCategories>
          <li>CratesLText</li>
       </thingCategories>
-      <StoredStuff>FoxRed_Leather</StoredStuff>
+      <StoredStuff>Leather_Dog</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
-   </ThingDef>    
+   </ThingDef>
 
    <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
-      <defName>ArcticfoxLeatherCrate</defName>
-      <label>Arctic Fox Skin Crate (75)</label>
+      <defName>ChinchillaLeatherCrate</defName>
+      <label>Chinchilla Fur Crate (75)</label>
       <statBases>
-         <MarketValue>292.5</MarketValue>
-         <Mass>4.25</Mass>
+         <MarketValue>547.5</MarketValue>
+         <Mass>4.23</Mass>
       </statBases>
       <graphicData>
          <texPath>Things/Item/Leather/LeatherCrate</texPath>
@@ -973,11 +974,133 @@
       <thingCategories>
          <li>CratesLText</li>
       </thingCategories>
-      <StoredStuff>FoxArctic_Leather</StoredStuff>
+      <StoredStuff>Leather_Chinchilla</StoredStuff>
       <StoredStuffAmmount>75</StoredStuffAmmount>
-   </ThingDef>    
+   </ThingDef>
 
-<!-- ============ Cans ===========-->
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>LizardLeatherCrate</defName>
+      <label>Lizard Skin Crate (75)</label>
+      <statBases>
+         <MarketValue>217.5</MarketValue>
+         <Mass>4.23</Mass>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Leather/LeatherCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>CratesLText</li>
+      </thingCategories>
+      <StoredStuff>Leather_Lizard</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>HumanLeatherCrate</defName>
+      <label>Human Leather Crate (75)</label>
+      <statBases>
+         <MarketValue>375.0</MarketValue>
+         <Mass>4.23</Mass>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Leather/LeatherCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>CratesLText</li>
+      </thingCategories>
+      <StoredStuff>Leather_Human</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>BearLeatherCrate</defName>
+      <label>Bear Skin Crate (75)</label>
+      <statBases>
+         <MarketValue>315.0</MarketValue>
+         <Mass>4.23</Mass>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Leather/LeatherCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>CratesLText</li>
+      </thingCategories>
+      <StoredStuff>Leather_Bear</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>BluefurLeatherCrate</defName>
+      <label>Bluefur Crate (75)</label>
+      <statBases>
+         <MarketValue>232.5</MarketValue>
+         <Mass>4.23</Mass>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Leather/LeatherCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>CratesLText</li>
+      </thingCategories>
+      <StoredStuff>Leather_Bluefur</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>LightLeatherCrate</defName>
+      <label>Light Leather Crate (75)</label>
+      <statBases>
+         <MarketValue>202.5</MarketValue>
+         <Mass>4.23</Mass>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Leather/LeatherCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>CratesLText</li>
+      </thingCategories>
+      <StoredStuff>Leather_Light</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+   <ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
+      <defName>PatchLeatherCrate</defName>
+      <label>Patch Leather Crate (75)</label>
+      <statBases>
+         <MarketValue>172.5</MarketValue>
+         <Mass>4.23</Mass>
+      </statBases>
+      <graphicData>
+         <texPath>Things/Item/Leather/LeatherCrate</texPath>
+         <graphicClass>Graphic_Single</graphicClass>
+      </graphicData>
+      <soundInteract>Metal_Drop</soundInteract>
+      <soundDrop>Metal_Drop</soundDrop>
+      <thingCategories>
+         <li>CratesLText</li>
+      </thingCategories>
+      <StoredStuff>Leather_Patch</StoredStuff>
+      <StoredStuffAmmount>75</StoredStuffAmmount>
+   </ThingDef>
+
+
+
+<!-- ============ Cans ===========
 
    <ThingDef ParentName="CanCrateBase" Class="KompressionMod.KompressionModThingDefs">
       <defName>MeatCanCrate</defName>
@@ -992,7 +1115,7 @@
       <description>Crate containing 75 vegetables cans.</description>
       <stackLimit>75</stackLimit>
    </ThingDef>
-
+-->
 <!-- ============ FUEL DRUM ========-->
 
 	<ThingDef ParentName="CrateBase" Class="KompressionMod.KompressionModThingDefs">
@@ -1022,7 +1145,7 @@
                <explosiveExpandPerStackcount>0.37</explosiveExpandPerStackcount>
                <startWickOnDamageTaken>Flame</startWickOnDamageTaken>
                <startWickHitPointsPercent>0.333</startWickHitPointsPercent>
-               <preExplosionSpawnThingDef>FilthFuel</preExplosionSpawnThingDef>
+               <preExplosionSpawnThingDef>Filth_Fuel</preExplosionSpawnThingDef>
                <preExplosionSpawnChance>1</preExplosionSpawnChance>
                <wickTicks>
                   <min>70</min>

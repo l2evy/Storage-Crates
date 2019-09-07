@@ -1,3 +1,16 @@
+8/4/19 1.18.2 > 1.9.9B
+*NOTE: This update has potential to break prior saves containing removed items listed below, however if you load the save, save and reload it should fix itself (but you lose the removed crates though), but no guarantee* 
+
+-Updated from B18 to 1.0 Full Release (so many changes , maybe some bugs)
+-Reworked leather crates entirely to align with 1.0 release (some added leather some removed from the game)
+-Removed Meat/Veggie Cans and their crate (Used the potential save break point to clean up a rather redundant and out of place feature for the mod, Processed meat remains as a way to generalize/cleanup various meat for crates though, but this mod will be more storage focused from here forward, plenty of mods to do things with food and maybe support for those in the future ;) )
+-Disabled Freighters for now
+~TODO: 
+	Update Graphics for "all the things"
+	Double Check market values
+	Fix the Freighters
+Sorry for the loooong delay, new job and study, and all that. Report any issues to steam comments plz, thx. 
+
 3/23/2018 1.18.1 > 1.18.2
 -Fixed Chemfuel Barrels to explode as they should (Thanks White Wizard from Steam comments for the report!)
 -Pushed Russian Translation Update (Thanks to the awesome Bugo from github!)

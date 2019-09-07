@@ -4,14 +4,14 @@
    <ThingDef Name="BuildingBase" Abstract="True">
       <category>Building</category>
       <thingClass>Building</thingClass>
-      <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+      <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
       <selectable>true</selectable>
       <drawerType>MapMeshAndRealTime</drawerType>
       <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
       <repairEffect>Repair</repairEffect>
       <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-      <filthLeaving>BuildingRubble</filthLeaving>
-      <minifiedDef>MinifiedFurniture</minifiedDef>
+      <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+      <minifiedDef>MinifiedThing</minifiedDef>
    </ThingDef>
 
 
@@ -45,7 +45,9 @@
          <WorkToMake>1500</WorkToMake>
          <MaxHitPoints>250</MaxHitPoints>
          <Flammability>0.5</Flammability>
+         <Mass>22</Mass>
       </statBases>
+      <minifiedDef />
       <size>(3,1)</size>
       <tickerType>Normal</tickerType>
       <designationCategory>Production</designationCategory>
@@ -59,10 +61,10 @@
       <comps>
          <li Class="CompProperties_Power">
             <compClass>CompPowerTrader</compClass>
-            <startElectricalFires>true</startElectricalFires>
+            <shortCircuitInRain>true</shortCircuitInRain>
             <basePowerConsumption>350</basePowerConsumption>
-            <soundPowerOn>PowerOnSmall</soundPowerOn>
-            <soundPowerOff>PowerOffSmall</soundPowerOff>
+            <soundPowerOn>Power_OnSmall</soundPowerOn>
+            <soundPowerOff>Power_OffSmall</soundPowerOff>
          </li>
          <li Class="CompProperties_AffectedByFacilities">
             <linkableFacilities>
@@ -104,7 +106,9 @@
          <WorkToMake>1500</WorkToMake>
          <MaxHitPoints>250</MaxHitPoints>
          <Flammability>0.5</Flammability>
+         <Mass>22</Mass>
       </statBases>
+      <minifiedDef />
       <size>(3,1)</size>
       <tickerType>Normal</tickerType>
       <passability>Impassable</passability>
@@ -117,10 +121,10 @@
       <comps>
          <li Class="CompProperties_Power">
             <compClass>CompPowerTrader</compClass>
-            <startElectricalFires>true</startElectricalFires>
+            <shortCircuitInRain>true</shortCircuitInRain>
             <basePowerConsumption>350</basePowerConsumption>
-            <soundPowerOn>PowerOnSmall</soundPowerOn>
-            <soundPowerOff>PowerOffSmall</soundPowerOff>
+            <soundPowerOn>Power_OnSmall</soundPowerOn>
+            <soundPowerOff>Power_OffSmall</soundPowerOff>
          </li>
          <li Class="CompProperties_AffectedByFacilities">
             <linkableFacilities>
@@ -163,7 +167,9 @@
          <WorkToMake>1500</WorkToMake>
          <MaxHitPoints>250</MaxHitPoints>
          <Flammability>0.5</Flammability>
+         <Mass>22</Mass>
       </statBases>
+      <minifiedDef />
       <size>(3,1)</size>
       <tickerType>Normal</tickerType>
       <passability>Impassable</passability>
@@ -176,10 +182,10 @@
       <comps>
          <li Class="CompProperties_Power">
             <compClass>CompPowerTrader</compClass>
-            <startElectricalFires>true</startElectricalFires>
+            <shortCircuitInRain>true</shortCircuitInRain>
             <basePowerConsumption>350</basePowerConsumption>
-            <soundPowerOn>PowerOnSmall</soundPowerOn>
-            <soundPowerOff>PowerOffSmall</soundPowerOff>
+            <soundPowerOn>Power_OnSmall</soundPowerOn>
+            <soundPowerOff>Power_OffSmall</soundPowerOff>
          </li>
          <li Class="CompProperties_AffectedByFacilities">
             <linkableFacilities>
@@ -221,7 +227,9 @@
          <WorkToMake>1500</WorkToMake>
          <MaxHitPoints>250</MaxHitPoints>
          <Flammability>0.5</Flammability>
+         <Mass>22</Mass>
       </statBases>
+      <minifiedDef />
       <size>(3,1)</size>
       <tickerType>Normal</tickerType>
       <passability>Impassable</passability>
@@ -234,10 +242,10 @@
       <comps>
          <li Class="CompProperties_Power">
             <compClass>CompPowerTrader</compClass>
-            <startElectricalFires>true</startElectricalFires>
+            <shortCircuitInRain>true</shortCircuitInRain>
             <basePowerConsumption>350</basePowerConsumption>
-            <soundPowerOn>PowerOnSmall</soundPowerOn>
-            <soundPowerOff>PowerOffSmall</soundPowerOff>
+            <soundPowerOn>Power_OnSmall</soundPowerOn>
+            <soundPowerOff>Power_OffSmall</soundPowerOff>
          </li>
          <li Class="CompProperties_AffectedByFacilities">
             <linkableFacilities>

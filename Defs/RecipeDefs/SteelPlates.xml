@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+   <RecipeDef>
+      <defName>MakeSteelPlate</defName>
+      <label>Make Steel Crate Plates</label>
+      <description>Hammer some steel until you get a plate for use with making crates.</description>
+      <jobString>Hammering.</jobString>
+      <workAmount>300</workAmount>
+      <workSpeedStat>HammeringSpeed</workSpeedStat>
+      <efficiencyStat>HammeringEfficiency</efficiencyStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>Steel</li>
+               </thingDefs>
+            </filter>
+            <count>4</count>
+         </li>
+      </ingredients>
+      <products>
+         <KMSteelPlate>5</KMSteelPlate>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>Steel</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <recipeUsers>
+         <li>TableMachining</li>
+      </recipeUsers>
+   </RecipeDef>
+
+   <RecipeDef>
+      <defName>BreakdownSteelPlate</defName>
+      <label>Breakdown Steel Crate Plates</label>
+      <description>Melt the crate plates back into steel.</description>
+      <jobString>Hammering.</jobString>
+      <workAmount>300</workAmount>
+      <workSpeedStat>HammeringSpeed</workSpeedStat>
+      <efficiencyStat>HammeringEfficiency</efficiencyStat>
+      <effectWorking>ConstructMetal</effectWorking>
+      <ingredients>
+         <li>
+            <filter>
+               <thingDefs>
+                  <li>KMSteelPlate</li>
+               </thingDefs>
+            </filter>
+            <count>6</count>
+         </li>
+      </ingredients>
+      <products>
+         <Steel>3</Steel>
+      </products>
+      <fixedIngredientFilter>
+         <thingDefs>
+            <li>KMSteelPlate</li>
+         </thingDefs>
+      </fixedIngredientFilter>
+      <recipeUsers>
+         <li>TableMachining</li>
+      </recipeUsers>
+   </RecipeDef>
+
+</Defs>
